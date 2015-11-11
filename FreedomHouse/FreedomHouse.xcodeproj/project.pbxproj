@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40581BF2C11C00D23667 /* AppDelegate.swift */; };
+		ED9E405B1BF2C11C00D23667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E405A1BF2C11C00D23667 /* ViewController.swift */; };
+		ED9E405E1BF2C11C00D23667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E405C1BF2C11C00D23667 /* Main.storyboard */; };
+		ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E405F1BF2C11C00D23667 /* Assets.xcassets */; };
+		ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */; };
+		ED9E406E1BF2C11C00D23667 /* FreedomHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E406D1BF2C11C00D23667 /* FreedomHouseTests.swift */; };
+		ED9E40791BF2C11C00D23667 /* FreedomHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED9E406A1BF2C11C00D23667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9E404D1BF2C11C00D23667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9E40541BF2C11C00D23667;
+			remoteInfo = FreedomHouse;
+		};
+		ED9E40751BF2C11C00D23667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9E404D1BF2C11C00D23667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9E40541BF2C11C00D23667;
+			remoteInfo = FreedomHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED9E40551BF2C11C00D23667 /* FreedomHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E40581BF2C11C00D23667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED9E405A1BF2C11C00D23667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED9E405D1BF2C11C00D23667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED9E405F1BF2C11C00D23667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9E40621BF2C11C00D23667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED9E40641BF2C11C00D23667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9E40691BF2C11C00D23667 /* FreedomHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E406D1BF2C11C00D23667 /* FreedomHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomHouseTests.swift; sourceTree = "<group>"; };
+		ED9E406F1BF2C11C00D23667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9E40741BF2C11C00D23667 /* FreedomHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomHouseUITests.swift; sourceTree = "<group>"; };
+		ED9E407A1BF2C11C00D23667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9E40521BF2C11C00D23667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40661BF2C11C00D23667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40711BF2C11C00D23667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9E404C1BF2C11C00D23667 = {
+			isa = PBXGroup;
+			children = (
+				ED9E40571BF2C11C00D23667 /* FreedomHouse */,
+				ED9E406C1BF2C11C00D23667 /* FreedomHouseTests */,
+				ED9E40771BF2C11C00D23667 /* FreedomHouseUITests */,
+				ED9E40561BF2C11C00D23667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9E40561BF2C11C00D23667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E40551BF2C11C00D23667 /* FreedomHouse.app */,
+				ED9E40691BF2C11C00D23667 /* FreedomHouseTests.xctest */,
+				ED9E40741BF2C11C00D23667 /* FreedomHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9E40571BF2C11C00D23667 /* FreedomHouse */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E40581BF2C11C00D23667 /* AppDelegate.swift */,
+				ED9E405A1BF2C11C00D23667 /* ViewController.swift */,
+				ED9E405C1BF2C11C00D23667 /* Main.storyboard */,
+				ED9E405F1BF2C11C00D23667 /* Assets.xcassets */,
+				ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */,
+				ED9E40641BF2C11C00D23667 /* Info.plist */,
+			);
+			path = FreedomHouse;
+			sourceTree = "<group>";
+		};
+		ED9E406C1BF2C11C00D23667 /* FreedomHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E406D1BF2C11C00D23667 /* FreedomHouseTests.swift */,
+				ED9E406F1BF2C11C00D23667 /* Info.plist */,
+			);
+			path = FreedomHouseTests;
+			sourceTree = "<group>";
+		};
+		ED9E40771BF2C11C00D23667 /* FreedomHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */,
+				ED9E407A1BF2C11C00D23667 /* Info.plist */,
+			);
+			path = FreedomHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9E40541BF2C11C00D23667 /* FreedomHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9E407D1BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouse" */;
+			buildPhases = (
+				ED9E40511BF2C11C00D23667 /* Sources */,
+				ED9E40521BF2C11C00D23667 /* Frameworks */,
+				ED9E40531BF2C11C00D23667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreedomHouse;
+			productName = FreedomHouse;
+			productReference = ED9E40551BF2C11C00D23667 /* FreedomHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED9E40681BF2C11C00D23667 /* FreedomHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9E40801BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouseTests" */;
+			buildPhases = (
+				ED9E40651BF2C11C00D23667 /* Sources */,
+				ED9E40661BF2C11C00D23667 /* Frameworks */,
+				ED9E40671BF2C11C00D23667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9E406B1BF2C11C00D23667 /* PBXTargetDependency */,
+			);
+			name = FreedomHouseTests;
+			productName = FreedomHouseTests;
+			productReference = ED9E40691BF2C11C00D23667 /* FreedomHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED9E40731BF2C11C00D23667 /* FreedomHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9E40831BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouseUITests" */;
+			buildPhases = (
+				ED9E40701BF2C11C00D23667 /* Sources */,
+				ED9E40711BF2C11C00D23667 /* Frameworks */,
+				ED9E40721BF2C11C00D23667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED9E40761BF2C11C00D23667 /* PBXTargetDependency */,
+			);
+			name = FreedomHouseUITests;
+			productName = FreedomHouseUITests;
+			productReference = ED9E40741BF2C11C00D23667 /* FreedomHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9E404D1BF2C11C00D23667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Mark Li ";
+				TargetAttributes = {
+					ED9E40541BF2C11C00D23667 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					ED9E40681BF2C11C00D23667 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ED9E40541BF2C11C00D23667;
+					};
+					ED9E40731BF2C11C00D23667 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ED9E40541BF2C11C00D23667;
+					};
+				};
+			};
+			buildConfigurationList = ED9E40501BF2C11C00D23667 /* Build configuration list for PBXProject "FreedomHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9E404C1BF2C11C00D23667;
+			productRefGroup = ED9E40561BF2C11C00D23667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9E40541BF2C11C00D23667 /* FreedomHouse */,
+				ED9E40681BF2C11C00D23667 /* FreedomHouseTests */,
+				ED9E40731BF2C11C00D23667 /* FreedomHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9E40531BF2C11C00D23667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */,
+				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
+				ED9E405E1BF2C11C00D23667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40671BF2C11C00D23667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40721BF2C11C00D23667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9E40511BF2C11C00D23667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E405B1BF2C11C00D23667 /* ViewController.swift in Sources */,
+				ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40651BF2C11C00D23667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E406E1BF2C11C00D23667 /* FreedomHouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9E40701BF2C11C00D23667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E40791BF2C11C00D23667 /* FreedomHouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED9E406B1BF2C11C00D23667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9E40541BF2C11C00D23667 /* FreedomHouse */;
+			targetProxy = ED9E406A1BF2C11C00D23667 /* PBXContainerItemProxy */;
+		};
+		ED9E40761BF2C11C00D23667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9E40541BF2C11C00D23667 /* FreedomHouse */;
+			targetProxy = ED9E40751BF2C11C00D23667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED9E405C1BF2C11C00D23667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9E405D1BF2C11C00D23667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9E40621BF2C11C00D23667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED9E407B1BF2C11C00D23667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED9E407C1BF2C11C00D23667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED9E407E1BF2C11C00D23667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreedomHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED9E407F1BF2C11C00D23667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreedomHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED9E40811BF2C11C00D23667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreedomHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedomHouse.app/FreedomHouse";
+			};
+			name = Debug;
+		};
+		ED9E40821BF2C11C00D23667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreedomHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedomHouse.app/FreedomHouse";
+			};
+			name = Release;
+		};
+		ED9E40841BF2C11C00D23667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreedomHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreedomHouse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED9E40851BF2C11C00D23667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreedomHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GAIFreedomHouseIOS.FreedomHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreedomHouse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9E40501BF2C11C00D23667 /* Build configuration list for PBXProject "FreedomHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9E407B1BF2C11C00D23667 /* Debug */,
+				ED9E407C1BF2C11C00D23667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9E407D1BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9E407E1BF2C11C00D23667 /* Debug */,
+				ED9E407F1BF2C11C00D23667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED9E40801BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9E40811BF2C11C00D23667 /* Debug */,
+				ED9E40821BF2C11C00D23667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED9E40831BF2C11C00D23667 /* Build configuration list for PBXNativeTarget "FreedomHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9E40841BF2C11C00D23667 /* Debug */,
+				ED9E40851BF2C11C00D23667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED9E404D1BF2C11C00D23667 /* Project object */;
+}
