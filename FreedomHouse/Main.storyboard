@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zm-cd-TAe">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="kQH-fI-SeV">
+            <objects>
+                <navigationController id="9Zm-cd-TAe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Amg-HT-jLJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TxH-G9-Auu" kind="relationship" relationship="rootViewController" id="JQf-of-5sc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYJ-GC-mIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="-187"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="vuI-lT-eIv">
+            <objects>
+                <viewController id="TxH-G9-Auu" customClass="LogInViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Login" id="nt5-vG-cmx"/>
+                    <connections>
+                        <segue destination="uug-7n-Yzn" kind="modal" id="uiT-jk-iX5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jno-cD-Vhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-187"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="ssW-Zb-l7V">
+            <objects>
+                <viewController id="uug-7n-Yzn" customClass="SignUpViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iaK-Yc-hjG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GE6-HD-kIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="-187"/>
+        </scene>
+        <!--Password Retriev View Controller-->
+        <scene sceneID="uNt-4t-2ft">
+            <objects>
+                <viewController id="1IR-SS-2WE" customClass="PasswordRetrievViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0xH-hU-Cav" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2166" y="-136"/>
+        </scene>
+        <!--Home Page View Controller-->
+        <scene sceneID="AzO-S1-P8T">
+            <objects>
+                <viewController storyboardIdentifier="HomePage" id="uP5-8R-cOa" customClass="HomePageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUT-gu-IK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2594" y="-219"/>
+        </scene>
+    </scenes>
+</document>
