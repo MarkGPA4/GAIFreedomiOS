@@ -5,6 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Waiting Page View Controller-->
+        <scene sceneID="B80-71-WYT">
+            <objects>
+                <viewController id="QmA-TI-Pgw" customClass="WaitingPageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xl6-R9-SBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="-654"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="kQH-fI-SeV">
             <objects>
@@ -24,7 +32,7 @@
         <!--Login-->
         <scene sceneID="vuI-lT-eIv">
             <objects>
-                <viewController id="TxH-G9-Auu" customClass="LogInViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="TxH-G9-Auu" customClass="LogInViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Login" id="nt5-vG-cmx"/>
                     <connections>
                         <segue destination="uug-7n-Yzn" kind="modal" id="uiT-jk-iX5"/>
@@ -37,12 +45,20 @@
         <!--Sign Up View Controller-->
         <scene sceneID="ssW-Zb-l7V">
             <objects>
-                <viewController id="uug-7n-Yzn" customClass="SignUpViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" id="uug-7n-Yzn" customClass="SignUpViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="iaK-Yc-hjG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GE6-HD-kIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749" y="-187"/>
+            <point key="canvasLocation" x="2384" y="-384"/>
+        </scene>
+        <!--Upload Image View Controller-->
+        <scene sceneID="8Bm-b7-qH0">
+            <objects>
+                <viewController storyboardIdentifier="UploadImage" id="SNe-ls-Ywz" customClass="UploadImageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fE-cm-pu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3066" y="-350"/>
         </scene>
         <!--Password Retriev View Controller-->
         <scene sceneID="uNt-4t-2ft">
@@ -50,15 +66,17 @@
                 <viewController id="1IR-SS-2WE" customClass="PasswordRetrievViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xH-hU-Cav" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2166" y="-136"/>
+            <point key="canvasLocation" x="2173" y="-109"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="AzO-S1-P8T">
             <objects>
-                <viewController storyboardIdentifier="HomePage" id="uP5-8R-cOa" customClass="HomePageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController storyboardIdentifier="HomePage" id="uP5-8R-cOa" customClass="HomePageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ag2-Zb-wvB"/>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GUT-gu-IK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2594" y="-219"/>
+            <point key="canvasLocation" x="2905" y="104"/>
         </scene>
     </scenes>
 </document>

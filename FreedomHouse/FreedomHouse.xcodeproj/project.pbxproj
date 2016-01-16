@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1BA8A2E32F6698BBF7BE0752 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4EA393CDC2D360C25977A7 /* Pods.framework */; };
 		ED09197B1C42450600CF3904 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED09197A1C42450600CF3904 /* Podfile */; };
+		ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */; };
+		ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */; };
+		ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */; };
 		ED75D0E51C38F0D500D2FDB8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D0DF1C38F0D500D2FDB8 /* Bolts.framework */; };
 		ED75D0E61C38F0D500D2FDB8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D0E01C38F0D500D2FDB8 /* Parse.framework */; };
 		ED75D0E81C38F0D500D2FDB8 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D0E21C38F0D500D2FDB8 /* ParseFacebookUtilsV4.framework */; };
@@ -30,6 +33,8 @@
 		ED75D1061C38F2D600D2FDB8 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D1051C38F2D600D2FDB8 /* libz.1.tbd */; };
 		ED75D1081C38F2DF00D2FDB8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D1071C38F2DF00D2FDB8 /* libz.tbd */; };
 		ED75D10C1C390BA600D2FDB8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */; };
+		ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */; };
+		ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */; };
 		ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */; };
 		ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */; };
 		ED80C4E61C32735600BFBF8C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */; };
@@ -37,6 +42,7 @@
 		ED80C4F71C336C3200BFBF8C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED80C4F41C336C3200BFBF8C /* FBSDKCoreKit.framework */; };
 		ED80C4F81C336C3200BFBF8C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED80C4F51C336C3200BFBF8C /* FBSDKLoginKit.framework */; };
 		ED80C4F91C336C3200BFBF8C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED80C4F61C336C3200BFBF8C /* FBSDKShareKit.framework */; };
+		ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */; };
 		ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40581BF2C11C00D23667 /* AppDelegate.swift */; };
 		ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E405F1BF2C11C00D23667 /* Assets.xcassets */; };
 		ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */; };
@@ -47,6 +53,8 @@
 		EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB276221C3F9294004D6412 /* HomePageViewController.xib */; };
 		EDFCED0C1C43673700E3DC06 /* PasswordRetrievViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */; };
 		EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */; };
+		EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */; };
+		EDFCED111C4394B300E3DC06 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,9 @@
 		5F6C4DC2AEE744CB1A1E6DE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		610309749344554A485898D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ED09197A1C42450600CF3904 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navajo.swift; sourceTree = "<group>"; };
+		ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordRule.swift; sourceTree = "<group>"; };
+		ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordValidator.swift; sourceTree = "<group>"; };
 		ED75D0DF1C38F0D500D2FDB8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		ED75D0E01C38F0D500D2FDB8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		ED75D0E21C38F0D500D2FDB8 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
@@ -91,6 +102,8 @@
 		ED75D1051C38F2D600D2FDB8 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		ED75D1071C38F2DF00D2FDB8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageViewController.swift; sourceTree = "<group>"; };
+		ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaitingPageViewController.xib; sourceTree = "<group>"; };
 		ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
 		ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInViewController.xib; path = ../LogInViewController.xib; sourceTree = "<group>"; };
 		ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +112,7 @@
 		ED80C4F51C336C3200BFBF8C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		ED80C4F61C336C3200BFBF8C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		ED80C4FB1C336DF000BFBF8C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoreFunctions.storyboard; sourceTree = "<group>"; };
 		ED9E40551BF2C11C00D23667 /* FreedomHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E40581BF2C11C00D23667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED9E405F1BF2C11C00D23667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FreedomHouse/Assets.xcassets; sourceTree = "<group>"; };
@@ -115,6 +129,8 @@
 		EDB276221C3F9294004D6412 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomePageViewController.xib; path = ../HomePageViewController.xib; sourceTree = "<group>"; };
 		EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRetrievViewController.swift; sourceTree = "<group>"; };
 		EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordRetrievViewController.xib; sourceTree = "<group>"; };
+		EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
 		FE4EA393CDC2D360C25977A7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,9 +197,14 @@
 			isa = PBXGroup;
 			children = (
 				ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */,
+				EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */,
 				ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */,
 				EDB276211C3F9294004D6412 /* HomePageViewController.swift */,
 				EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */,
+				ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */,
+				ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */,
+				ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */,
+				ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -195,6 +216,8 @@
 				ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */,
 				EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */,
 				EDB276221C3F9294004D6412 /* HomePageViewController.xib */,
+				EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */,
+				ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -236,6 +259,7 @@
 				ED09197A1C42450600CF3904 /* Podfile */,
 				ED9E405F1BF2C11C00D23667 /* Assets.xcassets */,
 				EDAE28101C2FF42900D25747 /* Main.storyboard */,
+				ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */,
 				ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */,
 				ED9E40571BF2C11C00D23667 /* FreedomHouse */,
 				ED9E406C1BF2C11C00D23667 /* FreedomHouseTests */,
@@ -404,7 +428,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED80C4E71C32735600BFBF8C /* SignUpViewController.xib in Resources */,
+				EDFCED111C4394B300E3DC06 /* UploadImageViewController.xib in Resources */,
 				ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */,
+				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
+				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
 				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
 				EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */,
@@ -486,8 +513,13 @@
 				EDB276231C3F9294004D6412 /* HomePageViewController.swift in Sources */,
 				ED80C4E61C32735600BFBF8C /* SignUpViewController.swift in Sources */,
 				EDFCED0C1C43673700E3DC06 /* PasswordRetrievViewController.swift in Sources */,
+				ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */,
 				ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */,
+				ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */,
 				ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */,
+				ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */,
+				ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */,
+				EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,8 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
     
 {
     
+    @IBOutlet weak var Logo: UIImageView!
+    
     @IBOutlet weak var Username: UITextField!
     
     @IBOutlet weak var Password: UITextField!
@@ -59,8 +61,14 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
             if let user = user {
                 if user.isNew {
                     print("User signed up and logged in through Facebook!")
+                self.presentViewController(HomePageViewController(), animated: true, completion: nil)
+    
+                    
+                    
                 } else {
                     print("User logged in through Facebook!")
+                    self.presentViewController(HomePageViewController(), animated: true, completion: nil)
+
                 }
             } else {
                 print("Uh oh. The user cancelled the Facebook login.")
@@ -69,24 +77,47 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
     }
     
     
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
         
-    //    var loginView : FBSDKLoginButton = FBSDKLoginButton()
-     //   self.view.addSubview(loginView)
+        // animation of the logo
         
-     //   need further revision
-    //  loginView.frame = CGRectMake(100, 400, loginView.frame.size.width, loginView.frame.size.height)
-        
-        
-    //  loginView.readPermissions = ["public_profile", "email", "user_friends"]
-   //   loginView.delegate = self
+        let fullRotation = CGFloat(M_PI*2)
+        let duration = 0.4
+        let delay = 0.0
+        let options = UIViewKeyframeAnimationOptions.CalculationModeLinear
+        UIView.animateKeyframesWithDuration(duration, delay: delay, options: options, animations: {
+            // each keyframe needs to be added here
+            // within each keyframe the relativeStartTime and relativeDuration need to be values between 0.0 and 1.0
+            
+            UIView.addKeyframeWithRelativeStartTime(0, relativeDuration: 1/3, animations: {
+                // start at 0.00s (5s × 0)
+                // duration 1.67s (5s × 1/3)
+                // end at   1.67s (0.00s + 1.67s)
+                self.Logo.transform = CGAffineTransformMakeRotation(1/3 * fullRotation)
+            })
+            UIView.addKeyframeWithRelativeStartTime(1/3, relativeDuration: 1/3, animations: {
+                self.Logo.transform = CGAffineTransformMakeRotation(2/3 * fullRotation)
+            })
+            UIView.addKeyframeWithRelativeStartTime(2/3, relativeDuration: 1/3, animations: {
+                self.Logo.transform = CGAffineTransformMakeRotation(3/3 * fullRotation)
+            })
+            
+            }, completion: {finished in
+                // any code entered here will be applied
+                // once the animation has completed
+                
+        })
+    
+
         NSNotificationCenter.defaultCenter().addObserver(self,selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
-        
+    
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
+    
     }
+
 
 
    func adjustingHeight(show:Bool, notification:NSNotification) {
@@ -102,9 +133,8 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         self.BottomConstraint.constant = (changeInHeight)-20
         self.BottomConstraint2.constant = (changeInHeight)-20
         })
-    
-    
    }
+    
     
     func keyboardWillShow(notification:NSNotification) {
         adjustingHeight(true, notification: notification)
@@ -143,46 +173,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
     }
     
     
-    // log in with Facebook
-    
-
-
-    
-    //PFFacebookUtils.logInInBackgroundWithPublishPermissions(["publish_actions"],block:{
-  //          (user: PFUser?, error: NSError?) -> Void in
-    //        if user != nil {
-                // Your app now has publishing permissions for the user
-     //       }
-     //   })
-    
-    //}
-            
-            
-        // print("User Logged In")
-//  PFFacebookUtils.logInInBackgroundWithPublishPermissions(["public_profile","email"], block: {(user:PFUser?,error:NSError?) -> Void in
- //               if (error != nil)
-   //             {
-     //               let myAlert=UIAlertController(title:"Alert",message:error?.localizedDescription, preferredStyle:UIAlertControllerStyle.Alert);
-       //             let okAction=UIAlertAction(title:"Ok",style:UIAlertActionStyle.Default, handler:nil)
-         //           myAlert.addAction(okAction);
-           //         self.presentViewController(myAlert, animated: true, completion: nil);
-             //       return
-               // }
-      //      print(user)
-        //    print("Current user token=\(FBSDKAccessToken.currentAccessToken().tokenString)")
-          //  print("Current user id \(FBSDKAccessToken.currentAccessToken().userID)")
-            
-       //     if(FBSDKAccessToken.currentAccessToken() != nil)
-         //   {
-         //   let HomePage=self.storyboard?.instantiateViewControllerWithIdentifier("HomePage") as! HomePageViewController
-        //    let HomePageNav = UINavigationController(rootViewController:HomePage)
-            
-        //    let appDelegate=UIApplication.sharedApplication().delegate as! AppDelegate
-                
-        //    appDelegate.window?.rootViewController=HomePage
-                
-        //    }
-            
+ 
             
             
     func returnUserData()
@@ -205,13 +196,18 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         })
     }
     
+   
     
-    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        print("User Logged Out")
+    func displayErrorMessage(theMessage:String){
+        //Display Alert message
+        let myAlert=UIAlertController(title:"Alert",message:theMessage,preferredStyle: UIAlertControllerStyle.Alert);
+        let okAction=UIAlertAction(title: "Ok", style:UIAlertActionStyle.Default)
+            {
+                action in myAlert.dismissViewControllerAnimated(true,completion: nil);
+        }
+        myAlert.addAction(okAction)
+        self.presentViewController(myAlert,animated:true,completion:nil);
     }
-    
-    
-    
 
     //Textfield log in
     
@@ -222,29 +218,39 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         
         PFUser.logInWithUsernameInBackground(Username.text!, password: Password.text!, block: {(User:PFUser?,Error:NSError?) -> Void in
             if Error == nil{
-                dispatch_async(dispatch_get_main_queue()){
-            let Storyboard=UIStoryboard(name:"Main",bundle:nil)
-            let MainVC : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("MainVC")
-            self.presentViewController(MainVC, animated:true,completion: nil)
+              //  dispatch_async(dispatch_get_main_queue()){
+        //    let Storyboard=UIStoryboard(name:"Main",bundle:nil)
+       //     let MainVC : UIViewController = Storyboard.//instantiateViewControllerWithIdentifier("MainVC")
+        //    self.presentViewController(MainVC, animated:true,completion: nil)
                 
-                }
+             //   }
+                
+                      self.presentViewController(HomePageViewController(), animated: true,completion: nil)
             }
             else{
                 
             NSLog("Wrong!!")
                 
-            self.ErrorMessage.text="Wrong username or password!"
-                
+            self.displayErrorMessage("Wrong username or password!")
             }
             
         })
-    
+        
+  
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         view.endEditing(true)
     }
-        
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 

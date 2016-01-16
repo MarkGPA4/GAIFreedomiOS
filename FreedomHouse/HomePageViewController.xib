@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePageViewController" customModule="FreedomHouse" customModuleProvider="target">
             <connections>
+                <outlet property="ProfileImage" destination="axz-z4-hkY" id="tH6-o8-70K"/>
+                <outlet property="button" destination="cgV-oN-Hue" id="hcE-1a-za3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,8 +23,52 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Home Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgV-oN-Hue">
+                    <rect key="frame" x="242" y="183" width="89" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="axz-z4-hkY" customClass="RoundImageView" customModule="RoundImageView">
+                    <rect key="frame" x="216" y="222" width="129" height="128"/>
+                    <color key="backgroundColor" red="0.41176470590000003" green="0.039215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="HlV-EA-9PA"/>
+                        <constraint firstAttribute="width" constant="80" id="KII-cC-lo7"/>
+                        <constraint firstAttribute="height" constant="80" id="Kje-SK-rSE"/>
+                        <constraint firstAttribute="height" constant="120" id="bmP-6t-xez"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
+                            <color key="value" red="0.41176470590000003" green="0.039215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundProgressColor">
+                            <color key="value" red="0.58941735559999997" green="0.59668349740000004" blue="0.61694208120000005" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KII-cC-lo7"/>
+                            <exclude reference="Kje-SK-rSE"/>
+                        </mask>
+                    </variation>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="axz-z4-hkY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="0Pf-FN-NCk"/>
+                <constraint firstItem="axz-z4-hkY" firstAttribute="top" secondItem="cgV-oN-Hue" secondAttribute="bottom" constant="25" id="GXE-tW-R9f"/>
+                <constraint firstItem="cgV-oN-Hue" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Rk2-6K-9ma"/>
+                <constraint firstItem="cgV-oN-Hue" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TKd-LH-Qnj"/>
+                <constraint firstItem="axz-z4-hkY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Uay-kZ-Dq6"/>
+                <constraint firstItem="cgV-oN-Hue" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gjR-fB-w15"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Rk2-6K-9ma"/>
+                    <exclude reference="gjR-fB-w15"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>
