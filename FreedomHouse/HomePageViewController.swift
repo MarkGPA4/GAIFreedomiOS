@@ -7,25 +7,38 @@
 //
 import Parse
 
-
-
-
-
 import UIKit
 
-class HomePageViewController: UIViewController {
 
-    @IBOutlet weak var button: UILabel!
+class HomePageViewController: BaseViewController {
+
+
     
     @IBOutlet weak var ProfileImage: UIImageView!
     
-    
+
     override func viewDidLoad() {
-        super.viewDidLoad()
-            
-    self.loadImages()
-    
         
+     //   if PFUser.currentUser() == nil{
+        
+        self.addSlideMenuButton()
+        
+        if PFUser.currentUser() == nil{
+        self.performSegueWithIdentifier("ToLogIn", sender: self)
+        }
+    
+            
+     //   }
+            
+            
+    //    else{
+         //   self.presentViewController(LogInViewController(),animated: true, completion:nil)
+            //  self.loadImages()
+      //  }
+
+        
+        
+        super.viewDidLoad()
         
     }
 
@@ -36,6 +49,7 @@ class HomePageViewController: UIViewController {
     
     
     //////////problematic
+    
     
     func loadImages() {
         let query = PFQuery(className: "Photos")

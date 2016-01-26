@@ -28,7 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
-        PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
+        
+       
         
        //  Parse.setApplicationId("parseAppId", clientKey:"parseClientKey")
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)

@@ -37,7 +37,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         self.Username.resignFirstResponder()
         self.Password.resignFirstResponder()
         //performSegueWithIdentifier("Pizza", sender: self)
-        presentViewController(SignUpViewController(), animated: true, completion: nil)
+        navigationController?.pushViewController(SignUpViewController(), animated: true)
     }
 
     
@@ -45,7 +45,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         self.Username.resignFirstResponder()
         self.Password.resignFirstResponder()
         //performSegueWithIdentifier("Pizza", sender: self)
-        presentViewController(PasswordRetrievViewController(), animated: true, completion: nil)
+        navigationController?.pushViewController(PasswordRetrievViewController(), animated: true)
     }
     
     
@@ -242,14 +242,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         view.endEditing(true)
     }
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
 }
 

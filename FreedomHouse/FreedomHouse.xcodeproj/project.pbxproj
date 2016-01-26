@@ -35,6 +35,9 @@
 		ED75D10C1C390BA600D2FDB8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */; };
 		ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */; };
 		ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */; };
+		ED7E33171C54A92D00D9DB4C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E33161C54A92D00D9DB4C /* BaseViewController.swift */; };
+		ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */; };
+		ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */; };
 		ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */; };
 		ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */; };
 		ED80C4E61C32735600BFBF8C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */; };
@@ -104,6 +107,9 @@
 		ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageViewController.swift; sourceTree = "<group>"; };
 		ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaitingPageViewController.xib; sourceTree = "<group>"; };
+		ED7E33161C54A92D00D9DB4C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
 		ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInViewController.xib; path = ../LogInViewController.xib; sourceTree = "<group>"; };
 		ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +206,8 @@
 				EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */,
 				ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */,
 				EDB276211C3F9294004D6412 /* HomePageViewController.swift */,
+				ED7E33161C54A92D00D9DB4C /* BaseViewController.swift */,
+				ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */,
 				EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */,
 				ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */,
 				ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */,
@@ -216,6 +224,7 @@
 				ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */,
 				EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */,
 				EDB276221C3F9294004D6412 /* HomePageViewController.xib */,
+				ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */,
 				EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */,
 				ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */,
 			);
@@ -434,6 +443,7 @@
 				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
 				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
+				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
 				EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */,
 				ED09197B1C42450600CF3904 /* Podfile in Resources */,
 				ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */,
@@ -512,10 +522,12 @@
 			files = (
 				EDB276231C3F9294004D6412 /* HomePageViewController.swift in Sources */,
 				ED80C4E61C32735600BFBF8C /* SignUpViewController.swift in Sources */,
+				ED7E33171C54A92D00D9DB4C /* BaseViewController.swift in Sources */,
 				EDFCED0C1C43673700E3DC06 /* PasswordRetrievViewController.swift in Sources */,
 				ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */,
 				ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */,
 				ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */,
+				ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */,
 				ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */,
 				ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */,
 				ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */,
