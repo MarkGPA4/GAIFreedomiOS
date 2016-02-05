@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CA7ACF2BA67DDB0774A1D388'
+               BlueprintIdentifier = '74F91E8AD32F369257D0464F'
                BlueprintName = 'PASImageView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PASImageView.framework'>

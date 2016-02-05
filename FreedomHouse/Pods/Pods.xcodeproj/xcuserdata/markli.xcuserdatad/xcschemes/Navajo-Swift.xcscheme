@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '26379F19840315D444F146EC'
+               BlueprintIdentifier = 'B77AB589A91027B6884017A8'
                BlueprintName = 'Navajo-Swift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Navajo_Swift.framework'>

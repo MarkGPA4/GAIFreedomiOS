@@ -1,16 +1,19 @@
 PODS:
+  - Firebase (2.5.0)
   - Navajo-Swift (0.0.4)
   - PASImageView (1.0.3)
   - RoundImageView (1.0.1)
   - TextFieldEffects (1.1.0)
 
 DEPENDENCIES:
+  - Firebase (>= 2.5.0)
   - Navajo-Swift (~> 0.0.4)
   - PASImageView (~> 1.0.3)
   - RoundImageView
   - TextFieldEffects (~> 1.1)
 
 SPEC CHECKSUMS:
+  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
   Navajo-Swift: bd193e00df3a30cddf07ad524c69bab85b7df442
   PASImageView: e9f6a196dfc59fa9711f586960e6ea2c2957f690
   RoundImageView: af3ea25d9b69456749c5b4da68e513060ddbd428

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1BA8A2E32F6698BBF7BE0752 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4EA393CDC2D360C25977A7 /* Pods.framework */; };
 		ED09197B1C42450600CF3904 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED09197A1C42450600CF3904 /* Podfile */; };
+		ED56BD6D1C5FCCAE004BB10C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED56BD6C1C5FCCAE004BB10C /* Firebase.framework */; };
 		ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */; };
 		ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */; };
 		ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */; };
@@ -34,7 +35,6 @@
 		ED75D1081C38F2DF00D2FDB8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D1071C38F2DF00D2FDB8 /* libz.tbd */; };
 		ED75D10C1C390BA600D2FDB8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */; };
 		ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */; };
-		ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */; };
 		ED7E33171C54A92D00D9DB4C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E33161C54A92D00D9DB4C /* BaseViewController.swift */; };
 		ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */; };
 		ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */; };
@@ -81,6 +81,7 @@
 		5F6C4DC2AEE744CB1A1E6DE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		610309749344554A485898D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ED09197A1C42450600CF3904 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED56BD6C1C5FCCAE004BB10C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navajo.swift; sourceTree = "<group>"; };
 		ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordRule.swift; sourceTree = "<group>"; };
 		ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordValidator.swift; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		ED75D1071C38F2DF00D2FDB8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		ED75D10B1C390BA600D2FDB8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		ED7CED051C47D38E00B32815 /* WaitingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageViewController.swift; sourceTree = "<group>"; };
-		ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaitingPageViewController.xib; sourceTree = "<group>"; };
 		ED7E33161C54A92D00D9DB4C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -150,6 +150,7 @@
 				ED75D1061C38F2D600D2FDB8 /* libz.1.tbd in Frameworks */,
 				ED75D1041C38F2CF00D2FDB8 /* libz.1.2.5.tbd in Frameworks */,
 				ED75D1021C38F2C500D2FDB8 /* libz.1.1.3.tbd in Frameworks */,
+				ED56BD6D1C5FCCAE004BB10C /* Firebase.framework in Frameworks */,
 				ED75D1001C38F22500D2FDB8 /* SystemConfiguration.framework in Frameworks */,
 				ED75D0FE1C38F21500D2FDB8 /* StoreKit.framework in Frameworks */,
 				ED75D0FC1C38F20700D2FDB8 /* Social.framework in Frameworks */,
@@ -226,7 +227,6 @@
 				EDB276221C3F9294004D6412 /* HomePageViewController.xib */,
 				ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */,
 				EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */,
-				ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -323,6 +323,7 @@
 		FDE1BE6AD7D98AB70A4335D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED56BD6C1C5FCCAE004BB10C /* Firebase.framework */,
 				FE4EA393CDC2D360C25977A7 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -440,7 +441,6 @@
 				EDFCED111C4394B300E3DC06 /* UploadImageViewController.xib in Resources */,
 				ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */,
 				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
-				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
 				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
 				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
@@ -674,6 +674,7 @@
 					"/Users/markli/Desktop/GAIFreedom_iOS/FacebookSDKs-iOS-20151111",
 					"/Users/markli/Desktop/GAIFreedom_iOS/Parse-SDK-iOS-OSX-master",
 					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FreedomHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -700,6 +701,7 @@
 					"/Users/markli/Desktop/GAIFreedom_iOS/FacebookSDKs-iOS-20151111",
 					"/Users/markli/Desktop/GAIFreedom_iOS/Parse-SDK-iOS-OSX-master",
 					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FreedomHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

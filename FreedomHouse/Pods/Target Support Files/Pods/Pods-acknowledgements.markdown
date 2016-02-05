@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## Firebase
+
+https://www.firebase.com/terms/terms-of-service.html
+
 ## Navajo-Swift
 
 Copyright (c) 2015 Jason Nam (http://www.jasonnam.com)

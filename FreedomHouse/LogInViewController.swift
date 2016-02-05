@@ -37,7 +37,8 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         self.Username.resignFirstResponder()
         self.Password.resignFirstResponder()
         //performSegueWithIdentifier("Pizza", sender: self)
-        navigationController?.pushViewController(SignUpViewController(), animated: true)
+        //navigationController?.pushViewController(SignUpViewController(), animated: true)
+        self.performSegueWithIdentifier("ToSignUp", sender: self)
     }
 
     
@@ -61,13 +62,13 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
             if let user = user {
                 if user.isNew {
                     print("User signed up and logged in through Facebook!")
-                self.presentViewController(HomePageViewController(), animated: true, completion: nil)
+                self.dismissViewControllerAnimated(true, completion: nil)
     
                     
                     
                 } else {
                     print("User logged in through Facebook!")
-                    self.presentViewController(HomePageViewController(), animated: true, completion: nil)
+                self.presentViewController(SignUpViewController(), animated: true, completion: nil)
 
                 }
             } else {

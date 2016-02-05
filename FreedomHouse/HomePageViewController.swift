@@ -8,15 +8,19 @@
 import Parse
 
 import UIKit
-
+import Firebase
 
 class HomePageViewController: BaseViewController {
 
 
-    
-    @IBOutlet weak var ProfileImage: UIImageView!
-    
 
+    @IBAction func write(sender: AnyObject) {
+        
+        var myRootRef = Firebase(url:"https://freedom-house.firebaseio.com")
+       
+        myRootRef.setValue("Do you have data? You'll love Firebase.")
+    }
+    
     override func viewDidLoad() {
         
      //   if PFUser.currentUser() == nil{
@@ -48,10 +52,9 @@ class HomePageViewController: BaseViewController {
     }
     
     
-    //////////problematic
+  
     
-    
-    func loadImages() {
+  /*  func loadImages() {
         let query = PFQuery(className: "Photos")
         query.whereKey("uploader", equalTo: PFUser.currentUser()!)
         
@@ -76,15 +79,15 @@ class HomePageViewController: BaseViewController {
         Photo.getDataInBackgroundWithBlock({
         (imageData: NSData?, error: NSError?) -> Void in
         if (error == nil) {
-        let image = UIImage(data:imageData!)
-        self.ProfileImage.image = image
+      
+     
     
         }
             
         })
        
         
-    }
+    }*/
     
     
     

@@ -9,7 +9,7 @@
 import UIKit
 import Parse
 import Bolts
-
+import Firebase
 
 
 class SignUpViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate,UITextFieldDelegate{
@@ -203,10 +203,29 @@ class SignUpViewController: UIViewController,UIPickerViewDataSource,UIPickerView
 
     func SignUp() {
         
-        let user = PFUser()
-        user.username=Username.text!
-        user.password=Password.text!
-        user.email=Email.text!
+       
+        var username=Username.text!
+        var password=Password.text!
+        var email=Email.text!
+        var school=self.School.text!
+        var school_year=self.SchoolYear.text!
+        var age=Int(self.Age.text!)
+        var gender=self.Gender.text!
+        
+      //  var myRootRef=Firebase(url:"https://freedom-house.firebaseio.com")
+
+      /*  myRootRef.createUser(username, password: password,
+            withValueCompletionBlock:
+                { error, result in
+                    if error != nil {
+                        // There was an error creating the account
+                    } else {
+                        let uid = result["uid"] as? String
+                        print("Successfully created user account with uid: \(uid)")
+                    }
+                })
+   */
+        var user = PFUser()
         
         user.signUpInBackgroundWithBlock {(success:Bool,error:NSError?)-> Void in
             
@@ -240,10 +259,13 @@ class SignUpViewController: UIViewController,UIPickerViewDataSource,UIPickerView
             {
                     let errorMessage: String = error!.userInfo["error"] as! String
                     self.displayErrorMessage(errorMessage)
-            }
         }
     }
-
+        
+    }
+    
+    
+    
     //password meter
     @IBOutlet weak var PasswordMeter: UIProgressView!
     
