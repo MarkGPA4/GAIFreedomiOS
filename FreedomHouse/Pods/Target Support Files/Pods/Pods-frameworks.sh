@@ -86,12 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/Navajo_Swift.framework"
   install_framework "Pods/PASImageView.framework"
+  install_framework "Pods/PageMenu.framework"
   install_framework "Pods/RoundImageView.framework"
   install_framework "Pods/TextFieldEffects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Navajo_Swift.framework"
   install_framework "Pods/PASImageView.framework"
+  install_framework "Pods/PageMenu.framework"
   install_framework "Pods/RoundImageView.framework"
   install_framework "Pods/TextFieldEffects.framework"
 fi

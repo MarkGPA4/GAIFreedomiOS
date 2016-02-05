@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1BA8A2E32F6698BBF7BE0752 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4EA393CDC2D360C25977A7 /* Pods.framework */; };
+		E3006BB31C618710004306BF /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3006BB21C618710004306BF /* CAPSPageMenu.swift */; };
+		E3006BB61C63CEEE004306BF /* CollegeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3006BB41C63CEEE004306BF /* CollegeInfoViewController.swift */; };
+		E3006BB71C63CEEE004306BF /* CollegeInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */; };
 		ED09197B1C42450600CF3904 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED09197A1C42450600CF3904 /* Podfile */; };
 		ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */; };
 		ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */; };
@@ -80,6 +83,9 @@
 /* Begin PBXFileReference section */
 		5F6C4DC2AEE744CB1A1E6DE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		610309749344554A485898D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E3006BB21C618710004306BF /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		E3006BB41C63CEEE004306BF /* CollegeInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeInfoViewController.swift; sourceTree = "<group>"; };
+		E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegeInfoViewController.xib; sourceTree = "<group>"; };
 		ED09197A1C42450600CF3904 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navajo.swift; sourceTree = "<group>"; };
 		ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordRule.swift; sourceTree = "<group>"; };
@@ -213,6 +219,7 @@
 				ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */,
 				ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */,
 				ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */,
+				E3006BB41C63CEEE004306BF /* CollegeInfoViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +234,7 @@
 				ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */,
 				EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */,
 				ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */,
+				E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -298,6 +306,7 @@
 				ED80C4E21C3168FF00BFBF8C /* Controllers */,
 				ED80C4E31C31692000BFBF8C /* Xibs */,
 				ED9E40641BF2C11C00D23667 /* Info.plist */,
+				E3006BB21C618710004306BF /* CAPSPageMenu.swift */,
 			);
 			path = FreedomHouse;
 			sourceTree = "<group>";
@@ -399,7 +408,7 @@
 				TargetAttributes = {
 					ED9E40541BF2C11C00D23667 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = A9FE6ZH777;
+						DevelopmentTeam = 94CZVWLG85;
 					};
 					ED9E40681BF2C11C00D23667 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -446,6 +455,7 @@
 				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
 				EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */,
 				ED09197B1C42450600CF3904 /* Podfile in Resources */,
+				E3006BB71C63CEEE004306BF /* CollegeInfoViewController.xib in Resources */,
 				ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */,
 				EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */,
 			);
@@ -528,7 +538,9 @@
 				ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */,
 				ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */,
 				ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */,
+				E3006BB31C618710004306BF /* CAPSPageMenu.swift in Sources */,
 				ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */,
+				E3006BB61C63CEEE004306BF /* CollegeInfoViewController.swift in Sources */,
 				ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */,
 				ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */,
 				EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */,
