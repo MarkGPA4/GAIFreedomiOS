@@ -43,7 +43,18 @@ class HomePageViewController: BaseViewController {
         var controller2 = UIViewController(nibName: "WaitingPageViewController", bundle: nil)
         controller2.title = "College Info"
         controllerArray.append(controller2)
+<<<<<<< Updated upstream
             
+=======
+<<<<<<< HEAD
+        
+        
+        
+        
+=======
+            
+>>>>>>> c35ed305074043c2fc77f1a39703987e97d79f80
+>>>>>>> Stashed changes
         // Customize page menu to your liking (optional) or use default settings by sending nil for 'options' in the init
         // Example:
         let parameters: [CAPSPageMenuOption] = [
