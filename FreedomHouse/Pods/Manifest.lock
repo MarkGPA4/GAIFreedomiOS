@@ -1,0 +1,22 @@
+PODS:
+  - Navajo-Swift (0.0.4)
+  - PageMenu (1.2.9)
+  - PASImageView (1.0.3)
+  - RoundImageView (1.0.1)
+  - TextFieldEffects (1.1.0)
+
+DEPENDENCIES:
+  - Navajo-Swift (~> 0.0.4)
+  - PageMenu
+  - PASImageView (~> 1.0.3)
+  - RoundImageView
+  - TextFieldEffects (~> 1.1)
+
+SPEC CHECKSUMS:
+  Navajo-Swift: bd193e00df3a30cddf07ad524c69bab85b7df442
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  PASImageView: e9f6a196dfc59fa9711f586960e6ea2c2957f690
+  RoundImageView: af3ea25d9b69456749c5b4da68e513060ddbd428
+  TextFieldEffects: 8e43fea8836e97be80fc4db27a1596c9e98a26ba
+
+COCOAPODS: 0.39.0
