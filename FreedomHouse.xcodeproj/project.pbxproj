@@ -52,6 +52,15 @@
 		ED80C4F91C336C3200BFBF8C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED80C4F61C336C3200BFBF8C /* FBSDKShareKit.framework */; };
 		ED967DBD1C6667900061A351 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DBB1C6667900061A351 /* EventsViewController.swift */; };
 		ED967DBE1C6667900061A351 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DBC1C6667900061A351 /* EventsViewController.xib */; };
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
+=======
+		ED967DD61C667B330061A351 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DD41C667B330061A351 /* EventsTableViewCell.swift */; };
+		ED967DD71C667B330061A351 /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DD51C667B330061A351 /* EventsTableViewCell.xib */; };
+		ED967DD91C669F260061A351 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DD81C669F260061A351 /* TestTableViewController.swift */; };
+		ED967DDB1C669F380061A351 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DDA1C669F380061A351 /* TestTableViewController.xib */; };
+		ED967DDD1C669F420061A351 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DDC1C669F420061A351 /* FriendTableViewCell.swift */; };
+		ED967DDF1C669F4E0061A351 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DDE1C669F4E0061A351 /* FriendTableViewCell.xib */; };
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 		ED967DE21C66BA9D0061A351 /* CollegesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */; };
 		ED967DE31C66BA9D0061A351 /* CollegesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */; };
 		ED967DEA1C66BDD00061A351 /* GradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DE81C66BDD00061A351 /* GradesTableViewCell.swift */; };
@@ -139,6 +148,15 @@
 		ED80C4FB1C336DF000BFBF8C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
 		ED967DBB1C6667900061A351 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
 		ED967DBC1C6667900061A351 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventsViewController.xib; path = ../EventsViewController.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
+=======
+		ED967DD41C667B330061A351 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		ED967DD51C667B330061A351 /* EventsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
+		ED967DD81C669F260061A351 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestTableViewController.swift; path = "../../../PageMenu-master/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/TestTableViewController.swift"; sourceTree = "<group>"; };
+		ED967DDA1C669F380061A351 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestTableViewController.xib; path = "../../../PageMenu-master/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/TestTableViewController.xib"; sourceTree = "<group>"; };
+		ED967DDC1C669F420061A351 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendTableViewCell.swift; path = "../../PageMenu-master/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/FriendTableViewCell.swift"; sourceTree = "<group>"; };
+		ED967DDE1C669F4E0061A351 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendTableViewCell.xib; path = "../../PageMenu-master/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/FriendTableViewCell.xib"; sourceTree = "<group>"; };
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 		ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesTableViewCell.swift; sourceTree = "<group>"; };
 		ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegesTableViewCell.xib; sourceTree = "<group>"; };
 		ED967DE81C66BDD00061A351 /* GradesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesTableViewCell.swift; sourceTree = "<group>"; };
@@ -246,7 +264,11 @@
 				ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */,
 				ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */,
 				ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */,
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
 				EDCE805E1C689B06008737D4 /* DatePickerCell.swift */,
+=======
+				ED967DD81C669F260061A351 /* TestTableViewController.swift */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -255,6 +277,10 @@
 			isa = PBXGroup;
 			children = (
 				ED967DF31C66C0CB0061A351 /* GradesViewController.xib */,
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
+=======
+				ED967DDA1C669F380061A351 /* TestTableViewController.xib */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 				ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */,
 				ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */,
 				EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */,
@@ -305,8 +331,17 @@
 			children = (
 				ED967DE81C66BDD00061A351 /* GradesTableViewCell.swift */,
 				ED967DE91C66BDD00061A351 /* GradesTableViewCell.xib */,
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
 				ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */,
 				ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */,
+=======
+				ED967DD41C667B330061A351 /* EventsTableViewCell.swift */,
+				ED967DD51C667B330061A351 /* EventsTableViewCell.xib */,
+				ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */,
+				ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */,
+				ED967DDE1C669F4E0061A351 /* FriendTableViewCell.xib */,
+				ED967DDC1C669F420061A351 /* FriendTableViewCell.swift */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 			);
 			name = Cells;
 			path = ..;
@@ -487,6 +522,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
+=======
+				ED967DD71C667B330061A351 /* EventsTableViewCell.xib in Resources */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 				ED967DEB1C66BDD00061A351 /* GradesTableViewCell.xib in Resources */,
 				ED80C4E71C32735600BFBF8C /* SignUpViewController.xib in Resources */,
 				ED967DBE1C6667900061A351 /* EventsViewController.xib in Resources */,
@@ -494,6 +533,11 @@
 				ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */,
 				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
 				ED967DF51C66C0CB0061A351 /* GradesViewController.xib in Resources */,
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
+=======
+				ED967DDB1C669F380061A351 /* TestTableViewController.xib in Resources */,
+				ED967DDF1C669F4E0061A351 /* FriendTableViewCell.xib in Resources */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
 				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
@@ -584,6 +628,7 @@
 				ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */,
 				ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */,
 				ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */,
+				ED967DDD1C669F420061A351 /* FriendTableViewCell.swift in Sources */,
 				ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */,
 				ED967DEA1C66BDD00061A351 /* GradesTableViewCell.swift in Sources */,
 				ED967DF41C66C0CB0061A351 /* GradesViewController.swift in Sources */,
@@ -594,7 +639,13 @@
 				E3006BB61C63CEEE004306BF /* CollegeInfoViewController.swift in Sources */,
 				ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */,
 				ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */,
+<<<<<<< HEAD:FreedomHouse.xcodeproj/project.pbxproj
 				ED6CA6061C653A6200C17D69 /* TESTViewController.swift in Sources */,
+=======
+				ED967DD91C669F260061A351 /* TestTableViewController.swift in Sources */,
+				ED6CA6061C653A6200C17D69 /* TESTViewController.swift in Sources */,
+				ED967DD61C667B330061A351 /* EventsTableViewCell.swift in Sources */,
+>>>>>>> 4b90a49d4f23f530794d65bd3e39f11cb1322742:FreedomHouse/FreedomHouse.xcodeproj/project.pbxproj
 				EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */,
 				EDCE805F1C689B06008737D4 /* DatePickerCell.swift in Sources */,
 			);
