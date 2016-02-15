@@ -1,0 +1,1697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048B9C440B647B72ECF5590491A56F0F /* DatePickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD880A305EBCEFAD971D36E2CD8D58B /* DatePickerCell-dummy.m */; };
+		0C35D3B7D04BFD9CF5F1FBF96E820A02 /* PASImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F487014E7CDF22AF9F1652F4FDF07D1 /* PASImageView-dummy.m */; };
+		162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B187DF6715FF6E8E1979E4B3F3D8C1A4 /* PageMenu-dummy.m */; };
+		164ED9A25C5D6776C77A3A0719BEDE66 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED99177BD9EE3B6A95EA2C258A5FC6 /* HoshiTextField.swift */; };
+		19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089DF1779272AF8C770C16AA0770A55 /* CAPSPageMenu.swift */; };
+		1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F50137C6D7A3B0004A3BE0DE0807E7F /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20235F2BEB7532B7BF6D1144700B05EC /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		24698B82008FDAC90BA5E0BD7F169A16 /* DatePickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD63856EF0940729F27DEC0A920273F8 /* DatePickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D655E7565101E2749C79DD1739FD71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		332194EA249AE3C2FB5571DBCBB6A3C4 /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27841EFD8B8E7AF6DAA25B25D8A8C0B /* DatePickerCell.xib */; };
+		3399041DA312D16A2B120C5FDC860EF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		35EDFAB90CEA093FF2DC1FE891E62032 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A7AC577013FD64F9B366FB5998CBD7 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387A8B31BC75818F1E27B5CF243F1FE2 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B54ADF353958DE9280343A6EEB2962 /* TextFieldEffects-dummy.m */; };
+		3890FB9F644F77D40B0B503DD7968909 /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10406472B028E5143AA92D43E9543DB4 /* NJOPasswordValidator.swift */; };
+		47A62511D5BFE84607B11E30419292A4 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB9051800A30A0242E157BF8EFDC52 /* DatePickerCell.swift */; };
+		4DCA70FD1409CBE57A2BE8E87A3BD51B /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A34A78624F48D627FD11D2F116C977E /* RoundImageView.swift */; };
+		4EDCE06FB0BCBA2A7C3F1E667723ABFE /* DateCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5600F748CE2CD3673D7D8116908C99FC /* DateCellsController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50B7B6993A6F66BC14DEF05CB0C10E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		525C4AFC009BA9DFC4E89CD016062DBF /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04047D12AB81A44418D86BB2D228B646 /* MGSwipeTableCell-dummy.m */; };
+		5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5E772C94F224C412FB9876EA231646BB /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B9F96E0E81FD86F468E5C83C8FEE84 /* YoshikoTextField.swift */; };
+		5FA62FB4488A89153322BC0F529A4D30 /* DateCellsController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 050004D39B05FA9E529DBAF285397497 /* DateCellsController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		610DA01C036992CABB528C7E303B801C /* DatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB336E2645F55E904083C0F206A81AA0 /* DatePickerCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61CDA419B493AE0A078529264BAD7882 /* Navajo-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D71C13715CD9CD66BAEC342A83232B9 /* Navajo-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EC815184D0CD71BF5EC40EC92AD6A2C9 /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E6BC756F6F1B43026FDAD693C42468 /* PASImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F89D64E6DFDD2326815CFFC11CFC4532 /* PASImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CC32BA1921B578626BB6F734734801 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCC346FF6C3269BF9FEC6AB4FB34F4F /* PageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F0F49401BE1B5CE935FAF062033B76 /* RoundImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C97A4C2902E7D9CFCB315EA238ADA2 /* RoundImageView-dummy.m */; };
+		7C49F7BD4286B5C72BD3617B6D9EB2F8 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C05335ED3862E7CDED6E840812C8F /* JiroTextField.swift */; };
+		80F5D76D7745DB9EAA3BA2F8A9ED4FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		82787DD9694745D2E5C90A5F2ABD78DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		886AA3A2FA0C8FA508CF475A23B31365 /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E85DB50CA16E1457FE5F891E1DC55 /* Navajo.swift */; };
+		8BD7BACA884F29773EEA85A7D2B3E0F3 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B405681AF92F9B2B0B9BA0BD907221 /* IsaoTextField.swift */; };
+		95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00CEE98A645ABFA1BBA071F5E8D321 /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A3AF48AAE90150FC3B42EEAEFFCD882 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963C474868507BE6738EB4410362E63 /* MadokaTextField.swift */; };
+		A3DA970C9B6436C0277869D81BD1C73D /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBADBD71350A5368B87ABFD24E950 /* AkiraTextField.swift */; };
+		A9D7AD33C8DC7B5E895F060D8D827D00 /* Navajo-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475DA368CC5F43CAD897CC48E9D735DA /* Navajo-Swift-dummy.m */; };
+		B3C8D533400F275B67D581A3CAF3677B /* PASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBAE82F5676CEC3A97D4D9B04721EA6 /* PASImageView.swift */; };
+		B57D40074979AEDA4839E5313409BCAB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A332B900705A6475B6E617F3975E23 /* NJOPasswordRule.swift */; };
+		BEE1B2038E0378049FD07F3651C912DB /* RoundImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8099631092E4190DE95C9DF7F76C9D2F /* RoundImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18C2F02E0B929EE03FA90D6B25FF635 /* DateCellsController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D60CE1CB73CD0B6B0D918E3C7F22FCF7 /* DateCellsController-dummy.m */; };
+		C289DE5A29EF77EFECBFB6AA2E487868 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE77909C16B95D769FC547B872852E5 /* MinoruTextField.swift */; };
+		C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC2D193E41E8C7D3625E029CFEB125 /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4EB53354E0FD341E65311C63EE97BED /* DateCellsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 982630C63747B4578B84E1B315B550D7 /* DateCellsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8622FC7FE638994C39139924DC6BC53 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB944B3384C06728622B0F558CFA935 /* YokoTextField.swift */; };
+		DFEFD913378E500F1159CDDAFADF3568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E641EE29426E6CD1ECAC9BDEC8144396 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69F091BE8402C32C3DD88E18F274AB /* TextFieldsEffects.swift */; };
+		E96B9B613AF8B5703ED1038017A472D2 /* DatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F91DE4B9B8B4AFA9B0299D2E544FB612 /* DatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC56EE94F871A6A7984CBD687EAB7540 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDFBAD850F7934CD5D8A1635F9C174 /* KaedeTextField.swift */; };
+		ECD0192C1392961FD64CA25C71631227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B087DE68DDFB24F4F8DD830A7B2DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4F4A3253EC1B0CF09F314916B44064;
+			remoteInfo = TextFieldEffects;
+		};
+		6266314C47012BCBF52C4A520C4D4E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733206DFBBCC49D3502AE07C330E98E6;
+			remoteInfo = DatePickerCell;
+		};
+		69FB1171AD427391F997BF4FE3D84F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EC687338DBE56C82F120938259CB16;
+			remoteInfo = PASImageView;
+		};
+		6DFBEE4915AAD92CAE34C034F8419A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1263BFF45F6446CF3DE29AE234C893;
+			remoteInfo = MGSwipeTableCell;
+		};
+		73DCEFCD0D2DA9F88C2CA85A339D089F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBC7E8C732E639E0B5D3DA36502EA8C;
+			remoteInfo = DateCellsController;
+		};
+		C9493A7F6B84C01A1A3B330A7AAAB449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D13636EB6192BBD2AB85F8A151A3E11;
+			remoteInfo = RoundImageView;
+		};
+		D794762E707E908FDE8D0DBEAFAC9E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23825CA84ACECD158B4A03B2C314D09;
+			remoteInfo = "Navajo-Swift";
+		};
+		F1B49D90C8197A7BD31A11A7DF917991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B405681AF92F9B2B0B9BA0BD907221 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		04047D12AB81A44418D86BB2D228B646 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		050004D39B05FA9E529DBAF285397497 /* DateCellsController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateCellsController-umbrella.h"; sourceTree = "<group>"; };
+		075E85DB50CA16E1457FE5F891E1DC55 /* Navajo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navajo.swift; path = Source/Navajo.swift; sourceTree = "<group>"; };
+		099BC385A5D8CF08ED44961151C48D06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC042CC200B98C8227734829AA42602 /* PASImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-prefix.pch"; sourceTree = "<group>"; };
+		0CCC346FF6C3269BF9FEC6AB4FB34F4F /* PageMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-umbrella.h"; sourceTree = "<group>"; };
+		0D71C13715CD9CD66BAEC342A83232B9 /* Navajo-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-umbrella.h"; sourceTree = "<group>"; };
+		0E97A9EC585D8D203C244CD8A9A9CB00 /* RoundImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RoundImageView.modulemap; sourceTree = "<group>"; };
+		0F00CEE98A645ABFA1BBA071F5E8D321 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		10406472B028E5143AA92D43E9543DB4 /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordValidator.swift; path = Source/NJOPasswordValidator.swift; sourceTree = "<group>"; };
+		17F918193CEBB99EB58F629DC097CC5F /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
+		17FDFBAD850F7934CD5D8A1635F9C174 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		191B23488B3B0E48B80FC02C8B5D573B /* RoundImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoundImageView.xcconfig; sourceTree = "<group>"; };
+		20C97A4C2902E7D9CFCB315EA238ADA2 /* RoundImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoundImageView-dummy.m"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		33B9F96E0E81FD86F468E5C83C8FEE84 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		360FE3346D8A22066B1CFB8D36AE80A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A34A78624F48D627FD11D2F116C977E /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = RoundImageView/RoundImageView.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E8C05335ED3862E7CDED6E840812C8F /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		3F70E4E952BB1F26A1E4833D9551EF85 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		4036EBF3076CA9C9F512A0EC2BB3680B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475DA368CC5F43CAD897CC48E9D735DA /* Navajo-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navajo-Swift-dummy.m"; sourceTree = "<group>"; };
+		4A3C930D10508EC1AE95C3CB0CE7154F /* Navajo-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Navajo-Swift.xcconfig"; sourceTree = "<group>"; };
+		4FC1C6B676DD4B6972C67062CDEDE840 /* Navajo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Navajo-Swift.modulemap"; sourceTree = "<group>"; };
+		51CC32BA1921B578626BB6F734734801 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
+		551A81EEB176E4155266AEB2B4394708 /* RoundImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DB9051800A30A0242E157BF8EFDC52 /* DatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = Source/DatePickerCell.swift; sourceTree = "<group>"; };
+		55EA796668A41180FFD77063C0E969B4 /* PageMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PageMenu.modulemap; sourceTree = "<group>"; };
+		5600F748CE2CD3673D7D8116908C99FC /* DateCellsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateCellsController.m; path = DateCellsController/DateCellsController.m; sourceTree = "<group>"; };
+		582C93A38B2E4C0C027753FDD9A311AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A437E9A9C54745EAB6CB3B2CA99CAD3 /* PASImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PASImageView.modulemap; sourceTree = "<group>"; };
+		5C8CC4C58FBAFD10758FB39281AD8E25 /* DatePickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD9F0FDA76898BC7488004D662F007A /* DateCellsController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateCellsController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F50137C6D7A3B0004A3BE0DE0807E7F /* MGSwipeTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-umbrella.h"; sourceTree = "<group>"; };
+		6089DF1779272AF8C770C16AA0770A55 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		649C6BEAB3CD4971BF33409DF465E3FA /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
+		65B54ADF353958DE9280343A6EEB2962 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		6670CAD4799124887C19AE93AE6FCA11 /* RoundImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-prefix.pch"; sourceTree = "<group>"; };
+		6FE1E995DD75C075CDCD86B071C3F41E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D1AF18504098D76DE0C5F05FC949AA /* DatePickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DatePickerCell.modulemap; sourceTree = "<group>"; };
+		725015278CA4A3F817B2316BD504550D /* PageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PageMenu.xcconfig; sourceTree = "<group>"; };
+		73AAEEB4B878AF2CA5759DB2604492D1 /* DateCellsController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateCellsController.xcconfig; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		79AD6255B837722366137A52680E2077 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BBBADBD71350A5368B87ABFD24E950 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		7AE77909C16B95D769FC547B872852E5 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		7B471359451194BD7AF1142015B665A0 /* PASImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PASImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8520DEFAA94C070CC6C15F1099E67C /* DatePickerCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerCell.xcconfig; sourceTree = "<group>"; };
+		803E49FCCDF6E4317A9B6460D0DE4DAB /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		8099631092E4190DE95C9DF7F76C9D2F /* RoundImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-umbrella.h"; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9329318A723305802B791EFBBC4BC877 /* DatePickerCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-prefix.pch"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		982630C63747B4578B84E1B315B550D7 /* DateCellsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateCellsController.h; path = DateCellsController/DateCellsController.h; sourceTree = "<group>"; };
+		991FE9FA7612E15B31E676944856A009 /* DateCellsController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DateCellsController.modulemap; sourceTree = "<group>"; };
+		9F487014E7CDF22AF9F1652F4FDF07D1 /* PASImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PASImageView-dummy.m"; sourceTree = "<group>"; };
+		9FBAE82F5676CEC3A97D4D9B04721EA6 /* PASImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PASImageView.swift; sourceTree = "<group>"; };
+		A963C474868507BE6738EB4410362E63 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		AAE110EA0236CA22F2F221C1C6F3A110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC60E24DEAC6C8824D02ADB99B49633 /* Navajo-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-prefix.pch"; sourceTree = "<group>"; };
+		B13B14673BC37DF83A71A233D1D446DE /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		B187DF6715FF6E8E1979E4B3F3D8C1A4 /* PageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PageMenu-dummy.m"; sourceTree = "<group>"; };
+		B3388DC13F5CB59F42AE0B230BEDDFA8 /* PASImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PASImageView.xcconfig; sourceTree = "<group>"; };
+		B852CACE5C8FA66F2C7A7434C2201EF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB336E2645F55E904083C0F206A81AA0 /* DatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatePickerCell.m; path = DateCellsController/DatePickerCell.m; sourceTree = "<group>"; };
+		C1AC2D193E41E8C7D3625E029CFEB125 /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		C5738DD21DA5A3DDAA2AE96007318AC1 /* Navajo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navajo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6193798E76DF2FF2BEDBE18230B1025 /* PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A332B900705A6475B6E617F3975E23 /* NJOPasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordRule.swift; path = Source/NJOPasswordRule.swift; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D60CE1CB73CD0B6B0D918E3C7F22FCF7 /* DateCellsController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateCellsController-dummy.m"; sourceTree = "<group>"; };
+		D9A7AC577013FD64F9B366FB5998CBD7 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DAD880A305EBCEFAD971D36E2CD8D58B /* DatePickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerCell-dummy.m"; sourceTree = "<group>"; };
+		DCB944B3384C06728622B0F558CFA935 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		DD63856EF0940729F27DEC0A920273F8 /* DatePickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-umbrella.h"; sourceTree = "<group>"; };
+		DFEE4BED585D68FBDF75332C2584F026 /* MGSwipeTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.xcconfig; sourceTree = "<group>"; };
+		E17E69AB64E495ADCC7FEB34F4818BC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E199E814E16CB56649B234F0CAEB6E46 /* PageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-prefix.pch"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ED99177BD9EE3B6A95EA2C258A5FC6 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		EC815184D0CD71BF5EC40EC92AD6A2C9 /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
+		EF20A5D8F2156B2BEBA478CF5E158909 /* DateCellsController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateCellsController-prefix.pch"; sourceTree = "<group>"; };
+		F27841EFD8B8E7AF6DAA25B25D8A8C0B /* DatePickerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DatePickerCell.xib; path = DateCellsController/DatePickerCell.xib; sourceTree = "<group>"; };
+		F89D64E6DFDD2326815CFFC11CFC4532 /* PASImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-umbrella.h"; sourceTree = "<group>"; };
+		F91DE4B9B8B4AFA9B0299D2E544FB612 /* DatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatePickerCell.h; path = DateCellsController/DatePickerCell.h; sourceTree = "<group>"; };
+		FA69F091BE8402C32C3DD88E18F274AB /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		FE88518ADFCE7B168A6769EE8DBEB176 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFC130725427E39DC511D5917C69728 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C0A3050088BFE6D4671C13BAE87E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F5D76D7745DB9EAA3BA2F8A9ED4FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D593D6E0D548AF76109F1B287D4347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0192C1392961FD64CA25C71631227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403786AFE3EA50C4016028BD38AFA652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82787DD9694745D2E5C90A5F2ABD78DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E9086F88C408158F2E570A094922B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D655E7565101E2749C79DD1739FD71E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5FBE46555305C54A71B3C929671293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0271E88F65B17975F56915CAAD607F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75CF1B608FACAA9992E1D6D1D3B1168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3399041DA312D16A2B120C5FDC860EF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA59D8CDCB3E8D7B205D52EFAA111667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B7B6993A6F66BC14DEF05CB0C10E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52F65D29CEA58B704C254252A1F4E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEFD913378E500F1159CDDAFADF3568 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F04BE5D093508CC04E93C6414CADC9 /* DateCellsController */ = {
+			isa = PBXGroup;
+			children = (
+				982630C63747B4578B84E1B315B550D7 /* DateCellsController.h */,
+				5600F748CE2CD3673D7D8116908C99FC /* DateCellsController.m */,
+				F91DE4B9B8B4AFA9B0299D2E544FB612 /* DatePickerCell.h */,
+				BB336E2645F55E904083C0F206A81AA0 /* DatePickerCell.m */,
+				DA1E26CB3CF09125ED17BB10F42188ED /* Resources */,
+				459B3367924B4CCE285045C28B8EDEAE /* Support Files */,
+			);
+			path = DateCellsController;
+			sourceTree = "<group>";
+		};
+		1DEF7F07B1592BA8CB04EE17118186F7 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC815184D0CD71BF5EC40EC92AD6A2C9 /* MGSwipeButton.h */,
+				C1AC2D193E41E8C7D3625E029CFEB125 /* MGSwipeButton.m */,
+				51CC32BA1921B578626BB6F734734801 /* MGSwipeTableCell.h */,
+				0F00CEE98A645ABFA1BBA071F5E8D321 /* MGSwipeTableCell.m */,
+				9849FE88F32C768BD37AB558F9AC96D4 /* Support Files */,
+			);
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		2524E6688853FD75D9221989D84CD550 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE88518ADFCE7B168A6769EE8DBEB176 /* Info.plist */,
+				55EA796668A41180FFD77063C0E969B4 /* PageMenu.modulemap */,
+				725015278CA4A3F817B2316BD504550D /* PageMenu.xcconfig */,
+				B187DF6715FF6E8E1979E4B3F3D8C1A4 /* PageMenu-dummy.m */,
+				E199E814E16CB56649B234F0CAEB6E46 /* PageMenu-prefix.pch */,
+				0CCC346FF6C3269BF9FEC6AB4FB34F4F /* PageMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PageMenu";
+			sourceTree = "<group>";
+		};
+		3297F9A9C86FE560502C098AD7355BCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17E69AB64E495ADCC7FEB34F4818BC5 /* Info.plist */,
+				0E97A9EC585D8D203C244CD8A9A9CB00 /* RoundImageView.modulemap */,
+				191B23488B3B0E48B80FC02C8B5D573B /* RoundImageView.xcconfig */,
+				20C97A4C2902E7D9CFCB315EA238ADA2 /* RoundImageView-dummy.m */,
+				6670CAD4799124887C19AE93AE6FCA11 /* RoundImageView-prefix.pch */,
+				8099631092E4190DE95C9DF7F76C9D2F /* RoundImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RoundImageView";
+			sourceTree = "<group>";
+		};
+		375805C3F2909B9FDA9BB28B9FAC5A58 /* RoundImageView */ = {
+			isa = PBXGroup;
+			children = (
+				3A34A78624F48D627FD11D2F116C977E /* RoundImageView.swift */,
+				3297F9A9C86FE560502C098AD7355BCC /* Support Files */,
+			);
+			path = RoundImageView;
+			sourceTree = "<group>";
+		};
+		459B3367924B4CCE285045C28B8EDEAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				991FE9FA7612E15B31E676944856A009 /* DateCellsController.modulemap */,
+				73AAEEB4B878AF2CA5759DB2604492D1 /* DateCellsController.xcconfig */,
+				D60CE1CB73CD0B6B0D918E3C7F22FCF7 /* DateCellsController-dummy.m */,
+				EF20A5D8F2156B2BEBA478CF5E158909 /* DateCellsController-prefix.pch */,
+				050004D39B05FA9E529DBAF285397497 /* DateCellsController-umbrella.h */,
+				582C93A38B2E4C0C027753FDD9A311AE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateCellsController";
+			sourceTree = "<group>";
+		};
+		48A623024D75A1E88E9D38AB1AFEF3C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE110EA0236CA22F2F221C1C6F3A110 /* Info.plist */,
+				803E49FCCDF6E4317A9B6460D0DE4DAB /* TextFieldEffects.modulemap */,
+				B13B14673BC37DF83A71A233D1D446DE /* TextFieldEffects.xcconfig */,
+				65B54ADF353958DE9280343A6EEB2962 /* TextFieldEffects-dummy.m */,
+				3F70E4E952BB1F26A1E4833D9551EF85 /* TextFieldEffects-prefix.pch */,
+				D9A7AC577013FD64F9B366FB5998CBD7 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		5FB3502DAE7B980110CF4DA561A75C21 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6089DF1779272AF8C770C16AA0770A55 /* CAPSPageMenu.swift */,
+				2524E6688853FD75D9221989D84CD550 /* Support Files */,
+			);
+			path = PageMenu;
+			sourceTree = "<group>";
+		};
+		63ECF1BE54665B18D875ABA1515BCE21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B852CACE5C8FA66F2C7A7434C2201EF6 /* Info.plist */,
+				4FC1C6B676DD4B6972C67062CDEDE840 /* Navajo-Swift.modulemap */,
+				4A3C930D10508EC1AE95C3CB0CE7154F /* Navajo-Swift.xcconfig */,
+				475DA368CC5F43CAD897CC48E9D735DA /* Navajo-Swift-dummy.m */,
+				AEC60E24DEAC6C8824D02ADB99B49633 /* Navajo-Swift-prefix.pch */,
+				0D71C13715CD9CD66BAEC342A83232B9 /* Navajo-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Navajo-Swift";
+			sourceTree = "<group>";
+		};
+		698D692B484C826E65093FAA4B2427F2 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				79BBBADBD71350A5368B87ABFD24E950 /* AkiraTextField.swift */,
+				E9ED99177BD9EE3B6A95EA2C258A5FC6 /* HoshiTextField.swift */,
+				02B405681AF92F9B2B0B9BA0BD907221 /* IsaoTextField.swift */,
+				3E8C05335ED3862E7CDED6E840812C8F /* JiroTextField.swift */,
+				17FDFBAD850F7934CD5D8A1635F9C174 /* KaedeTextField.swift */,
+				A963C474868507BE6738EB4410362E63 /* MadokaTextField.swift */,
+				7AE77909C16B95D769FC547B872852E5 /* MinoruTextField.swift */,
+				FA69F091BE8402C32C3DD88E18F274AB /* TextFieldsEffects.swift */,
+				DCB944B3384C06728622B0F558CFA935 /* YokoTextField.swift */,
+				33B9F96E0E81FD86F468E5C83C8FEE84 /* YoshikoTextField.swift */,
+				48A623024D75A1E88E9D38AB1AFEF3C0 /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7CE2C17909E4585A69A1650E57ED29F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				099BC385A5D8CF08ED44961151C48D06 /* Info.plist */,
+				5A437E9A9C54745EAB6CB3B2CA99CAD3 /* PASImageView.modulemap */,
+				B3388DC13F5CB59F42AE0B230BEDDFA8 /* PASImageView.xcconfig */,
+				9F487014E7CDF22AF9F1652F4FDF07D1 /* PASImageView-dummy.m */,
+				0AC042CC200B98C8227734829AA42602 /* PASImageView-prefix.pch */,
+				F89D64E6DFDD2326815CFFC11CFC4532 /* PASImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PASImageView";
+			sourceTree = "<group>";
+		};
+		7D7A70F56AB8751B0D52CBE19E031821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD9F0FDA76898BC7488004D662F007A /* DateCellsController.framework */,
+				5C8CC4C58FBAFD10758FB39281AD8E25 /* DatePickerCell.framework */,
+				FEFC130725427E39DC511D5917C69728 /* MGSwipeTableCell.framework */,
+				C5738DD21DA5A3DDAA2AE96007318AC1 /* Navajo_Swift.framework */,
+				C6193798E76DF2FF2BEDBE18230B1025 /* PageMenu.framework */,
+				7B471359451194BD7AF1142015B665A0 /* PASImageView.framework */,
+				6FE1E995DD75C075CDCD86B071C3F41E /* Pods.framework */,
+				551A81EEB176E4155266AEB2B4394708 /* RoundImageView.framework */,
+				79AD6255B837722366137A52680E2077 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B5E62288FB20839BE5DEE02023821AD2 /* Pods */,
+				7D7A70F56AB8751B0D52CBE19E031821 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F813CC92CE77ACD539F44BDA35C2731 /* DatePickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				55DB9051800A30A0242E157BF8EFDC52 /* DatePickerCell.swift */,
+				F553021600E1903F0AF9E2A32485EBBC /* Support Files */,
+			);
+			path = DatePickerCell;
+			sourceTree = "<group>";
+		};
+		88CFA8511D6F0487B5EFC7446C32D4E2 /* PASImageView */ = {
+			isa = PBXGroup;
+			children = (
+				9FBAE82F5676CEC3A97D4D9B04721EA6 /* PASImageView.swift */,
+				7CE2C17909E4585A69A1650E57ED29F0 /* Support Files */,
+			);
+			path = PASImageView;
+			sourceTree = "<group>";
+		};
+		9849FE88F32C768BD37AB558F9AC96D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4036EBF3076CA9C9F512A0EC2BB3680B /* Info.plist */,
+				17F918193CEBB99EB58F629DC097CC5F /* MGSwipeTableCell.modulemap */,
+				DFEE4BED585D68FBDF75332C2584F026 /* MGSwipeTableCell.xcconfig */,
+				04047D12AB81A44418D86BB2D228B646 /* MGSwipeTableCell-dummy.m */,
+				649C6BEAB3CD4971BF33409DF465E3FA /* MGSwipeTableCell-prefix.pch */,
+				5F50137C6D7A3B0004A3BE0DE0807E7F /* MGSwipeTableCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGSwipeTableCell";
+			sourceTree = "<group>";
+		};
+		B5E62288FB20839BE5DEE02023821AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F04BE5D093508CC04E93C6414CADC9 /* DateCellsController */,
+				7F813CC92CE77ACD539F44BDA35C2731 /* DatePickerCell */,
+				1DEF7F07B1592BA8CB04EE17118186F7 /* MGSwipeTableCell */,
+				D42B9E33892CA16043948344FCAE03E2 /* Navajo-Swift */,
+				5FB3502DAE7B980110CF4DA561A75C21 /* PageMenu */,
+				88CFA8511D6F0487B5EFC7446C32D4E2 /* PASImageView */,
+				375805C3F2909B9FDA9BB28B9FAC5A58 /* RoundImageView */,
+				698D692B484C826E65093FAA4B2427F2 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D42B9E33892CA16043948344FCAE03E2 /* Navajo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				075E85DB50CA16E1457FE5F891E1DC55 /* Navajo.swift */,
+				C6A332B900705A6475B6E617F3975E23 /* NJOPasswordRule.swift */,
+				10406472B028E5143AA92D43E9543DB4 /* NJOPasswordValidator.swift */,
+				63ECF1BE54665B18D875ABA1515BCE21 /* Support Files */,
+			);
+			path = "Navajo-Swift";
+			sourceTree = "<group>";
+		};
+		DA1E26CB3CF09125ED17BB10F42188ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F27841EFD8B8E7AF6DAA25B25D8A8C0B /* DatePickerCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F553021600E1903F0AF9E2A32485EBBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70D1AF18504098D76DE0C5F05FC949AA /* DatePickerCell.modulemap */,
+				7F8520DEFAA94C070CC6C15F1099E67C /* DatePickerCell.xcconfig */,
+				DAD880A305EBCEFAD971D36E2CD8D58B /* DatePickerCell-dummy.m */,
+				9329318A723305802B791EFBBC4BC877 /* DatePickerCell-prefix.pch */,
+				DD63856EF0940729F27DEC0A920273F8 /* DatePickerCell-umbrella.h */,
+				360FE3346D8A22066B1CFB8D36AE80A3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DatePickerCell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		037EEEF208EA7CC65986AE62CA9C2023 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24698B82008FDAC90BA5E0BD7F169A16 /* DatePickerCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05439E83A032B44442FF0364A80BFAC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EDFAB90CEA093FF2DC1FE891E62032 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E754E9D399930F33BC210A07296168D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */,
+				1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */,
+				67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4FA74E01D41F754BECA50DAC84CEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA62FB4488A89153322BC0F529A4D30 /* DateCellsController-umbrella.h in Headers */,
+				D4EB53354E0FD341E65311C63EE97BED /* DateCellsController.h in Headers */,
+				E96B9B613AF8B5703ED1038017A472D2 /* DatePickerCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6515BB03133EEC79EE2BD4C074F065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525C4AFC009BA9DFC4E89CD016062DBF /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E3B39E628C919DA5F53ECD9D0C1B5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E6BC756F6F1B43026FDAD693C42468 /* PASImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F21507598F1BB2FDBDB569C2E0DCD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CDA419B493AE0A078529264BAD7882 /* Navajo-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89695260D042F39B24B8CA0ED673A96A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE1B2038E0378049FD07F3651C912DB /* RoundImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */;
+			buildPhases = (
+				BE4773BA65A16D7C82A01FCB22D49165 /* Sources */,
+				AA5FBE46555305C54A71B3C929671293 /* Frameworks */,
+				C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageMenu;
+			productName = PageMenu;
+			productReference = C6193798E76DF2FF2BEDBE18230B1025 /* PageMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21EC687338DBE56C82F120938259CB16 /* PASImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4170C4B32E32916CADD13D89668F0C44 /* Build configuration list for PBXNativeTarget "PASImageView" */;
+			buildPhases = (
+				2F80642C08B3BF618E2FF196F1D540F8 /* Sources */,
+				00C0A3050088BFE6D4671C13BAE87E4A /* Frameworks */,
+				72E3B39E628C919DA5F53ECD9D0C1B5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PASImageView;
+			productName = PASImageView;
+			productReference = 7B471359451194BD7AF1142015B665A0 /* PASImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D13636EB6192BBD2AB85F8A151A3E11 /* RoundImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15D063D1645764C40BA8C2C24224454 /* Build configuration list for PBXNativeTarget "RoundImageView" */;
+			buildPhases = (
+				F95C1CA69C2821372B16678546C89B62 /* Sources */,
+				403786AFE3EA50C4016028BD38AFA652 /* Frameworks */,
+				89695260D042F39B24B8CA0ED673A96A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundImageView;
+			productName = RoundImageView;
+			productReference = 551A81EEB176E4155266AEB2B4394708 /* RoundImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				C8C13026DC462129E945B064D7D89D95 /* Sources */,
+				AC0271E88F65B17975F56915CAAD607F /* Frameworks */,
+				1E754E9D399930F33BC210A07296168D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = FEFC130725427E39DC511D5917C69728 /* MGSwipeTableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F4F4A3253EC1B0CF09F314916B44064 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E58605E722A0465D36373F4CD00103 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				3FDB454A6C7B8CDE15BC492D6E484E24 /* Sources */,
+				C75CF1B608FACAA9992E1D6D1D3B1168 /* Frameworks */,
+				05439E83A032B44442FF0364A80BFAC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 79AD6255B837722366137A52680E2077 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65438DFEB31FBBF77D0447BEF9BE3D51 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0739E93911A8AC757B57C981C6706B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				627C24E0099A69D0E0245DCDCBD2F2F3 /* Sources */,
+				DA59D8CDCB3E8D7B205D52EFAA111667 /* Frameworks */,
+				3D6515BB03133EEC79EE2BD4C074F065 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF171E4B30B6601A2941540211B99AA /* PBXTargetDependency */,
+				8A4AB4FAA352830087D87985EC5C868D /* PBXTargetDependency */,
+				9D52F3E0A6C8767AE393D57E14042510 /* PBXTargetDependency */,
+				2CBEDF013E6A48DDE60C77371693286B /* PBXTargetDependency */,
+				0A462E24BA584C8AB2BD6FB41D3BCAF8 /* PBXTargetDependency */,
+				C406BF1906A17247C0E95D9148BB4551 /* PBXTargetDependency */,
+				14E46AE8B2006159D5C26D428D42270D /* PBXTargetDependency */,
+				6DED6DF3F64418A41105A9C0354DB74B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 6FE1E995DD75C075CDCD86B071C3F41E /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2784404EC6ED301DA87B7F2D2542A913 /* Build configuration list for PBXNativeTarget "DatePickerCell" */;
+			buildPhases = (
+				6FC8E4BAD99A42ACBC768DE366071F99 /* Sources */,
+				F52F65D29CEA58B704C254252A1F4E00 /* Frameworks */,
+				037EEEF208EA7CC65986AE62CA9C2023 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerCell;
+			productName = DatePickerCell;
+			productReference = 5C8CC4C58FBAFD10758FB39281AD8E25 /* DatePickerCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABBC7E8C732E639E0B5D3DA36502EA8C /* DateCellsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9982E360CCC44B0D2B2871EADCB149AE /* Build configuration list for PBXNativeTarget "DateCellsController" */;
+			buildPhases = (
+				8F5E50F473B5055604AE7470372980FF /* Sources */,
+				1D593D6E0D548AF76109F1B287D4347A /* Frameworks */,
+				34F4FA74E01D41F754BECA50DAC84CEB /* Headers */,
+				06146634057FA4BFF34EADB59CED6907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCellsController;
+			productName = DateCellsController;
+			productReference = 5DD9F0FDA76898BC7488004D662F007A /* DateCellsController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43175B3AB5441EFF0FAC1BA52F12BB5 /* Build configuration list for PBXNativeTarget "Navajo-Swift" */;
+			buildPhases = (
+				63194A9D965D0ED2DED5566E5F3D3B94 /* Sources */,
+				A8E9086F88C408158F2E570A094922B2 /* Frameworks */,
+				82F21507598F1BB2FDBDB569C2E0DCD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navajo-Swift";
+			productName = "Navajo-Swift";
+			productReference = C5738DD21DA5A3DDAA2AE96007318AC1 /* Navajo_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7D7A70F56AB8751B0D52CBE19E031821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBC7E8C732E639E0B5D3DA36502EA8C /* DateCellsController */,
+				733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */,
+				4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */,
+				F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */,
+				21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */,
+				21EC687338DBE56C82F120938259CB16 /* PASImageView */,
+				65438DFEB31FBBF77D0447BEF9BE3D51 /* Pods */,
+				2D13636EB6192BBD2AB85F8A151A3E11 /* RoundImageView */,
+				4F4F4A3253EC1B0CF09F314916B44064 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06146634057FA4BFF34EADB59CED6907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332194EA249AE3C2FB5571DBCBB6A3C4 /* DatePickerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F80642C08B3BF618E2FF196F1D540F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C35D3B7D04BFD9CF5F1FBF96E820A02 /* PASImageView-dummy.m in Sources */,
+				B3C8D533400F275B67D581A3CAF3677B /* PASImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDB454A6C7B8CDE15BC492D6E484E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA970C9B6436C0277869D81BD1C73D /* AkiraTextField.swift in Sources */,
+				164ED9A25C5D6776C77A3A0719BEDE66 /* HoshiTextField.swift in Sources */,
+				8BD7BACA884F29773EEA85A7D2B3E0F3 /* IsaoTextField.swift in Sources */,
+				7C49F7BD4286B5C72BD3617B6D9EB2F8 /* JiroTextField.swift in Sources */,
+				EC56EE94F871A6A7984CBD687EAB7540 /* KaedeTextField.swift in Sources */,
+				9A3AF48AAE90150FC3B42EEAEFFCD882 /* MadokaTextField.swift in Sources */,
+				C289DE5A29EF77EFECBFB6AA2E487868 /* MinoruTextField.swift in Sources */,
+				387A8B31BC75818F1E27B5CF243F1FE2 /* TextFieldEffects-dummy.m in Sources */,
+				E641EE29426E6CD1ECAC9BDEC8144396 /* TextFieldsEffects.swift in Sources */,
+				D8622FC7FE638994C39139924DC6BC53 /* YokoTextField.swift in Sources */,
+				5E772C94F224C412FB9876EA231646BB /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627C24E0099A69D0E0245DCDCBD2F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20235F2BEB7532B7BF6D1144700B05EC /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63194A9D965D0ED2DED5566E5F3D3B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D7AD33C8DC7B5E895F060D8D827D00 /* Navajo-Swift-dummy.m in Sources */,
+				886AA3A2FA0C8FA508CF475A23B31365 /* Navajo.swift in Sources */,
+				B57D40074979AEDA4839E5313409BCAB /* NJOPasswordRule.swift in Sources */,
+				3890FB9F644F77D40B0B503DD7968909 /* NJOPasswordValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8E4BAD99A42ACBC768DE366071F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B9C440B647B72ECF5590491A56F0F /* DatePickerCell-dummy.m in Sources */,
+				47A62511D5BFE84607B11E30419292A4 /* DatePickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5E50F473B5055604AE7470372980FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18C2F02E0B929EE03FA90D6B25FF635 /* DateCellsController-dummy.m in Sources */,
+				4EDCE06FB0BCBA2A7C3F1E667723ABFE /* DateCellsController.m in Sources */,
+				610DA01C036992CABB528C7E303B801C /* DatePickerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4773BA65A16D7C82A01FCB22D49165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */,
+				162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C13026DC462129E945B064D7D89D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */,
+				569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */,
+				95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95C1CA69C2821372B16678546C89B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F0F49401BE1B5CE935FAF062033B76 /* RoundImageView-dummy.m in Sources */,
+				4DCA70FD1409CBE57A2BE8E87A3BD51B /* RoundImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A462E24BA584C8AB2BD6FB41D3BCAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PASImageView;
+			target = 21EC687338DBE56C82F120938259CB16 /* PASImageView */;
+			targetProxy = 69FB1171AD427391F997BF4FE3D84F0B /* PBXContainerItemProxy */;
+		};
+		14E46AE8B2006159D5C26D428D42270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RoundImageView;
+			target = 2D13636EB6192BBD2AB85F8A151A3E11 /* RoundImageView */;
+			targetProxy = C9493A7F6B84C01A1A3B330A7AAAB449 /* PBXContainerItemProxy */;
+		};
+		2CBEDF013E6A48DDE60C77371693286B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Navajo-Swift";
+			target = F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */;
+			targetProxy = D794762E707E908FDE8D0DBEAFAC9E96 /* PBXContainerItemProxy */;
+		};
+		5DF171E4B30B6601A2941540211B99AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateCellsController;
+			target = ABBC7E8C732E639E0B5D3DA36502EA8C /* DateCellsController */;
+			targetProxy = 73DCEFCD0D2DA9F88C2CA85A339D089F /* PBXContainerItemProxy */;
+		};
+		6DED6DF3F64418A41105A9C0354DB74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 4F4F4A3253EC1B0CF09F314916B44064 /* TextFieldEffects */;
+			targetProxy = 10B087DE68DDFB24F4F8DD830A7B2DDE /* PBXContainerItemProxy */;
+		};
+		8A4AB4FAA352830087D87985EC5C868D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DatePickerCell;
+			target = 733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */;
+			targetProxy = 6266314C47012BCBF52C4A520C4D4E45 /* PBXContainerItemProxy */;
+		};
+		9D52F3E0A6C8767AE393D57E14042510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */;
+			targetProxy = 6DFBEE4915AAD92CAE34C034F8419A4C /* PBXContainerItemProxy */;
+		};
+		C406BF1906A17247C0E95D9148BB4551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = F1B49D90C8197A7BD31A11A7DF917991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01936BD68B2EE3D51A816D4CE6B343D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEE4BED585D68FBDF75332C2584F026 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C0B15401F6ECA7D3E216353D151A43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725015278CA4A3F817B2316BD504550D /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DC10A240D64EFE0B64EA87FA17A56FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13B14673BC37DF83A71A233D1D446DE /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DE73B2C7B504230F08E5B9FF96DA2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		465B40A85579AD48981449AC41EF8E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13B14673BC37DF83A71A233D1D446DE /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		468B473C638661B6B0BC0EF0F940744B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725015278CA4A3F817B2316BD504550D /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A0509AE7A59E79974B7ABCC2E7F7A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3388DC13F5CB59F42AE0B230BEDDFA8 /* PASImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PASImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E7C259AB13DC4B455909BB1439CB0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3C930D10508EC1AE95C3CB0CE7154F /* Navajo-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Navajo_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95E61D3F7070AACE13531A9B4DB81914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AAEEB4B878AF2CA5759DB2604492D1 /* DateCellsController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateCellsController/DateCellsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateCellsController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateCellsController/DateCellsController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DateCellsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A1D48B0CCD3CB52CF23132744DE2520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3C930D10508EC1AE95C3CB0CE7154F /* Navajo-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Navajo_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D31C25F54AC32DC5B5CB815C050DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191B23488B3B0E48B80FC02C8B5D573B /* RoundImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RoundImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEE4BED585D68FBDF75332C2584F026 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9BFD8B4BEB643D3E45951E4D566B3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3388DC13F5CB59F42AE0B230BEDDFA8 /* PASImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PASImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF7FE08E605C0E4FBC3D7F6A0A4C51A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8520DEFAA94C070CC6C15F1099E67C /* DatePickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DatePickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB3E0099DDA86C1F256F1D5A03996D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AAEEB4B878AF2CA5759DB2604492D1 /* DateCellsController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateCellsController/DateCellsController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateCellsController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateCellsController/DateCellsController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DateCellsController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F676007FB680E4380CD11E62EF464F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8520DEFAA94C070CC6C15F1099E67C /* DatePickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DatePickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB91568339515EA8B12623015CD1EE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191B23488B3B0E48B80FC02C8B5D573B /* RoundImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RoundImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0739E93911A8AC757B57C981C6706B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE73B2C7B504230F08E5B9FF96DA2D5 /* Debug */,
+				468B473C638661B6B0BC0EF0F940744B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2784404EC6ED301DA87B7F2D2542A913 /* Build configuration list for PBXNativeTarget "DatePickerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FE08E605C0E4FBC3D7F6A0A4C51A1 /* Debug */,
+				F676007FB680E4380CD11E62EF464F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4170C4B32E32916CADD13D89668F0C44 /* Build configuration list for PBXNativeTarget "PASImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0509AE7A59E79974B7ABCC2E7F7A2F /* Debug */,
+				C9BFD8B4BEB643D3E45951E4D566B3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E58605E722A0465D36373F4CD00103 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC10A240D64EFE0B64EA87FA17A56FC /* Debug */,
+				465B40A85579AD48981449AC41EF8E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */,
+				01936BD68B2EE3D51A816D4CE6B343D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9982E360CCC44B0D2B2871EADCB149AE /* Build configuration list for PBXNativeTarget "DateCellsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E0099DDA86C1F256F1D5A03996D08 /* Debug */,
+				95E61D3F7070AACE13531A9B4DB81914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43175B3AB5441EFF0FAC1BA52F12BB5 /* Build configuration list for PBXNativeTarget "Navajo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D48B0CCD3CB52CF23132744DE2520 /* Debug */,
+				8E7C259AB13DC4B455909BB1439CB0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15D063D1645764C40BA8C2C24224454 /* Build configuration list for PBXNativeTarget "RoundImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D31C25F54AC32DC5B5CB815C050DC5 /* Debug */,
+				FB91568339515EA8B12623015CD1EE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */,
+				1C0B15401F6ECA7D3E216353D151A43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

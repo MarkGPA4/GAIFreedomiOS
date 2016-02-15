@@ -1,0 +1,6 @@
+framework module DateCellsController {
+  umbrella header "DateCellsController-umbrella.h"
+
+  export *
+  module * { export * }
+}
