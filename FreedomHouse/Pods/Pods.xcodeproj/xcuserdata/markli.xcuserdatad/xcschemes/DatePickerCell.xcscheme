@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C461B0CAD90DE64B07A5D212C5F829"
-               BuildableName = "PageMenu.framework"
-               BlueprintName = "PageMenu"
+               BlueprintIdentifier = "733206DFBBCC49D3502AE07C330E98E6"
+               BuildableName = "DatePickerCell.framework"
+               BlueprintName = "DatePickerCell"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C461B0CAD90DE64B07A5D212C5F829"
-            BuildableName = "PageMenu.framework"
-            BlueprintName = "PageMenu"
+            BlueprintIdentifier = "733206DFBBCC49D3502AE07C330E98E6"
+            BuildableName = "DatePickerCell.framework"
+            BlueprintName = "DatePickerCell"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C461B0CAD90DE64B07A5D212C5F829"
-            BuildableName = "PageMenu.framework"
-            BlueprintName = "PageMenu"
+            BlueprintIdentifier = "733206DFBBCC49D3502AE07C330E98E6"
+            BuildableName = "DatePickerCell.framework"
+            BlueprintName = "DatePickerCell"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
