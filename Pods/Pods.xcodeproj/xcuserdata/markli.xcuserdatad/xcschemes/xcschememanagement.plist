@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DatePickerCell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Navajo-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,6 +77,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>733206DFBBCC49D3502AE07C330E98E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8EC05038518906B2B45B8535CB205D03</key>
 		<dict>
 			<key>primary</key>
@@ -82,7 +92,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9E660D8B928AD234BACDB8DC29736D70</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A179652CD6C264648071DCC902E3E8AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B76C30358ACC3531C6ED02B7DA74BFFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBEB39555B601358C7FD8E363DBBD1B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
