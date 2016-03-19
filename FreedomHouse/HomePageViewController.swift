@@ -11,6 +11,12 @@ import UIKit
 
 class HomePageViewController: BaseViewController,CAPSPageMenuDelegate{
 
+ 
+    @IBOutlet weak var menuButton: UIButton!
+
+    
+    
+    
     
   //  @IBOutlet weak var ProfileImage: UIImageView!
     
@@ -19,7 +25,19 @@ class HomePageViewController: BaseViewController,CAPSPageMenuDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 
-  
+        
+        if (PFUser.currentUser()==nil){
+        self.performSegueWithIdentifier("ToLogIn", sender:self)
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+            menuButton.addTarget(self, action: "onSlideMenuButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         
         
         
@@ -83,10 +101,16 @@ class HomePageViewController: BaseViewController,CAPSPageMenuDelegate{
    
         
     }
-    
+    override func viewWillAppear(animated: Bool) {
+        if PFUser.currentUser() == nil{
+            self.performSegueWithIdentifier("ToLogIn", sender: self)
+        }
+        
+    }
     
     override func viewDidAppear(animated: Bool) {
         
+      
         
         var controllerArray : [UIViewController] = []
         
@@ -106,7 +130,7 @@ class HomePageViewController: BaseViewController,CAPSPageMenuDelegate{
         controllerArray.append(controller3)
         
         
-        self.addSlideMenuButton()
+    //    self.addSlideMenuButton()
         
      
         self.navigationController?.navigationBar.barStyle = UIBarStyle.Black

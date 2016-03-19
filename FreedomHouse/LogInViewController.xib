@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LogInViewController" customModule="FreedomHouse" customModuleProvider="target">
@@ -38,29 +38,13 @@
                         <color key="titleColor" red="0.41176470590000003" green="0.039215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aec4adea-0a74-4bb0-b431-cf6a96ba5ad1" translatesAutoresizingMaskIntoConstraints="NO" id="pFE-dY-iRT">
-                    <rect key="frame" x="180" y="108" width="240" height="143"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="freedomhouse" translatesAutoresizingMaskIntoConstraints="NO" id="pFE-dY-iRT">
+                    <rect key="frame" x="180" y="83" width="240" height="168"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="230" id="crc-lC-I81"/>
                         <constraint firstAttribute="height" constant="150" id="rIa-Lv-mLU"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-Go-Hsf">
-                    <rect key="frame" x="218" y="506" width="151" height="26"/>
-                    <color key="backgroundColor" red="0.41176470590000003" green="0.039215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="150" id="6OV-sQ-tUR"/>
-                        <constraint firstAttribute="height" constant="30" id="re8-gl-xfx"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="Sign Up">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="SignUp:" destination="-1" eventType="touchUpInside" id="xGg-Rc-d6f"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="cYx-7B-fKX">
                     <rect key="frame" x="0.0" y="376" width="600" height="21"/>
                     <constraints>
@@ -82,7 +66,7 @@
                     <color key="tintColor" red="0.1803921568627451" green="0.25882352941176473" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
                     <inset key="imageEdgeInsets" minX="120" minY="0.0" maxX="-40" maxY="0.0"/>
                     <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
-                    <state key="normal" title="Continue with" image="Facebook(Small)">
+                    <state key="normal" title="Continue with" image="facebook(small)">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -166,6 +150,22 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </textField>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-Go-Hsf">
+                    <rect key="frame" x="218" y="506" width="151" height="26"/>
+                    <color key="backgroundColor" red="0.41176470590000003" green="0.039215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="6OV-sQ-tUR"/>
+                        <constraint firstAttribute="height" constant="30" id="re8-gl-xfx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Sign Up">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="SignUp:" destination="-1" eventType="touchUpInside" id="xGg-Rc-d6f"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.95791066753926701" green="0.95791066753926701" blue="0.95791066753926701" alpha="1" colorSpace="calibratedRGB"/>
             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -230,7 +230,7 @@
         </view>
     </objects>
     <resources>
-        <image name="Facebook(Small)" width="20" height="20"/>
-        <image name="aec4adea-0a74-4bb0-b431-cf6a96ba5ad1" width="1184" height="900"/>
+        <image name="facebook(small)" width="20" height="20"/>
+        <image name="freedomhouse" width="58" height="58"/>
     </resources>
 </document>

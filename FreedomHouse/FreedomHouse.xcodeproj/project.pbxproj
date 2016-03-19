@@ -62,13 +62,13 @@
 		ED967DF51C66C0CB0061A351 /* GradesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DF31C66C0CB0061A351 /* GradesViewController.xib */; };
 		ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */; };
 		ED9E40591BF2C11C00D23667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40581BF2C11C00D23667 /* AppDelegate.swift */; };
-		ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E405F1BF2C11C00D23667 /* Assets.xcassets */; };
 		ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */; };
 		ED9E406E1BF2C11C00D23667 /* FreedomHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E406D1BF2C11C00D23667 /* FreedomHouseTests.swift */; };
 		ED9E40791BF2C11C00D23667 /* FreedomHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */; };
 		EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAE28101C2FF42900D25747 /* Main.storyboard */; };
 		EDB276231C3F9294004D6412 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB276211C3F9294004D6412 /* HomePageViewController.swift */; };
 		EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB276221C3F9294004D6412 /* HomePageViewController.xib */; };
+		EDC7E0931C9BB25F00FC6216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC7E0921C9BB25F00FC6216 /* Images.xcassets */; };
 		EDFCED0C1C43673700E3DC06 /* PasswordRetrievViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */; };
 		EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */; };
 		EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */; };
@@ -151,7 +151,6 @@
 		ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoreFunctions.storyboard; sourceTree = "<group>"; };
 		ED9E40551BF2C11C00D23667 /* FreedomHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E40581BF2C11C00D23667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED9E405F1BF2C11C00D23667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FreedomHouse/Assets.xcassets; sourceTree = "<group>"; };
 		ED9E40621BF2C11C00D23667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9E40641BF2C11C00D23667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED9E40691BF2C11C00D23667 /* FreedomHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +162,7 @@
 		EDAE28101C2FF42900D25747 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EDB276211C3F9294004D6412 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = ../HomePageViewController.swift; sourceTree = "<group>"; };
 		EDB276221C3F9294004D6412 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomePageViewController.xib; path = ../HomePageViewController.xib; sourceTree = "<group>"; };
+		EDC7E0921C9BB25F00FC6216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FreedomHouse/Images.xcassets; sourceTree = "<group>"; };
 		EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRetrievViewController.swift; sourceTree = "<group>"; };
 		EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordRetrievViewController.xib; sourceTree = "<group>"; };
 		EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
@@ -318,8 +318,8 @@
 		ED9E404C1BF2C11C00D23667 = {
 			isa = PBXGroup;
 			children = (
+				EDC7E0921C9BB25F00FC6216 /* Images.xcassets */,
 				ED09197A1C42450600CF3904 /* Podfile */,
-				ED9E405F1BF2C11C00D23667 /* Assets.xcassets */,
 				EDAE28101C2FF42900D25747 /* Main.storyboard */,
 				ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */,
 				ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */,
@@ -453,7 +453,7 @@
 				TargetAttributes = {
 					ED9E40541BF2C11C00D23667 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 6X24R4GBDZ;
+						DevelopmentTeam = A9FE6ZH777;
 					};
 					ED9E40681BF2C11C00D23667 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -499,13 +499,13 @@
 				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
 				ED967DF51C66C0CB0061A351 /* GradesViewController.xib in Resources */,
 				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
-				ED9E40601BF2C11C00D23667 /* Assets.xcassets in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
 				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
 				EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */,
 				ED09197B1C42450600CF3904 /* Podfile in Resources */,
 				E3006BB71C63CEEE004306BF /* CollegeInfoViewController.xib in Resources */,
 				ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */,
+				EDC7E0931C9BB25F00FC6216 /* Images.xcassets in Resources */,
 				ED967DE31C66BA9D0061A351 /* CollegesTableViewCell.xib in Resources */,
 				ED6CA6071C653A6200C17D69 /* TESTViewController.xib in Resources */,
 				EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */,
@@ -736,6 +736,7 @@
 			baseConfigurationReference = 5F6C4DC2AEE744CB1A1E6DE4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -762,6 +763,7 @@
 			baseConfigurationReference = 610309749344554A485898D6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aec4adea-0a74-4bb0-b431-cf6a96ba5ad1" translatesAutoresizingMaskIntoConstraints="NO" id="7pK-GG-Wnb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="freedomhouse" translatesAutoresizingMaskIntoConstraints="NO" id="7pK-GG-Wnb">
                                 <rect key="frame" x="180" y="198" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="JZH-tu-DVI"/>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="aec4adea-0a74-4bb0-b431-cf6a96ba5ad1" width="1184" height="900"/>
+        <image name="freedomhouse" width="58" height="58"/>
     </resources>
 </document>

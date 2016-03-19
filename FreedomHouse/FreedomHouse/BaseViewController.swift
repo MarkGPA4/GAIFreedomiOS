@@ -82,9 +82,15 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             // To Hide Menu If it already there
             self.slideMenuItemSelectedAtIndex(-1);
             
-            sender.tag = 0;
+            sender.tag = 10;
             
             let viewMenuBack : UIView = view.subviews.last!
+             print(viewMenuBack)
+            if (viewMenuBack.tag == 200){
+            
+            
+           
+            print("trying to remove menu")
             
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 var frameMenu : CGRect = viewMenuBack.frame
@@ -97,7 +103,9 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             })
             
             return
+            }
         }
+        
         
         sender.enabled = false
         sender.tag = 10
@@ -105,7 +113,14 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
         let menuVC : MenuViewController = self.storyboard!.instantiateViewControllerWithIdentifier("MenuViewController") as! MenuViewController
         menuVC.btnMenu = sender
         menuVC.delegate = self
+        
+        
+         menuVC.view.tag=200
+        
         self.view.addSubview(menuVC.view)
+        
+       
+        
         self.addChildViewController(menuVC)
         menuVC.view.layoutIfNeeded()
         

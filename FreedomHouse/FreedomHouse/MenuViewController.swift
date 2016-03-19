@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import Parse
 
 protocol SlideMenuDelegate {
     func slideMenuItemSelectedAtIndex(index : Int32)
 }
 
-class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewDelegate {
     
+    
+  
+  
     /**
      *  Array to display menu options
      */
@@ -44,6 +48,11 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
     tblMenuOptions.tableFooterView = UIView()
         // Do any additional setup after loading the view.
+        
+        
+        
+        
+        
     }
     
 
@@ -51,12 +60,16 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         updateArrayMenuOptions()
+       // if (PFUser.currentUser()==nil){}
+    
+    
     }
     
     func updateArrayMenuOptions(){
         arrayMenuOptions.append(["title":"Home"])
         arrayMenuOptions.append(["title":"Profile"])
         arrayMenuOptions.append(["title":"Setting"])
+        arrayMenuOptions.append(["title":"Logout"])
         
         tblMenuOptions.reloadData()
     }
@@ -82,6 +95,23 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         })
     }
     
+    
+ /*   func LogOut(sender : UIButton!){
+        
+        PFUser.logOut()
+        
+    }*/
+ 
+    func LogOut(sender : UIButton!){
+        
+       PFUser.logOut()
+        print("LogOut")
+      
+        self.onSlideMenuButtonPressed(sender)
+        
+    }
+    
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell : UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cellMenu")!
         
@@ -90,14 +120,30 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.preservesSuperviewLayoutMargins = false
         cell.backgroundColor = UIColor.clearColor()
         
-        let lblTitle : UILabel = cell.contentView.viewWithTag(101) as! UILabel
-        let imgIcon : UIImageView = cell.contentView.viewWithTag(100) as! UIImageView
+        let buttonOptions: UIButton = cell.contentView.viewWithTag(110) as! UIButton
         
-     //   imgIcon.image = UIImage(named: arrayMenuOptions[indexPath.row]["icon"]!)
-        lblTitle.text = arrayMenuOptions[indexPath.row]["title"]!
+    
+
         
+        buttonOptions.setTitle(arrayMenuOptions[indexPath.row]["title"]!,forState: UIControlState.Normal)
+        
+        if (buttonOptions.currentTitle == "Logout"){
+      
+        buttonOptions.addTarget(self, action: "LogOut:", forControlEvents: UIControlEvents.TouchUpInside)
+        buttonOptions.addTarget(self, action: "onSlideMenuButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        }
+
         return cell
+        
     }
+    
+    
+    
+    
+    
+    
+    
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let btn = UIButton(type: UIButtonType.Custom)
@@ -112,4 +158,66 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1;
     }
+    
+    override func onSlideMenuButtonPressed(sender : UIButton){
+        if (sender.tag == 110)
+        {
+            // To Hide Menu If it already there
+            self.slideMenuItemSelectedAtIndex(-1);
+            
+            sender.tag = 110;
+            
+            let viewMenuBack : UIView = view
+            UIView.animateWithDuration(0.8, animations: { () -> Void in
+                var frameMenu : CGRect = viewMenuBack.frame
+                frameMenu.origin.x = -1 * (UIScreen.mainScreen().bounds.size.width+40)
+                viewMenuBack.frame = frameMenu
+                viewMenuBack.layoutIfNeeded()
+                viewMenuBack.backgroundColor = UIColor.clearColor()
+                }, completion: { (finished) -> Void in
+                    viewMenuBack.removeFromSuperview()
+                    if PFUser.currentUser() == nil{
+                        self.presentViewController(LogInViewController(), animated: false, completion: nil)            }
+                    
+                    
+            }
+            
+            
+            )
+           
+            
+            return
+        }
+        /*
+        sender.enabled = false
+        sender.tag = 110
+        
+        let menuVC : MenuViewController = self.storyboard!.instantiateViewControllerWithIdentifier("MenuViewController") as! MenuViewController
+        menuVC.btnMenu = sender
+        menuVC.delegate = self
+        self.view.addSubview(menuVC.view)
+        self.addChildViewController(menuVC)
+        menuVC.view.layoutIfNeeded()
+        
+        
+        menuVC.view.frame=CGRectMake(0 - UIScreen.mainScreen().bounds.size.width, 0, UIScreen.mainScreen().bounds.size.width, UIScreen.mainScreen().bounds.size.height);
+        
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            menuVC.view.frame=CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, UIScreen.mainScreen().bounds.size.height);
+            sender.enabled = true
+            }, completion:nil)
+        
+        */
+        
+        
+        
+    }
+    
+    
+    
+
+    
+    
+    
+    
 }

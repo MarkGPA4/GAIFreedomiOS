@@ -67,7 +67,7 @@ class UploadImageViewController: UIViewController,UIImagePickerControllerDelegat
             }
       })
         
-        self.presentViewController(HomePageViewController(),animated:true,completion: nil)
+        self.dismissViewControllerAnimated(false, completion: nil)
         
         }
     
