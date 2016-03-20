@@ -42,7 +42,7 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+ 
     tblMenuOptions.tableFooterView = UIView()
         // Do any additional setup after loading the view.
     }
