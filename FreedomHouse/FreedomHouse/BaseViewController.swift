@@ -128,7 +128,7 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
         menuVC.view.frame=CGRectMake(0 - UIScreen.mainScreen().bounds.size.width, 0, UIScreen.mainScreen().bounds.size.width, UIScreen.mainScreen().bounds.size.height);
         
         UIView.animateWithDuration(0.3, animations: { () -> Void in
-            menuVC.view.frame=CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, UIScreen.mainScreen().bounds.size.height);
+            menuVC.view.frame=CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width-40, UIScreen.mainScreen().bounds.size.height);
             sender.enabled = true
             }, completion:nil)
     }

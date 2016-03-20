@@ -17,26 +17,33 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nqb-fh-9bo" customClass="RoundImageView" customModule="RoundImageView">
-                    <rect key="frame" x="180" y="180" width="241" height="240"/>
-                    <color key="backgroundColor" red="0.58630562829999999" green="0.054903663489999997" blue="0.097093806059999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="frame" x="230" y="84" width="128" height="128"/>
+                    <color key="backgroundColor" red="1" green="0.9409261417" blue="0.82186026599999995" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="240" id="1ek-Oz-tUd"/>
-                        <constraint firstAttribute="height" constant="240" id="VeI-c7-Icn"/>
+                        <constraint firstAttribute="width" constant="140" id="1ek-Oz-tUd"/>
+                        <constraint firstAttribute="height" constant="140" id="VeI-c7-Icn"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgJ-xB-RLZ">
-                    <rect key="frame" x="48" y="40" width="34" height="30"/>
-                    <state key="normal" title="Back"/>
-                    <connections>
-                        <action selector="BackToMenu:" destination="-1" eventType="touchUpInside" id="bSg-8U-E98"/>
-                    </connections>
-                </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.49132449163027081" green="0.63473792723179256" blue="0.71406659031413611" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Nqb-fh-9bo" firstAttribute="centerX" secondItem="N6r-Qn-C8p" secondAttribute="centerX" id="An2-D4-V18"/>
+                <constraint firstItem="Nqb-fh-9bo" firstAttribute="top" secondItem="N6r-Qn-C8p" secondAttribute="top" constant="90" id="ZVu-bL-qtI"/>
                 <constraint firstItem="Nqb-fh-9bo" firstAttribute="centerY" secondItem="N6r-Qn-C8p" secondAttribute="centerY" id="lhB-LT-gUf"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="lhB-LT-gUf"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="282" y="214"/>
         </view>
     </objects>

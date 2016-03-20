@@ -48,12 +48,11 @@ class UploadImageViewController: UIViewController,UIImagePickerControllerDelegat
             if error == nil {
             //success saving, Now save Image.
             self.saveSelectedImage(self.ProfileImage.image!)
+                
             var imageData = UIImagePNGRepresentation(self.ProfileImage.image!)
                 print("ImageConverted")
             
             
-                
-                
                 
             let parseImageFile=PFFile(name:"uploaded_image.png",data: imageData!)
                 
@@ -68,8 +67,6 @@ class UploadImageViewController: UIViewController,UIImagePickerControllerDelegat
                     let errorMessage:String = error!.userInfo["error"] as! String
                     self.displayErrorMessage(errorMessage)
                     }
-                    
-             
                     
             })
             
@@ -97,6 +94,8 @@ class UploadImageViewController: UIViewController,UIImagePickerControllerDelegat
     let profile = NSUserDefaults.standardUserDefaults()
     let imageData = UIImageJPEGRepresentation(image, 100)
     profile.setObject(imageData, forKey: UploadImageViewController.profileImage)
+    print("saved image!!!!!!!!!!!")
+    
     }
     
     

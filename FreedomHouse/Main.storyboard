@@ -81,17 +81,19 @@
                         <outlet property="btnCloseMenuOverlay" destination="M1L-ln-Ugu" id="ik8-fz-3AE"/>
                         <outlet property="tblMenuOptions" destination="Ojz-xp-64e" id="Rsm-V4-5Hd"/>
                         <segue destination="HdA-un-EXL" kind="modal" identifier="MenuToLogIn" id="RPj-6e-kKa"/>
-                        <segue destination="fvZ-De-dcf" kind="modal" identifier="ToProfile" id="m2a-Le-59F"/>
+                        <segue destination="fvZ-De-dcf" kind="push" identifier="MenuToProfile" id="oUm-Rj-IAZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uat-WT-ZkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-496" y="-194"/>
+            <point key="canvasLocation" x="-493" y="-257"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="Fli-G0-dN5">
             <objects>
-                <viewController id="fvZ-De-dcf" customClass="ProfileViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="fvZ-De-dcf" customClass="ProfileViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VGj-cP-MRR"/>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z1Q-td-rii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-35" y="-248"/>
@@ -197,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GUT-gu-IK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505" y="-116"/>
+            <point key="canvasLocation" x="367" y="-219"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RY4-6J-WQW">
@@ -222,6 +224,6 @@
         <image name="menubutton" width="300" height="231"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vO6-MP-oBB"/>
+        <segue reference="RPj-6e-kKa"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -18,6 +18,7 @@
 		ED21C8421C9DEA3000FA59C1 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8411C9DEA3000FA59C1 /* ProfileViewController.xib */; };
 		ED21C8441C9DF98100FA59C1 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8431C9DF98100FA59C1 /* LogInViewController.xib */; };
 		ED21C8461C9DFCB700FA59C1 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8451C9DFCB700FA59C1 /* UploadImageViewController.xib */; };
+		ED21C84B1C9E7BCD00FA59C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21C84A1C9E7BCD00FA59C1 /* Main.storyboard */; };
 		ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */; };
 		ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */; };
 		ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */; };
@@ -69,7 +70,6 @@
 		ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */; };
 		ED9E406E1BF2C11C00D23667 /* FreedomHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E406D1BF2C11C00D23667 /* FreedomHouseTests.swift */; };
 		ED9E40791BF2C11C00D23667 /* FreedomHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */; };
-		EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAE28101C2FF42900D25747 /* Main.storyboard */; };
 		EDB276231C3F9294004D6412 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB276211C3F9294004D6412 /* HomePageViewController.swift */; };
 		EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB276221C3F9294004D6412 /* HomePageViewController.xib */; };
 		EDC7E0931C9BB25F00FC6216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC7E0921C9BB25F00FC6216 /* Images.xcassets */; };
@@ -108,6 +108,7 @@
 		ED21C8411C9DEA3000FA59C1 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		ED21C8431C9DF98100FA59C1 /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
 		ED21C8451C9DFCB700FA59C1 /* UploadImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
+		ED21C84A1C9E7BCD00FA59C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navajo.swift; sourceTree = "<group>"; };
 		ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordRule.swift; sourceTree = "<group>"; };
 		ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordValidator.swift; sourceTree = "<group>"; };
@@ -166,7 +167,6 @@
 		ED9E40741BF2C11C00D23667 /* FreedomHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E40781BF2C11C00D23667 /* FreedomHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomHouseUITests.swift; sourceTree = "<group>"; };
 		ED9E407A1BF2C11C00D23667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDAE28101C2FF42900D25747 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EDB276211C3F9294004D6412 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = ../HomePageViewController.swift; sourceTree = "<group>"; };
 		EDB276221C3F9294004D6412 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomePageViewController.xib; path = ../HomePageViewController.xib; sourceTree = "<group>"; };
 		EDC7E0921C9BB25F00FC6216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FreedomHouse/Images.xcassets; sourceTree = "<group>"; };
@@ -329,9 +329,9 @@
 			children = (
 				EDC7E0921C9BB25F00FC6216 /* Images.xcassets */,
 				ED09197A1C42450600CF3904 /* Podfile */,
-				EDAE28101C2FF42900D25747 /* Main.storyboard */,
 				ED9E126C1C4A04A800A82362 /* CoreFunctions.storyboard */,
 				ED9E40611BF2C11C00D23667 /* LaunchScreen.storyboard */,
+				ED21C84A1C9E7BCD00FA59C1 /* Main.storyboard */,
 				ED9E40571BF2C11C00D23667 /* FreedomHouse */,
 				ED9E406C1BF2C11C00D23667 /* FreedomHouseTests */,
 				ED9E40771BF2C11C00D23667 /* FreedomHouseUITests */,
@@ -499,6 +499,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED21C84B1C9E7BCD00FA59C1 /* Main.storyboard in Resources */,
 				ED967DD71C667B330061A351 /* EventsTableViewCell.xib in Resources */,
 				ED967DEB1C66BDD00061A351 /* GradesTableViewCell.xib in Resources */,
 				ED80C4E71C32735600BFBF8C /* SignUpViewController.xib in Resources */,
@@ -507,7 +508,6 @@
 				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
 				ED967DF51C66C0CB0061A351 /* GradesViewController.xib in Resources */,
 				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
-				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
 				ED21C8461C9DFCB700FA59C1 /* UploadImageViewController.xib in Resources */,
 				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
 				ED21C8331C9DD06900FA59C1 /* CollegesTableViewCell.xib in Resources */,

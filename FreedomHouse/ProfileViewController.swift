@@ -14,7 +14,7 @@ class ProfileViewController: UIViewController {
    
 
     @IBAction func BackToMenu(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismissViewControllerAnimated(false, completion: nil)
         
     }
    // let profileImageView1 = ProfileImageView(frame: CGRectMake(20, 20, 120, 120))
@@ -22,18 +22,29 @@ class ProfileViewController: UIViewController {
     @IBOutlet var profileImage: UIImageView!
     
     
-    static let profileImage = "PROFILE_IMAGE"
-    
-  
+    func loadimage(){
+        let profile = NSUserDefaults.standardUserDefaults()
+        print("Got image!!!!!!!!!")
+        if let imageData = profile.objectForKey(UploadImageViewController.profileImage) {
+            
+            let PROFILE: UIImage = UIImage(data:imageData as! NSData,scale:1.0)!
+            
+            profileImage.image = PROFILE
+            
+            
+            
+            print("Got image!!!!!!!!!")
+            
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
        // self.loadImages()
+        self.loadimage()
         
-        if let imageData = NSUserDefaults.standardUserDefaults().objectForKey(UploadImageViewController.profileImage) as? UIImage {// fetching from local storage
-            profileImage.image=imageData
-        }
-        // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

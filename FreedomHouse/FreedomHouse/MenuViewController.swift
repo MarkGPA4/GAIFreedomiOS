@@ -14,9 +14,6 @@ protocol SlideMenuDelegate {
 }
 
 class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewDelegate {
-    
-    
-  
   
     /**
      *  Array to display menu options
@@ -107,8 +104,8 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
     }
     func ToProfile(sender : UIButton!){
         
-        self.performSegueWithIdentifier("ToProfile", sender: self)
-        
+        self.performSegueWithIdentifier("MenuToProfile",sender:self)
+        self.onSlideMenuButtonPressed(sender)
     }
     
     
