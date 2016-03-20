@@ -18,10 +18,14 @@
             <objects>
                 <viewController storyboardIdentifier="Login" id="TxH-G9-Auu" customClass="LogInViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Login" id="nt5-vG-cmx"/>
+                    <connections>
+                        <segue destination="uug-7n-Yzn" kind="push" identifier="ToSignUp" id="140-ij-k3k"/>
+                        <segue destination="1IR-SS-2WE" kind="push" identifier="ToPasswordRetrieve" id="nr0-u7-Efv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jno-cD-Vhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="594" y="-20"/>
+            <point key="canvasLocation" x="1188" y="293"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="dTL-km-W0b">
@@ -39,7 +43,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="1" rowHeight="53" sectionHeaderHeight="22" sectionFooterHeight="22" id="Ojz-xp-64e">
-                                <rect key="frame" x="0.0" y="65" width="320" height="508"/>
+                                <rect key="frame" x="0.0" y="66" width="320" height="508"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -77,37 +81,53 @@
                         <outlet property="btnCloseMenuOverlay" destination="M1L-ln-Ugu" id="ik8-fz-3AE"/>
                         <outlet property="tblMenuOptions" destination="Ojz-xp-64e" id="Rsm-V4-5Hd"/>
                         <segue destination="HdA-un-EXL" kind="modal" identifier="MenuToLogIn" id="RPj-6e-kKa"/>
+                        <segue destination="fvZ-De-dcf" kind="modal" identifier="ToProfile" id="m2a-Le-59F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uat-WT-ZkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-344" y="-112"/>
+            <point key="canvasLocation" x="-496" y="-194"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="Fli-G0-dN5">
+            <objects>
+                <viewController id="fvZ-De-dcf" customClass="ProfileViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1Q-td-rii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="-248"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="ssW-Zb-l7V">
             <objects>
                 <viewController storyboardIdentifier="SignUp" id="uug-7n-Yzn" customClass="SignUpViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="tnU-d4-evN"/>
+                    <connections>
+                        <segue destination="SNe-ls-Ywz" kind="push" id="VQt-1N-hIa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GE6-HD-kIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2319.4666666666667" y="-88.986666666666665"/>
+            <point key="canvasLocation" x="2181" y="189"/>
         </scene>
         <!--Upload Image View Controller-->
         <scene sceneID="8Bm-b7-qH0">
             <objects>
-                <viewController storyboardIdentifier="UploadImage" id="SNe-ls-Ywz" customClass="UploadImageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController storyboardIdentifier="UploadImage" id="SNe-ls-Ywz" customClass="UploadImageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="a5H-fS-hcC"/>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fE-cm-pu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3119.4666666666667" y="-88.986666666666665"/>
+            <point key="canvasLocation" x="2296" y="-69"/>
         </scene>
         <!--Password Retriev View Controller-->
         <scene sceneID="uNt-4t-2ft">
             <objects>
-                <viewController id="1IR-SS-2WE" customClass="PasswordRetrievViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="1IR-SS-2WE" customClass="PasswordRetrievViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xml-pQ-bqD"/>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xH-hU-Cav" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2676.8000000000002" y="-88.986666666666665"/>
+            <point key="canvasLocation" x="2216" y="747"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5EE-jy-Z7c">
@@ -154,13 +174,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ql-PN-kkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="545"/>
+            <point key="canvasLocation" x="456" y="853"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="AzO-S1-P8T">
             <objects>
                 <viewController storyboardIdentifier="HomePage" id="uP5-8R-cOa" customClass="HomePageViewController" customModule="FreedomHouse" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="3x6-ag-8cI">
+                        <nil key="title"/>
                         <barButtonItem key="leftBarButtonItem" style="plain" id="14F-cc-SlB">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LP6-hU-VdA">
                                 <rect key="frame" x="16" y="13" width="32" height="17"/>
@@ -176,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GUT-gu-IK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="560" y="-69"/>
+            <point key="canvasLocation" x="505" y="-116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RY4-6J-WQW">
@@ -194,13 +215,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TVv-yV-Kec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="-89"/>
+            <point key="canvasLocation" x="-128" y="525"/>
         </scene>
     </scenes>
     <resources>
         <image name="menubutton" width="300" height="231"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RPj-6e-kKa"/>
+        <segue reference="vO6-MP-oBB"/>
     </inferredMetricsTieBreakers>
 </document>

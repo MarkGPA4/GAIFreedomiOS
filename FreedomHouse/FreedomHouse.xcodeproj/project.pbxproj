@@ -12,6 +12,12 @@
 		E3006BB61C63CEEE004306BF /* CollegeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3006BB41C63CEEE004306BF /* CollegeInfoViewController.swift */; };
 		E3006BB71C63CEEE004306BF /* CollegeInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */; };
 		ED09197B1C42450600CF3904 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED09197A1C42450600CF3904 /* Podfile */; };
+		ED21C81F1C9DC2AA00FA59C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21C81D1C9DC2AA00FA59C1 /* ProfileViewController.swift */; };
+		ED21C8311C9DCFC300FA59C1 /* LinearProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21C8301C9DCFC300FA59C1 /* LinearProgressView.swift */; };
+		ED21C8331C9DD06900FA59C1 /* CollegesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8321C9DD06900FA59C1 /* CollegesTableViewCell.xib */; };
+		ED21C8421C9DEA3000FA59C1 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8411C9DEA3000FA59C1 /* ProfileViewController.xib */; };
+		ED21C8441C9DF98100FA59C1 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8431C9DF98100FA59C1 /* LogInViewController.xib */; };
+		ED21C8461C9DFCB700FA59C1 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED21C8451C9DFCB700FA59C1 /* UploadImageViewController.xib */; };
 		ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */; };
 		ED5D1CB21C48D9A800FAC7CB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */; };
 		ED5D1CB41C48D9AF00FAC7CB /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */; };
@@ -44,7 +50,6 @@
 		ED7E33201C54AB5F00D9DB4C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */; };
 		ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */; };
 		ED80C4E01C3167D200BFBF8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */; };
-		ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */; };
 		ED80C4E61C32735600BFBF8C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */; };
 		ED80C4E71C32735600BFBF8C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */; };
 		ED80C4F71C336C3200BFBF8C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED80C4F41C336C3200BFBF8C /* FBSDKCoreKit.framework */; };
@@ -55,7 +60,6 @@
 		ED967DD61C667B330061A351 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DD41C667B330061A351 /* EventsTableViewCell.swift */; };
 		ED967DD71C667B330061A351 /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DD51C667B330061A351 /* EventsTableViewCell.xib */; };
 		ED967DE21C66BA9D0061A351 /* CollegesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */; };
-		ED967DE31C66BA9D0061A351 /* CollegesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */; };
 		ED967DEA1C66BDD00061A351 /* GradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DE81C66BDD00061A351 /* GradesTableViewCell.swift */; };
 		ED967DEB1C66BDD00061A351 /* GradesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED967DE91C66BDD00061A351 /* GradesTableViewCell.xib */; };
 		ED967DF41C66C0CB0061A351 /* GradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED967DF21C66C0CB0061A351 /* GradesViewController.swift */; };
@@ -72,7 +76,6 @@
 		EDFCED0C1C43673700E3DC06 /* PasswordRetrievViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */; };
 		EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */; };
 		EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */; };
-		EDFCED111C4394B300E3DC06 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,12 @@
 		E3006BB41C63CEEE004306BF /* CollegeInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeInfoViewController.swift; sourceTree = "<group>"; };
 		E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegeInfoViewController.xib; sourceTree = "<group>"; };
 		ED09197A1C42450600CF3904 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED21C81D1C9DC2AA00FA59C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		ED21C8301C9DCFC300FA59C1 /* LinearProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearProgressView.swift; sourceTree = "<group>"; };
+		ED21C8321C9DD06900FA59C1 /* CollegesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegesTableViewCell.xib; sourceTree = "<group>"; };
+		ED21C8411C9DEA3000FA59C1 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		ED21C8431C9DF98100FA59C1 /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		ED21C8451C9DFCB700FA59C1 /* UploadImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
 		ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navajo.swift; sourceTree = "<group>"; };
 		ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordRule.swift; sourceTree = "<group>"; };
 		ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJOPasswordValidator.swift; sourceTree = "<group>"; };
@@ -131,7 +140,6 @@
 		ED7E331E1C54AB5F00D9DB4C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
-		ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInViewController.xib; path = ../LogInViewController.xib; sourceTree = "<group>"; };
 		ED80C4E41C32735500BFBF8C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		ED80C4F41C336C3200BFBF8C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -143,7 +151,6 @@
 		ED967DD41C667B330061A351 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
 		ED967DD51C667B330061A351 /* EventsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
 		ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesTableViewCell.swift; sourceTree = "<group>"; };
-		ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegesTableViewCell.xib; sourceTree = "<group>"; };
 		ED967DE81C66BDD00061A351 /* GradesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesTableViewCell.swift; sourceTree = "<group>"; };
 		ED967DE91C66BDD00061A351 /* GradesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradesTableViewCell.xib; sourceTree = "<group>"; };
 		ED967DF21C66C0CB0061A351 /* GradesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesViewController.swift; sourceTree = "<group>"; };
@@ -166,7 +173,6 @@
 		EDFCED0A1C43673700E3DC06 /* PasswordRetrievViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRetrievViewController.swift; sourceTree = "<group>"; };
 		EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordRetrievViewController.xib; sourceTree = "<group>"; };
 		EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
-		EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
 		FE4EA393CDC2D360C25977A7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -232,6 +238,7 @@
 		ED80C4E21C3168FF00BFBF8C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ED21C81D1C9DC2AA00FA59C1 /* ProfileViewController.swift */,
 				ED967DF21C66C0CB0061A351 /* GradesViewController.swift */,
 				ED80C4DE1C3167D200BFBF8C /* LogInViewController.swift */,
 				EDFCED0E1C4394B300E3DC06 /* UploadImageViewController.swift */,
@@ -248,6 +255,7 @@
 				ED5D1CB11C48D9A800FAC7CB /* NJOPasswordRule.swift */,
 				ED5D1CB31C48D9AF00FAC7CB /* NJOPasswordValidator.swift */,
 				ED5D1CAF1C48D9A100FAC7CB /* Navajo.swift */,
+				ED21C8301C9DCFC300FA59C1 /* LinearProgressView.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -255,13 +263,14 @@
 		ED80C4E31C31692000BFBF8C /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				ED21C8411C9DEA3000FA59C1 /* ProfileViewController.xib */,
 				ED967DF31C66C0CB0061A351 /* GradesViewController.xib */,
-				ED80C4DF1C3167D200BFBF8C /* LogInViewController.xib */,
+				ED21C8431C9DF98100FA59C1 /* LogInViewController.xib */,
 				ED80C4E51C32735600BFBF8C /* SignUpViewController.xib */,
 				EDFCED0B1C43673700E3DC06 /* PasswordRetrievViewController.xib */,
+				ED21C8451C9DFCB700FA59C1 /* UploadImageViewController.xib */,
 				EDB276221C3F9294004D6412 /* HomePageViewController.xib */,
 				ED7E331F1C54AB5F00D9DB4C /* MenuViewController.xib */,
-				EDFCED0F1C4394B300E3DC06 /* UploadImageViewController.xib */,
 				ED7CED061C47D38E00B32815 /* WaitingPageViewController.xib */,
 				E3006BB51C63CEEE004306BF /* CollegeInfoViewController.xib */,
 				ED6CA6051C653A6200C17D69 /* TESTViewController.xib */,
@@ -309,7 +318,7 @@
 				ED967DD41C667B330061A351 /* EventsTableViewCell.swift */,
 				ED967DD51C667B330061A351 /* EventsTableViewCell.xib */,
 				ED967DE01C66BA9D0061A351 /* CollegesTableViewCell.swift */,
-				ED967DE11C66BA9D0061A351 /* CollegesTableViewCell.xib */,
+				ED21C8321C9DD06900FA59C1 /* CollegesTableViewCell.xib */,
 			);
 			name = Cells;
 			path = ..;
@@ -494,21 +503,22 @@
 				ED967DEB1C66BDD00061A351 /* GradesTableViewCell.xib in Resources */,
 				ED80C4E71C32735600BFBF8C /* SignUpViewController.xib in Resources */,
 				ED967DBE1C6667900061A351 /* EventsViewController.xib in Resources */,
-				EDFCED111C4394B300E3DC06 /* UploadImageViewController.xib in Resources */,
 				ED9E40631BF2C11C00D23667 /* LaunchScreen.storyboard in Resources */,
 				ED9E126D1C4A04A800A82362 /* CoreFunctions.storyboard in Resources */,
 				ED967DF51C66C0CB0061A351 /* GradesViewController.xib in Resources */,
 				ED7CED081C47D38E00B32815 /* WaitingPageViewController.xib in Resources */,
 				EDAE28111C2FF42900D25747 /* Main.storyboard in Resources */,
+				ED21C8461C9DFCB700FA59C1 /* UploadImageViewController.xib in Resources */,
 				ED7E33211C54AB5F00D9DB4C /* MenuViewController.xib in Resources */,
+				ED21C8331C9DD06900FA59C1 /* CollegesTableViewCell.xib in Resources */,
 				EDB276241C3F9294004D6412 /* HomePageViewController.xib in Resources */,
 				ED09197B1C42450600CF3904 /* Podfile in Resources */,
 				E3006BB71C63CEEE004306BF /* CollegeInfoViewController.xib in Resources */,
-				ED80C4E11C3167D200BFBF8C /* LogInViewController.xib in Resources */,
 				EDC7E0931C9BB25F00FC6216 /* Images.xcassets in Resources */,
-				ED967DE31C66BA9D0061A351 /* CollegesTableViewCell.xib in Resources */,
 				ED6CA6071C653A6200C17D69 /* TESTViewController.xib in Resources */,
+				ED21C8421C9DEA3000FA59C1 /* ProfileViewController.xib in Resources */,
 				EDFCED0D1C43673700E3DC06 /* PasswordRetrievViewController.xib in Resources */,
+				ED21C8441C9DF98100FA59C1 /* LogInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,7 +609,9 @@
 				ED7CED071C47D38E00B32815 /* WaitingPageViewController.swift in Sources */,
 				ED5D1CB01C48D9A100FAC7CB /* Navajo.swift in Sources */,
 				ED6CA6061C653A6200C17D69 /* TESTViewController.swift in Sources */,
+				ED21C81F1C9DC2AA00FA59C1 /* ProfileViewController.swift in Sources */,
 				ED967DD61C667B330061A351 /* EventsTableViewCell.swift in Sources */,
+				ED21C8311C9DCFC300FA59C1 /* LinearProgressView.swift in Sources */,
 				EDFCED101C4394B300E3DC06 /* UploadImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

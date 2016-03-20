@@ -48,14 +48,8 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
         
     tblMenuOptions.tableFooterView = UIView()
         // Do any additional setup after loading the view.
-        
-        
-        
-        
-        
     }
     
-
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -73,6 +67,7 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
         
         tblMenuOptions.reloadData()
     }
+    
     
     @IBAction func onCloseMenuClick(button:UIButton!){
         btnMenu.tag = 0
@@ -110,6 +105,13 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
         self.onSlideMenuButtonPressed(sender)
         
     }
+    func ToProfile(sender : UIButton!){
+        
+        self.performSegueWithIdentifier("ToProfile", sender: self)
+        
+    }
+    
+    
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -134,14 +136,17 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
         
         }
 
+        
+        else if (buttonOptions.currentTitle == "Profile"){
+        
+        buttonOptions.addTarget(self, action: "ToProfile:", forControlEvents: UIControlEvents.TouchUpInside)
+            
+        }
         return cell
         
     }
     
-    
-    
-    
-    
+  
     
     
     
@@ -177,7 +182,8 @@ class MenuViewController: BaseViewController,UITableViewDataSource, UITableViewD
                 }, completion: { (finished) -> Void in
                     viewMenuBack.removeFromSuperview()
                     if PFUser.currentUser() == nil{
-                        self.presentViewController(LogInViewController(), animated: false, completion: nil)            }
+                        self.performSegueWithIdentifier("MenuToLogIn", sender: self)
+                    }
                     
                     
             }

@@ -41,10 +41,7 @@ class HomePageViewController: BaseViewController,CAPSPageMenuDelegate{
         
         
         
-        if PFUser.currentUser() == nil{
-            self.performSegueWithIdentifier("ToLogIn", sender: self)
-        }
-    
+      
         
         // Array to keep track of controllers in page menu
       /*  var controllerArray : [UIViewController] = []

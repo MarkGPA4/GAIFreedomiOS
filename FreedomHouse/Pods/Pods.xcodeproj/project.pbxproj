@@ -7,164 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012A1999D5973C5166719DC7F033AD46 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85721AC2827F059EB220D3379899C4D /* IsaoTextField.swift */; };
-		048B9C440B647B72ECF5590491A56F0F /* DatePickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F99EE3A239C856018397AEFF233A6A /* DatePickerCell-dummy.m */; };
-		0C35D3B7D04BFD9CF5F1FBF96E820A02 /* PASImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 601FA5F7C353AFC4470C1682D5E9B3EB /* PASImageView-dummy.m */; };
-		162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF38E637B6B0C9CDA55747A991780E3 /* PageMenu-dummy.m */; };
-		19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8750EF1541A95835D9D7ED79C3FD6E80 /* CAPSPageMenu.swift */; };
-		24698B82008FDAC90BA5E0BD7F169A16 /* DatePickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3209E416DFD1AC8376AADF5716143 /* DatePickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D655E7565101E2749C79DD1739FD71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2E014E37B0A275E4127C375394B9330F /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E438B32D0AC7ABD2FDF15B26BB4038 /* TextFieldsEffects.swift */; };
-		377B39BABB9106FD17A2623DBA541B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		3890FB9F644F77D40B0B503DD7968909 /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3326112BB9A5A29CEAFC29B4F280BAAA /* NJOPasswordValidator.swift */; };
-		3F82FA132B80512D8315C6844188C941 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AFAC6C3FD1E6226879F185E6827B9E /* JiroTextField.swift */; };
-		47A62511D5BFE84607B11E30419292A4 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F2D4D62E8275BB0163ECA40B8D0374 /* DatePickerCell.swift */; };
-		5D0F0DF03A6EEDFF4F71AE0B4C593383 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61CDA419B493AE0A078529264BAD7882 /* Navajo-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7559C1E899FE0FD8618B64E58A8CF6 /* Navajo-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E6BC756F6F1B43026FDAD693C42468 /* PASImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D035E40975D155F9E878B1A1FD1868C /* PASImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386F39B8F5C3C2A22FB860A4D4A3BDD7 /* PageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D38DD87B6F0C68D743725DEB1BC4AA2 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C3A05DADBDB4850CC44B8467ED815 /* MinoruTextField.swift */; };
-		79A7894BF4029141D325B2E1211768AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7C9CACADD41BECA884580D7B48C36F9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		80F5D76D7745DB9EAA3BA2F8A9ED4FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		83998CCA5CD012C2BF1EFC67E8408EF0 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1CF70BC799A4EF3B175AE43C659F1 /* HoshiTextField.swift */; };
-		886AA3A2FA0C8FA508CF475A23B31365 /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501D0CC4038192DF58F2DC5F7EE69E3 /* Navajo.swift */; };
-		8D350B381AA01CEE39DE448D710589F9 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64FF4EE8D08A60DDE28581692B316E /* AkiraTextField.swift */; };
-		A664E034D815383D27B07279996D595B /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FBCB1D901D88725106A357C67C5F2A /* RoundImageView.swift */; };
-		A9D7AD33C8DC7B5E895F060D8D827D00 /* Navajo-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1DF4E6125BA94A3C35B12FFAA647E /* Navajo-Swift-dummy.m */; };
-		B3C8D533400F275B67D581A3CAF3677B /* PASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A591FB2295FD49C3733E43C5BE7C9 /* PASImageView.swift */; };
-		B57D40074979AEDA4839E5313409BCAB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C455E751A8EDBB5884F535DF2E2D5553 /* NJOPasswordRule.swift */; };
-		B7885D54B471798E95E20D09E910378E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		C61C4C4EBA3816C811E41FC523BC6580 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D6E00069A0A2A99880230E7B4BF2F3 /* TextFieldEffects-dummy.m */; };
-		D02B7E2AA73328248F4926B2483484C7 /* RoundImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF59B2793040BF926B4DAA4D78C47A3 /* RoundImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D98E4EA75B5A41C3494C5D0801EF54B7 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FDF40BDB4AC05482A1DA50D89BFB91 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFEFD913378E500F1159CDDAFADF3568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E2E49B03E3AD343F60EDFC589BBA3638 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65017057EE13FA38459453A8410870 /* KaedeTextField.swift */; };
-		E2ED5CFE6EDA0C6A7F7A3EE258109FF3 /* RoundImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C064F03464F40D570771C63F7D5B6 /* RoundImageView-dummy.m */; };
-		E5202987752DE495EA3DF2111D01FB33 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2677DD328998F4338494067B60BA84 /* MadokaTextField.swift */; };
-		F0425FCB926E876DB36F073B3AC955F4 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882823E4D1B65996B9ED1F3F75513016 /* YoshikoTextField.swift */; };
-		FD188770C412E5C189C9943842E4920E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AB9143B8C8470A2FC28EFB395D1111 /* YokoTextField.swift */; };
+		048B9C440B647B72ECF5590491A56F0F /* DatePickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ADDC475217D141753C10F106E596BA /* DatePickerCell-dummy.m */; };
+		06EBECC04956EC8EAEE08BF443C7071C /* RoundImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7B939F04A732F88EDCD5ABA9DC1903 /* RoundImageView-dummy.m */; };
+		0C35D3B7D04BFD9CF5F1FBF96E820A02 /* PASImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DC36B83960E27AC1FF0684FBF9B197 /* PASImageView-dummy.m */; };
+		132D2A2300441666CC55DBC929AC9F8C /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2572B4E291802538E5EF78B13F4C6D42 /* PageMenu-dummy.m */; };
+		19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB01F7D4AFE4771975BEF4C67AE046 /* CAPSPageMenu.swift */; };
+		1DE4AACD2C933814BF2294865CFBB02D /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E4DC47E924E6FC93F477F02F150D52 /* YoshikoTextField.swift */; };
+		22F4905CC540CE4884234355997AE0FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		24698B82008FDAC90BA5E0BD7F169A16 /* DatePickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9708C73C049168EE221B7AA4F59A07 /* DatePickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A49257932FA1BD22EC0027E97B5F6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		2C7255482C4BD0573B65A47B8FA8A443 /* LinearProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48486D5FD780AA8BFC256387EF03A79A /* LinearProgressBar-dummy.m */; };
+		2C82FE9847D53AF1C63568EBFA59A8E9 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC26114947D566C688C5A2354891FA1B /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D655E7565101E2749C79DD1739FD71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		35382BC48B1BE356AFF70E2ACA34B2DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		3890FB9F644F77D40B0B503DD7968909 /* NJOPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F4CAFD0E451291C9E33284DBCA61B3 /* NJOPasswordValidator.swift */; };
+		3D8E783B34160936823A2C8B0A4A140B /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC926F8F0543CD0824B678621D0D53 /* TextFieldsEffects.swift */; };
+		44D973D98A104D35F406868C1A21A226 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E47B9DC93F8EB72021151D8C6F79BA8 /* RoundImageView.swift */; };
+		47A62511D5BFE84607B11E30419292A4 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076AFAFCC7C2A062BD3DE6E222687D3F /* DatePickerCell.swift */; };
+		4988718E0B381D17528A52FEAD1CBBA9 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B217F8A078AD1DBBEF8906A2E9C81639 /* AkiraTextField.swift */; };
+		4F19E5D2C68A627853783469FBC730C2 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		557976F5FA96D9FB0CE4DD49FDE99D82 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98987017587E9A6494FDDAB3A6B2F8 /* MinoruTextField.swift */; };
+		5C24690B4CB052389C30E7C932F3626E /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7BC60C425A1CC38189360633882B43 /* HoshiTextField.swift */; };
+		61CDA419B493AE0A078529264BAD7882 /* Navajo-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFDC80C1C3D74400DDAC7946A4E2D84 /* Navajo-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630448A7FEEFC90177BD71A87A8522B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		66E6BC756F6F1B43026FDAD693C42468 /* PASImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D8A871A29D12DA719E71C3B98CC44E /* PASImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D408697D712E1446E017BC2A2DD2AE0 /* PageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2B4E4EDF75EEAA00C4A320B59EC540 /* RoundImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E48EDC00CAA51EC187F6ECD8565FE43 /* RoundImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBCF80BC594AB15E1EADD3E578C50A0 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E90B59EB77E249F35A70C75AAA87F9 /* YokoTextField.swift */; };
+		7465B5BEF6DE0B3DD374067B1A65034A /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F580BEC6203A02088222AA213C609 /* IsaoTextField.swift */; };
+		7997DE7F32512488FD549C9F117DE79F /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0FBC98E43B731164BEB6F16CBF8A /* JiroTextField.swift */; };
+		7B62932EF9D38907090935A01C29377B /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B708E79BD57084396019B478A7BBAA /* TextFieldEffects-dummy.m */; };
+		80F5D76D7745DB9EAA3BA2F8A9ED4FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		886AA3A2FA0C8FA508CF475A23B31365 /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6DDFC134395B68BC8490CE44D045A /* Navajo.swift */; };
+		99CE1F2EA4D92A240EE49CAF516BA1A9 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CE5CC2244B935AEA242E3EBD97704A /* MadokaTextField.swift */; };
+		A9D7AD33C8DC7B5E895F060D8D827D00 /* Navajo-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9110E7E9A14F51F1AC603FE77C34CE /* Navajo-Swift-dummy.m */; };
+		AB2C19856BB676F66B2BE206CCEDA254 /* LinearProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D123F1B739D1D7FBA9B03FE899D5 /* LinearProgressView.swift */; };
+		AF0935DBB3F88DAC43DE9B2A9D31F5F2 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17456DF8E05228291A83AAEEAFB6A45 /* KaedeTextField.swift */; };
+		B3C8D533400F275B67D581A3CAF3677B /* PASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5C48280F936B45F9730EC73FEE5B5D /* PASImageView.swift */; };
+		B57D40074979AEDA4839E5313409BCAB /* NJOPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AC552E71BAC2AAC86F0B71C7926A0D /* NJOPasswordRule.swift */; };
+		BDBE1AB5E8046905A3F442562C93C4EA /* LinearProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 934ABE144CB33B8AACA8EBB2C05EF48A /* LinearProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFEFD913378E500F1159CDDAFADF3568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		EF8048654AF32B0E6B8579D2005B66E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03946DD25027AC1F3620B0E41224A31F /* PBXContainerItemProxy */ = {
+		05ACC3C17BC188DD3F0FB4882859ABEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F23825CA84ACECD158B4A03B2C314D09;
-			remoteInfo = "Navajo-Swift";
+			remoteGlobalIDString = 0A23974F8C495A5B7BA12E6B55B6B570;
+			remoteInfo = LinearProgressBar;
 		};
-		3ECF116F73FF9A9673183BFE23606912 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 733206DFBBCC49D3502AE07C330E98E6;
-			remoteInfo = DatePickerCell;
-		};
-		4586A75B61856852F30393A9194F9ECF /* PBXContainerItemProxy */ = {
+		251ABAE34D53D6EBFF8189E88E164CB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
 			remoteInfo = PageMenu;
 		};
-		91BC3D0EE849E178A73AF3BBCFCC3260 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E660D8B928AD234BACDB8DC29736D70;
-			remoteInfo = RoundImageView;
-		};
-		94CE7DCD8C07353526D1DBEFB684B80E /* PBXContainerItemProxy */ = {
+		39CCAF8DBF9263E96B4A8127CF0413BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 21EC687338DBE56C82F120938259CB16;
 			remoteInfo = PASImageView;
 		};
-		FE157892B52BDBA63D10E64C2398C7D8 /* PBXContainerItemProxy */ = {
+		40E3EFD54C97DC9952E6E1D3A6907840 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A179652CD6C264648071DCC902E3E8AF;
+			remoteGlobalIDString = 001564DD0F605609C00E27CC03D80BF1;
+			remoteInfo = RoundImageView;
+		};
+		69C3237C1B18D0AB847D81180489964C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23825CA84ACECD158B4A03B2C314D09;
+			remoteInfo = "Navajo-Swift";
+		};
+		7557679E0E2D8D9CA7E52B537DD1A062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E5805B5FD6B835263C2054A6F8B5FA;
 			remoteInfo = TextFieldEffects;
+		};
+		CF8B32148784820912D7327B51F0B326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 733206DFBBCC49D3502AE07C330E98E6;
+			remoteInfo = DatePickerCell;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EE7CE6D1BC95D73CBD2E9D2089C4DE /* DatePickerCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-prefix.pch"; sourceTree = "<group>"; };
-		08F2D4D62E8275BB0163ECA40B8D0374 /* DatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = Source/DatePickerCell.swift; sourceTree = "<group>"; };
-		0E7559C1E899FE0FD8618B64E58A8CF6 /* Navajo-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-umbrella.h"; sourceTree = "<group>"; };
-		11FE677F8252299C6F4AF216331DF680 /* DatePickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DatePickerCell.modulemap; sourceTree = "<group>"; };
-		1278A7006446B487C13A05887D8CEC63 /* PageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PageMenu.xcconfig; sourceTree = "<group>"; };
-		1588FAEE78ECB1914EB6FF2D3DAC2A9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1849111CC9B39B77ABCDF4CB9DD56996 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21A7023CEF51C934549A4D87EB189CE1 /* Navajo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navajo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A1C064F03464F40D570771C63F7D5B6 /* RoundImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoundImageView-dummy.m"; sourceTree = "<group>"; };
+		0557AE3169FB6AA4D646DFB532C71433 /* LinearProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinearProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		076AFAFCC7C2A062BD3DE6E222687D3F /* DatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = Source/DatePickerCell.swift; sourceTree = "<group>"; };
+		07E90B59EB77E249F35A70C75AAA87F9 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		08B708E79BD57084396019B478A7BBAA /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		0B98987017587E9A6494FDDAB3A6B2F8 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		0C5C48280F936B45F9730EC73FEE5B5D /* PASImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PASImageView.swift; sourceTree = "<group>"; };
+		0F1291DC74BE27D6A42CC7942B056222 /* PageMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PageMenu.modulemap; sourceTree = "<group>"; };
+		18870241EFA3927F975B4BEC9AD8DC2F /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		1BBB9E2BB649FD5A7CF7A245E85A7ED4 /* LinearProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LinearProgressBar.modulemap; sourceTree = "<group>"; };
+		1F5C8AA293FE2A18BB98313ADDEA209B /* RoundImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RoundImageView.modulemap; sourceTree = "<group>"; };
+		20D8A871A29D12DA719E71C3B98CC44E /* PASImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-umbrella.h"; sourceTree = "<group>"; };
+		2572B4E291802538E5EF78B13F4C6D42 /* PageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PageMenu-dummy.m"; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2F2677DD328998F4338494067B60BA84 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		31D6E00069A0A2A99880230E7B4BF2F3 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		3326112BB9A5A29CEAFC29B4F280BAAA /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordValidator.swift; path = Source/NJOPasswordValidator.swift; sourceTree = "<group>"; };
-		386F39B8F5C3C2A22FB860A4D4A3BDD7 /* PageMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-umbrella.h"; sourceTree = "<group>"; };
-		3A7A591FB2295FD49C3733E43C5BE7C9 /* PASImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PASImageView.swift; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F65017057EE13FA38459453A8410870 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		48413BCCB27D8F3498C5AD6D75B65471 /* PASImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PASImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A2B13F6B8AC19A60481EA335B2CE8B8 /* Navajo-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Navajo-Swift.xcconfig"; sourceTree = "<group>"; };
-		4B7863F5618E0B67E0376738836A98AC /* Navajo-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-prefix.pch"; sourceTree = "<group>"; };
-		4BF59B2793040BF926B4DAA4D78C47A3 /* RoundImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-umbrella.h"; sourceTree = "<group>"; };
-		4EA3209E416DFD1AC8376AADF5716143 /* DatePickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-umbrella.h"; sourceTree = "<group>"; };
-		601FA5F7C353AFC4470C1682D5E9B3EB /* PASImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PASImageView-dummy.m"; sourceTree = "<group>"; };
-		64FBCB1D901D88725106A357C67C5F2A /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = RoundImageView/RoundImageView.swift; sourceTree = "<group>"; };
-		6CF85C90EE99277EB365B1FF2A9CBFAA /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		6D035E40975D155F9E878B1A1FD1868C /* PASImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-umbrella.h"; sourceTree = "<group>"; };
-		70A2644816282AC7985CDAF6144B4017 /* RoundImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-prefix.pch"; sourceTree = "<group>"; };
-		78F1DF4E6125BA94A3C35B12FFAA647E /* Navajo-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navajo-Swift-dummy.m"; sourceTree = "<group>"; };
+		2F7BC60C425A1CC38189360633882B43 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		3124E62B468F180252A42642A7EC3AD1 /* Navajo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navajo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CE5CC2244B935AEA242E3EBD97704A /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		3B6AC80F3C08B72080E90E3317E03937 /* PageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-prefix.pch"; sourceTree = "<group>"; };
+		438E72CD6BFB731EA32A14206092A04F /* Navajo-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-prefix.pch"; sourceTree = "<group>"; };
+		46FBC715AF2F281E15162340F0F66480 /* DatePickerCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerCell.xcconfig; sourceTree = "<group>"; };
+		48486D5FD780AA8BFC256387EF03A79A /* LinearProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinearProgressBar-dummy.m"; sourceTree = "<group>"; };
+		4C04A3415FE371EC60733DC1D791DC0D /* DatePickerCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-prefix.pch"; sourceTree = "<group>"; };
+		526A66042C4673075217ABFE1B263FFC /* RoundImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532C39FB37CBDCF45925037BF3A2E29F /* LinearProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinearProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5718DFD59AAA9CB932E55F5DDBA151DD /* Navajo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Navajo-Swift.modulemap"; sourceTree = "<group>"; };
+		5D408697D712E1446E017BC2A2DD2AE0 /* PageMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-umbrella.h"; sourceTree = "<group>"; };
+		609513B48E188CB95F5E4504DDC817BC /* PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611266E0FF1A286104337F08FBD490FE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611B9C5DB5127C9C087AD80AE00419F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63199B17F3AF01577FFCE66A7833EEC4 /* DatePickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DatePickerCell.modulemap; sourceTree = "<group>"; };
+		66ADDC475217D141753C10F106E596BA /* DatePickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerCell-dummy.m"; sourceTree = "<group>"; };
+		6AC6DDFC134395B68BC8490CE44D045A /* Navajo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navajo.swift; path = Source/Navajo.swift; sourceTree = "<group>"; };
+		6B9110E7E9A14F51F1AC603FE77C34CE /* Navajo-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navajo-Swift-dummy.m"; sourceTree = "<group>"; };
+		6B9708C73C049168EE221B7AA4F59A07 /* DatePickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerCell-umbrella.h"; sourceTree = "<group>"; };
+		6DFDC80C1C3D74400DDAC7946A4E2D84 /* Navajo-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-umbrella.h"; sourceTree = "<group>"; };
+		6E47B9DC93F8EB72021151D8C6F79BA8 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = RoundImageView/RoundImageView.swift; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C6632876D04E34C1C07CAAD4290CB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E103B62081B8AAF610D1EB326FF259 /* DatePickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7AC4AA06C0EB79B3846E79EDECB60D46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F1FE3DE4577AA355D769D0020C3E6F2 /* Navajo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Navajo-Swift.modulemap"; sourceTree = "<group>"; };
-		83E3AE7063AC67871646C8FAB72D9EEA /* PageMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PageMenu.modulemap; sourceTree = "<group>"; };
-		8750EF1541A95835D9D7ED79C3FD6E80 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		82BA1C57CE8C14C9940CC844667D68BD /* PageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PageMenu.xcconfig; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		882823E4D1B65996B9ED1F3F75513016 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		90F99EE3A239C856018397AEFF233A6A /* DatePickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerCell-dummy.m"; sourceTree = "<group>"; };
-		92FDF40BDB4AC05482A1DA50D89BFB91 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		95BAA4DE829C36612E4D6705E9078BA1 /* PageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-prefix.pch"; sourceTree = "<group>"; };
-		960BE4370E674DA7B73D342762BAD493 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		9737072F205A7902C4E7EF268EE8C979 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		8D22D123F1B739D1D7FBA9B03FE899D5 /* LinearProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearProgressView.swift; path = LinearProgressBar/LinearProgressView.swift; sourceTree = "<group>"; };
+		934ABE144CB33B8AACA8EBB2C05EF48A /* LinearProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinearProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		9AC0A5F216E1E0540E839452D7A272D6 /* PASImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PASImageView.modulemap; sourceTree = "<group>"; };
-		9CB0D72DAD6D57FECB5EEAB368E088D0 /* RoundImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D587B4947A3FE49983C1BA868998DF4 /* RoundImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RoundImageView.modulemap; sourceTree = "<group>"; };
-		A501D0CC4038192DF58F2DC5F7EE69E3 /* Navajo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navajo.swift; path = Source/Navajo.swift; sourceTree = "<group>"; };
-		A718B03270766BA064F53882D40D06FF /* DatePickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A933F083CC31B529CAA1C77F38F0BF9F /* PASImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PASImageView.xcconfig; sourceTree = "<group>"; };
-		A9E3F813D7D8D3DB3A4C708E3191571A /* DatePickerCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerCell.xcconfig; sourceTree = "<group>"; };
+		97E4DC47E924E6FC93F477F02F150D52 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		9BC9DD0795E18AA111585E417B768A1D /* Navajo-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Navajo-Swift.xcconfig"; sourceTree = "<group>"; };
+		9E48EDC00CAA51EC187F6ECD8565FE43 /* RoundImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-umbrella.h"; sourceTree = "<group>"; };
+		A05DA31140BB14FFE69246036716B3AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DC36B83960E27AC1FF0684FBF9B197 /* PASImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PASImageView-dummy.m"; sourceTree = "<group>"; };
+		A3AAF1141CC711A273EDD4D137DD3BEC /* PASImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PASImageView.modulemap; sourceTree = "<group>"; };
+		A4FBD36585FE652350FDDC35186243DD /* RoundImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoundImageView.xcconfig; sourceTree = "<group>"; };
+		AA84531FC2A1A6102998B09C08137DD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD90F7B096D15BDCA6FB3E29E912A1B6 /* LinearProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinearProgressBar.xcconfig; sourceTree = "<group>"; };
+		AE19EE6091820ADC5F1912899F0D340A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B217F8A078AD1DBBEF8906A2E9C81639 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		B38EE46F98BEFDED7E41DFB5AF431F72 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB1B3E3B82B5D4D21AC2B167C21A4D94 /* PASImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-prefix.pch"; sourceTree = "<group>"; };
-		C1843F8C279ADC5F22EAEA75EA0F3DA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C455E751A8EDBB5884F535DF2E2D5553 /* NJOPasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordRule.swift; path = Source/NJOPasswordRule.swift; sourceTree = "<group>"; };
-		C790C37786A257E6A7FCDC63C50604BE /* RoundImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RoundImageView.xcconfig; sourceTree = "<group>"; };
-		C7F98D1EF40BF87983115D84F4083E47 /* PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C85721AC2827F059EB220D3379899C4D /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		CA64FF4EE8D08A60DDE28581692B316E /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		CA9C3A05DADBDB4850CC44B8467ED815 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		CAB1CF70BC799A4EF3B175AE43C659F1 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		CB6CFE7E90CF4ED2ABCF4E5D39768A27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1F8EF511D79CEEB54159D638C513DF /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECB01F7D4AFE4771975BEF4C67AE046 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		C21F580BEC6203A02088222AA213C609 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7593494548F7F488DD6407695886FA0 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		C855CB7E9CAAC440A0493966C8066540 /* RoundImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RoundImageView-prefix.pch"; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CDF296CCF4C7ADD42F7611B299410B1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDF38E637B6B0C9CDA55747A991780E3 /* PageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PageMenu-dummy.m"; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6E438B32D0AC7ABD2FDF15B26BB4038 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		D1185AE83A6B2AF2CED51FFE1F8BFF3C /* PASImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PASImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		E4241BF0393BCC8DAC75F40F39183C61 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6AFAC6C3FD1E6226879F185E6827B9E /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		E741FA62628695DA5F418C215C45CB3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC26114947D566C688C5A2354891FA1B /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		DCCC926F8F0543CD0824B678621D0D53 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		DFF74F1A65B5D815352B439D52C6B630 /* PASImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PASImageView.xcconfig; sourceTree = "<group>"; };
+		E5F4CAFD0E451291C9E33284DBCA61B3 /* NJOPasswordValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordValidator.swift; path = Source/NJOPasswordValidator.swift; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5AB9143B8C8470A2FC28EFB395D1111 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		E9AC552E71BAC2AAC86F0B71C7926A0D /* NJOPasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NJOPasswordRule.swift; path = Source/NJOPasswordRule.swift; sourceTree = "<group>"; };
+		EB05DD608366F465BD71D5CE5BBABFAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3A0FBC98E43B731164BEB6F16CBF8A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		EFEE318F044370DA6DB1D27F0B003DCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17456DF8E05228291A83AAEEAFB6A45 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		F9FE7604650F9E74F13AE0F5F477D757 /* PASImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PASImageView-prefix.pch"; sourceTree = "<group>"; };
+		FB7B939F04A732F88EDCD5ABA9DC1903 /* RoundImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RoundImageView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,11 +197,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C6B557713A7B4E0AF7706A4FC3361F5 /* Frameworks */ = {
+		5E7AAE3B2E39D328B91D5C0603D9DE6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9CACADD41BECA884580D7B48C36F9F /* Foundation.framework in Frameworks */,
+				630448A7FEEFC90177BD71A87A8522B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F0EE121FD3ED73547E7590330EDEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35382BC48B1BE356AFF70E2ACA34B2DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C12B166F98723B614AFB6DA165E7D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A49257932FA1BD22EC0027E97B5F6E7 /* Foundation.framework in Frameworks */,
+				EF8048654AF32B0E6B8579D2005B66E7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A64F1CA9118387662B8997145FC05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F4905CC540CE4884234355997AE0FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,22 +246,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DB0060AA66632D871434C5B2D456F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79A7894BF4029141D325B2E1211768AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECC52403F51E7E22A84AEE5833BE1A55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				377B39BABB9106FD17A2623DBA541B5C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F52F65D29CEA58B704C254252A1F4E00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,101 +257,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F296E0A02DD860862482381C49F3C33 /* Products */ = {
+		120BB041B2B06C348BBC0809C5F29CD9 /* PageMenu */ = {
 			isa = PBXGroup;
 			children = (
-				A718B03270766BA064F53882D40D06FF /* DatePickerCell.framework */,
-				21A7023CEF51C934549A4D87EB189CE1 /* Navajo_Swift.framework */,
-				C7F98D1EF40BF87983115D84F4083E47 /* PageMenu.framework */,
-				48413BCCB27D8F3498C5AD6D75B65471 /* PASImageView.framework */,
-				1849111CC9B39B77ABCDF4CB9DD56996 /* Pods.framework */,
-				9CB0D72DAD6D57FECB5EEAB368E088D0 /* RoundImageView.framework */,
-				E4241BF0393BCC8DAC75F40F39183C61 /* TextFieldEffects.framework */,
+				BECB01F7D4AFE4771975BEF4C67AE046 /* CAPSPageMenu.swift */,
+				B229DEE1673E58EADADAB206FA3868DC /* Support Files */,
 			);
-			name = Products;
+			path = PageMenu;
 			sourceTree = "<group>";
 		};
-		1804F27417EE1B9DC2347476EF0A1194 /* Support Files */ = {
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				11FE677F8252299C6F4AF216331DF680 /* DatePickerCell.modulemap */,
-				A9E3F813D7D8D3DB3A4C708E3191571A /* DatePickerCell.xcconfig */,
-				90F99EE3A239C856018397AEFF233A6A /* DatePickerCell-dummy.m */,
-				03EE7CE6D1BC95D73CBD2E9D2089C4DE /* DatePickerCell-prefix.pch */,
-				4EA3209E416DFD1AC8376AADF5716143 /* DatePickerCell-umbrella.h */,
-				7AC4AA06C0EB79B3846E79EDECB60D46 /* Info.plist */,
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DatePickerCell";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		1DDAEF0D0083892D497803F353769075 /* DatePickerCell */ = {
+		2BDA6FA85B8B239C7C448F618E03B667 /* PASImageView */ = {
 			isa = PBXGroup;
 			children = (
-				08F2D4D62E8275BB0163ECA40B8D0374 /* DatePickerCell.swift */,
-				1804F27417EE1B9DC2347476EF0A1194 /* Support Files */,
+				0C5C48280F936B45F9730EC73FEE5B5D /* PASImageView.swift */,
+				A99CB2A3F76EAD5B73484879E41B0210 /* Support Files */,
+			);
+			path = PASImageView;
+			sourceTree = "<group>";
+		};
+		2F7271FCCC180A1A6807AC4EAE6F2006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49BB549C061C7868E9BFEEE82EBBA4A9 /* DatePickerCell */,
+				488A4CE9440489A9D3850B72C4EE1EA6 /* LinearProgressBar */,
+				FD5D9280F6D376250417195B3133DFA0 /* Navajo-Swift */,
+				120BB041B2B06C348BBC0809C5F29CD9 /* PageMenu */,
+				2BDA6FA85B8B239C7C448F618E03B667 /* PASImageView */,
+				63E6F1E27F04E8C9A800E6DB5EA9C7EA /* RoundImageView */,
+				C3BBCCCE79DF9A0B15857AFC72E4039D /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488A4CE9440489A9D3850B72C4EE1EA6 /* LinearProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				8D22D123F1B739D1D7FBA9B03FE899D5 /* LinearProgressView.swift */,
+				F5B0DB4B1CC2BE3515A7E9AE5B8C5813 /* Support Files */,
+			);
+			path = LinearProgressBar;
+			sourceTree = "<group>";
+		};
+		49BB549C061C7868E9BFEEE82EBBA4A9 /* DatePickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				076AFAFCC7C2A062BD3DE6E222687D3F /* DatePickerCell.swift */,
+				A174BE48BF165127B3EC154ABFBDF7E9 /* Support Files */,
 			);
 			path = DatePickerCell;
 			sourceTree = "<group>";
 		};
-		29CD3650EE9E1835CF32FFED7F0E9072 /* Support Files */ = {
+		52825D5FD6893A8F214614A9EA149EBD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1843F8C279ADC5F22EAEA75EA0F3DA7 /* Info.plist */,
-				6CF85C90EE99277EB365B1FF2A9CBFAA /* TextFieldEffects.modulemap */,
-				960BE4370E674DA7B73D342762BAD493 /* TextFieldEffects.xcconfig */,
-				31D6E00069A0A2A99880230E7B4BF2F3 /* TextFieldEffects-dummy.m */,
-				9737072F205A7902C4E7EF268EE8C979 /* TextFieldEffects-prefix.pch */,
-				92FDF40BDB4AC05482A1DA50D89BFB91 /* TextFieldEffects-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
-			sourceTree = "<group>";
-		};
-		49DC2BD61016D8AE88ED4AEB1DE30036 /* RoundImageView */ = {
-			isa = PBXGroup;
-			children = (
-				64FBCB1D901D88725106A357C67C5F2A /* RoundImageView.swift */,
-				71776BF394B0A97A04B2E6D312341EF1 /* Support Files */,
-			);
-			path = RoundImageView;
-			sourceTree = "<group>";
-		};
-		560D2551F09C50A7FEDC05C48D1CB40A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB6CFE7E90CF4ED2ABCF4E5D39768A27 /* Info.plist */,
-				7F1FE3DE4577AA355D769D0020C3E6F2 /* Navajo-Swift.modulemap */,
-				4A2B13F6B8AC19A60481EA335B2CE8B8 /* Navajo-Swift.xcconfig */,
-				78F1DF4E6125BA94A3C35B12FFAA647E /* Navajo-Swift-dummy.m */,
-				4B7863F5618E0B67E0376738836A98AC /* Navajo-Swift-prefix.pch */,
-				0E7559C1E899FE0FD8618B64E58A8CF6 /* Navajo-Swift-umbrella.h */,
+				AA84531FC2A1A6102998B09C08137DD4 /* Info.plist */,
+				5718DFD59AAA9CB932E55F5DDBA151DD /* Navajo-Swift.modulemap */,
+				9BC9DD0795E18AA111585E417B768A1D /* Navajo-Swift.xcconfig */,
+				6B9110E7E9A14F51F1AC603FE77C34CE /* Navajo-Swift-dummy.m */,
+				438E72CD6BFB731EA32A14206092A04F /* Navajo-Swift-prefix.pch */,
+				6DFDC80C1C3D74400DDAC7946A4E2D84 /* Navajo-Swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Navajo-Swift";
 			sourceTree = "<group>";
 		};
-		6D74CB3AC8F13F988C69326EFE4C8658 /* PASImageView */ = {
+		63E6F1E27F04E8C9A800E6DB5EA9C7EA /* RoundImageView */ = {
 			isa = PBXGroup;
 			children = (
-				3A7A591FB2295FD49C3733E43C5BE7C9 /* PASImageView.swift */,
-				836CA7956FF0AA147E25177EC06B05C1 /* Support Files */,
+				6E47B9DC93F8EB72021151D8C6F79BA8 /* RoundImageView.swift */,
+				790AE7967DFFD2CE9F9FC2201B0C384D /* Support Files */,
 			);
-			path = PASImageView;
-			sourceTree = "<group>";
-		};
-		71776BF394B0A97A04B2E6D312341EF1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1588FAEE78ECB1914EB6FF2D3DAC2A9D /* Info.plist */,
-				9D587B4947A3FE49983C1BA868998DF4 /* RoundImageView.modulemap */,
-				C790C37786A257E6A7FCDC63C50604BE /* RoundImageView.xcconfig */,
-				2A1C064F03464F40D570771C63F7D5B6 /* RoundImageView-dummy.m */,
-				70A2644816282AC7985CDAF6144B4017 /* RoundImageView-prefix.pch */,
-				4BF59B2793040BF926B4DAA4D78C47A3 /* RoundImageView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RoundImageView";
+			path = RoundImageView;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -342,58 +365,71 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		790AE7967DFFD2CE9F9FC2201B0C384D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE318F044370DA6DB1D27F0B003DCF /* Info.plist */,
+				1F5C8AA293FE2A18BB98313ADDEA209B /* RoundImageView.modulemap */,
+				A4FBD36585FE652350FDDC35186243DD /* RoundImageView.xcconfig */,
+				FB7B939F04A732F88EDCD5ABA9DC1903 /* RoundImageView-dummy.m */,
+				C855CB7E9CAAC440A0493966C8066540 /* RoundImageView-prefix.pch */,
+				9E48EDC00CAA51EC187F6ECD8565FE43 /* RoundImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RoundImageView";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B9F099A296F1A1C4378237A82BCEAF67 /* Pods */,
-				0F296E0A02DD860862482381C49F3C33 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				2F7271FCCC180A1A6807AC4EAE6F2006 /* Pods */,
+				EAD773B64F7DCD42B298D0E45E02EB82 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E960D56CD547F991779138E4B25B2C2 /* TextFieldEffects */ = {
+		A174BE48BF165127B3EC154ABFBDF7E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA64FF4EE8D08A60DDE28581692B316E /* AkiraTextField.swift */,
-				CAB1CF70BC799A4EF3B175AE43C659F1 /* HoshiTextField.swift */,
-				C85721AC2827F059EB220D3379899C4D /* IsaoTextField.swift */,
-				E6AFAC6C3FD1E6226879F185E6827B9E /* JiroTextField.swift */,
-				3F65017057EE13FA38459453A8410870 /* KaedeTextField.swift */,
-				2F2677DD328998F4338494067B60BA84 /* MadokaTextField.swift */,
-				CA9C3A05DADBDB4850CC44B8467ED815 /* MinoruTextField.swift */,
-				D6E438B32D0AC7ABD2FDF15B26BB4038 /* TextFieldsEffects.swift */,
-				F5AB9143B8C8470A2FC28EFB395D1111 /* YokoTextField.swift */,
-				882823E4D1B65996B9ED1F3F75513016 /* YoshikoTextField.swift */,
-				29CD3650EE9E1835CF32FFED7F0E9072 /* Support Files */,
+				63199B17F3AF01577FFCE66A7833EEC4 /* DatePickerCell.modulemap */,
+				46FBC715AF2F281E15162340F0F66480 /* DatePickerCell.xcconfig */,
+				66ADDC475217D141753C10F106E596BA /* DatePickerCell-dummy.m */,
+				4C04A3415FE371EC60733DC1D791DC0D /* DatePickerCell-prefix.pch */,
+				6B9708C73C049168EE221B7AA4F59A07 /* DatePickerCell-umbrella.h */,
+				611B9C5DB5127C9C087AD80AE00419F3 /* Info.plist */,
 			);
-			path = TextFieldEffects;
+			name = "Support Files";
+			path = "../Target Support Files/DatePickerCell";
 			sourceTree = "<group>";
 		};
-		836CA7956FF0AA147E25177EC06B05C1 /* Support Files */ = {
+		A99CB2A3F76EAD5B73484879E41B0210 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDF296CCF4C7ADD42F7611B299410B1D /* Info.plist */,
-				9AC0A5F216E1E0540E839452D7A272D6 /* PASImageView.modulemap */,
-				A933F083CC31B529CAA1C77F38F0BF9F /* PASImageView.xcconfig */,
-				601FA5F7C353AFC4470C1682D5E9B3EB /* PASImageView-dummy.m */,
-				BB1B3E3B82B5D4D21AC2B167C21A4D94 /* PASImageView-prefix.pch */,
-				6D035E40975D155F9E878B1A1FD1868C /* PASImageView-umbrella.h */,
+				75C6632876D04E34C1C07CAAD4290CB7 /* Info.plist */,
+				A3AAF1141CC711A273EDD4D137DD3BEC /* PASImageView.modulemap */,
+				DFF74F1A65B5D815352B439D52C6B630 /* PASImageView.xcconfig */,
+				A0DC36B83960E27AC1FF0684FBF9B197 /* PASImageView-dummy.m */,
+				F9FE7604650F9E74F13AE0F5F477D757 /* PASImageView-prefix.pch */,
+				20D8A871A29D12DA719E71C3B98CC44E /* PASImageView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PASImageView";
 			sourceTree = "<group>";
 		};
-		9312675790BF14D48ECEF12860043302 /* Navajo-Swift */ = {
+		B229DEE1673E58EADADAB206FA3868DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A501D0CC4038192DF58F2DC5F7EE69E3 /* Navajo.swift */,
-				C455E751A8EDBB5884F535DF2E2D5553 /* NJOPasswordRule.swift */,
-				3326112BB9A5A29CEAFC29B4F280BAAA /* NJOPasswordValidator.swift */,
-				560D2551F09C50A7FEDC05C48D1CB40A /* Support Files */,
+				A05DA31140BB14FFE69246036716B3AF /* Info.plist */,
+				0F1291DC74BE27D6A42CC7942B056222 /* PageMenu.modulemap */,
+				82BA1C57CE8C14C9940CC844667D68BD /* PageMenu.xcconfig */,
+				2572B4E291802538E5EF78B13F4C6D42 /* PageMenu-dummy.m */,
+				3B6AC80F3C08B72080E90E3317E03937 /* PageMenu-prefix.pch */,
+				5D408697D712E1446E017BC2A2DD2AE0 /* PageMenu-umbrella.h */,
 			);
-			path = "Navajo-Swift";
+			name = "Support Files";
+			path = "../Target Support Files/PageMenu";
 			sourceTree = "<group>";
 		};
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
@@ -404,56 +440,76 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B9F099A296F1A1C4378237A82BCEAF67 /* Pods */ = {
+		C3BBCCCE79DF9A0B15857AFC72E4039D /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				1DDAEF0D0083892D497803F353769075 /* DatePickerCell */,
-				9312675790BF14D48ECEF12860043302 /* Navajo-Swift */,
-				EC1768E52BA1D7827E3C9A1A04318E4F /* PageMenu */,
-				6D74CB3AC8F13F988C69326EFE4C8658 /* PASImageView */,
-				49DC2BD61016D8AE88ED4AEB1DE30036 /* RoundImageView */,
-				7E960D56CD547F991779138E4B25B2C2 /* TextFieldEffects */,
+				B217F8A078AD1DBBEF8906A2E9C81639 /* AkiraTextField.swift */,
+				2F7BC60C425A1CC38189360633882B43 /* HoshiTextField.swift */,
+				C21F580BEC6203A02088222AA213C609 /* IsaoTextField.swift */,
+				EC3A0FBC98E43B731164BEB6F16CBF8A /* JiroTextField.swift */,
+				F17456DF8E05228291A83AAEEAFB6A45 /* KaedeTextField.swift */,
+				38CE5CC2244B935AEA242E3EBD97704A /* MadokaTextField.swift */,
+				0B98987017587E9A6494FDDAB3A6B2F8 /* MinoruTextField.swift */,
+				DCCC926F8F0543CD0824B678621D0D53 /* TextFieldsEffects.swift */,
+				07E90B59EB77E249F35A70C75AAA87F9 /* YokoTextField.swift */,
+				97E4DC47E924E6FC93F477F02F150D52 /* YoshikoTextField.swift */,
+				EDA1A86294A6BC1561B45F84499F8653 /* Support Files */,
 			);
-			name = Pods;
+			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		EAD773B64F7DCD42B298D0E45E02EB82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				78E103B62081B8AAF610D1EB326FF259 /* DatePickerCell.framework */,
+				532C39FB37CBDCF45925037BF3A2E29F /* LinearProgressBar.framework */,
+				3124E62B468F180252A42642A7EC3AD1 /* Navajo_Swift.framework */,
+				609513B48E188CB95F5E4504DDC817BC /* PageMenu.framework */,
+				D1185AE83A6B2AF2CED51FFE1F8BFF3C /* PASImageView.framework */,
+				611266E0FF1A286104337F08FBD490FE /* Pods.framework */,
+				526A66042C4673075217ABFE1B263FFC /* RoundImageView.framework */,
+				BB1F8EF511D79CEEB54159D638C513DF /* TextFieldEffects.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		EDA1A86294A6BC1561B45F84499F8653 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E6CB631D226F5D092AF8BC372336BD72 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E741FA62628695DA5F418C215C45CB3A /* Info.plist */,
-				83E3AE7063AC67871646C8FAB72D9EEA /* PageMenu.modulemap */,
-				1278A7006446B487C13A05887D8CEC63 /* PageMenu.xcconfig */,
-				CDF38E637B6B0C9CDA55747A991780E3 /* PageMenu-dummy.m */,
-				95BAA4DE829C36612E4D6705E9078BA1 /* PageMenu-prefix.pch */,
-				386F39B8F5C3C2A22FB860A4D4A3BDD7 /* PageMenu-umbrella.h */,
+				EB05DD608366F465BD71D5CE5BBABFAB /* Info.plist */,
+				B38EE46F98BEFDED7E41DFB5AF431F72 /* TextFieldEffects.modulemap */,
+				C7593494548F7F488DD6407695886FA0 /* TextFieldEffects.xcconfig */,
+				08B708E79BD57084396019B478A7BBAA /* TextFieldEffects-dummy.m */,
+				18870241EFA3927F975B4BEC9AD8DC2F /* TextFieldEffects-prefix.pch */,
+				DC26114947D566C688C5A2354891FA1B /* TextFieldEffects-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PageMenu";
+			path = "../Target Support Files/TextFieldEffects";
 			sourceTree = "<group>";
 		};
-		EC1768E52BA1D7827E3C9A1A04318E4F /* PageMenu */ = {
+		F5B0DB4B1CC2BE3515A7E9AE5B8C5813 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8750EF1541A95835D9D7ED79C3FD6E80 /* CAPSPageMenu.swift */,
-				E6CB631D226F5D092AF8BC372336BD72 /* Support Files */,
+				AE19EE6091820ADC5F1912899F0D340A /* Info.plist */,
+				1BBB9E2BB649FD5A7CF7A245E85A7ED4 /* LinearProgressBar.modulemap */,
+				AD90F7B096D15BDCA6FB3E29E912A1B6 /* LinearProgressBar.xcconfig */,
+				48486D5FD780AA8BFC256387EF03A79A /* LinearProgressBar-dummy.m */,
+				0557AE3169FB6AA4D646DFB532C71433 /* LinearProgressBar-prefix.pch */,
+				934ABE144CB33B8AACA8EBB2C05EF48A /* LinearProgressBar-umbrella.h */,
 			);
-			path = PageMenu;
+			name = "Support Files";
+			path = "../Target Support Files/LinearProgressBar";
+			sourceTree = "<group>";
+		};
+		FD5D9280F6D376250417195B3133DFA0 /* Navajo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6AC6DDFC134395B68BC8490CE44D045A /* Navajo.swift */,
+				E9AC552E71BAC2AAC86F0B71C7926A0D /* NJOPasswordRule.swift */,
+				E5F4CAFD0E451291C9E33284DBCA61B3 /* NJOPasswordValidator.swift */,
+				52825D5FD6893A8F214614A9EA149EBD /* Support Files */,
+			);
+			path = "Navajo-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +520,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				24698B82008FDAC90BA5E0BD7F169A16 /* DatePickerCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A3719CC00E34151116BCD7733ACBB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2B4E4EDF75EEAA00C4A320B59EC540 /* RoundImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404701443F6193042B81FCBB02106484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82FE9847D53AF1C63568EBFA59A8E9 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5694931485BEC6AD7A77B30C274BCCD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D2A2300441666CC55DBC929AC9F8C /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,33 +571,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7089BC0370B3E274CDEF5B08350ABCE /* Headers */ = {
+		ED74A9B51611F4EAE9832110BE67FB3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98E4EA75B5A41C3494C5D0801EF54B7 /* TextFieldEffects-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA9A7A7AA03DEF6EB1C5BDF78078FA44 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D0F0DF03A6EEDFF4F71AE0B4C593383 /* Pods-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F81214A87637D6C188DF07DE9ED17C3B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D02B7E2AA73328248F4926B2483484C7 /* RoundImageView-umbrella.h in Headers */,
+				BDBE1AB5E8046905A3F442562C93C4EA /* LinearProgressBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		001564DD0F605609C00E27CC03D80BF1 /* RoundImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172E5AA09578EA651F46821E4B617D2F /* Build configuration list for PBXNativeTarget "RoundImageView" */;
+			buildPhases = (
+				C287FEC60AA00ACD8B7EC2AE977D8EC6 /* Sources */,
+				62F0EE121FD3ED73547E7590330EDEAE /* Frameworks */,
+				07A3719CC00E34151116BCD7733ACBB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundImageView;
+			productName = RoundImageView;
+			productReference = 526A66042C4673075217ABFE1B263FFC /* RoundImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A23974F8C495A5B7BA12E6B55B6B570 /* LinearProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E818DBCB3B4AE9E4542B15E7B6E80784 /* Build configuration list for PBXNativeTarget "LinearProgressBar" */;
+			buildPhases = (
+				D263B580ED66A4765E31B8E788A33F54 /* Sources */,
+				6C12B166F98723B614AFB6DA165E7D6B /* Frameworks */,
+				ED74A9B51611F4EAE9832110BE67FB3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearProgressBar;
+			productName = LinearProgressBar;
+			productReference = 532C39FB37CBDCF45925037BF3A2E29F /* LinearProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */;
@@ -532,7 +630,7 @@
 			);
 			name = PageMenu;
 			productName = PageMenu;
-			productReference = C7F98D1EF40BF87983115D84F4083E47 /* PageMenu.framework */;
+			productReference = 609513B48E188CB95F5E4504DDC817BC /* PageMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		21EC687338DBE56C82F120938259CB16 /* PASImageView */ = {
@@ -549,7 +647,7 @@
 			);
 			name = PASImageView;
 			productName = PASImageView;
-			productReference = 48413BCCB27D8F3498C5AD6D75B65471 /* PASImageView.framework */;
+			productReference = D1185AE83A6B2AF2CED51FFE1F8BFF3C /* PASImageView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */ = {
@@ -566,33 +664,40 @@
 			);
 			name = DatePickerCell;
 			productName = DatePickerCell;
-			productReference = A718B03270766BA064F53882D40D06FF /* DatePickerCell.framework */;
+			productReference = 78E103B62081B8AAF610D1EB326FF259 /* DatePickerCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E660D8B928AD234BACDB8DC29736D70 /* RoundImageView */ = {
+		7518B62A79C0374F27718181D3CB1FA0 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42978C3C9760C822B4E2E35F65479140 /* Build configuration list for PBXNativeTarget "RoundImageView" */;
+			buildConfigurationList = EF75DD9710F033471708F5704CB9FDDE /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				A3F415B1511E119C8CFFAADBA8B23B2A /* Sources */,
-				D0DB0060AA66632D871434C5B2D456F0 /* Frameworks */,
-				F81214A87637D6C188DF07DE9ED17C3B /* Headers */,
+				7D488BE28B1D676DBCFAB387C3137A57 /* Sources */,
+				A3A64F1CA9118387662B8997145FC05E /* Frameworks */,
+				5694931485BEC6AD7A77B30C274BCCD0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				96630E12F7AF0ECA4B2E58F0877023CB /* PBXTargetDependency */,
+				F92FAC0ED2EC6E011A08CFFE868E7F0C /* PBXTargetDependency */,
+				1D1C377F00442E0F8D96CA0E8113608F /* PBXTargetDependency */,
+				EC827FE285BF6EA33C1230DB314F8DA0 /* PBXTargetDependency */,
+				DF138074A3931B5556417F39202A6AC7 /* PBXTargetDependency */,
+				F59806D24467385F786F0FE2F75382E0 /* PBXTargetDependency */,
+				0EE7200C762B2DDB51780EA7914EAF07 /* PBXTargetDependency */,
 			);
-			name = RoundImageView;
-			productName = RoundImageView;
-			productReference = 9CB0D72DAD6D57FECB5EEAB368E088D0 /* RoundImageView.framework */;
+			name = Pods;
+			productName = Pods;
+			productReference = 611266E0FF1A286104337F08FBD490FE /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A179652CD6C264648071DCC902E3E8AF /* TextFieldEffects */ = {
+		C6E5805B5FD6B835263C2054A6F8B5FA /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F39F822619858E9747E8C624C412998A /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = A82E7D3816955EB139AAA420B81999B4 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				FB583F6ACED387D0DF02DD966942CD89 /* Sources */,
-				ECC52403F51E7E22A84AEE5833BE1A55 /* Frameworks */,
-				D7089BC0370B3E274CDEF5B08350ABCE /* Headers */,
+				BE71C52656EA12ED3FBE83034FB74493 /* Sources */,
+				5E7AAE3B2E39D328B91D5C0603D9DE6E /* Frameworks */,
+				404701443F6193042B81FCBB02106484 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -600,30 +705,7 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = E4241BF0393BCC8DAC75F40F39183C61 /* TextFieldEffects.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EBEB39555B601358C7FD8E363DBBD1B7 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A23C4C4F8E0F6DB90E35AC279778AFAA /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				1FF3910DB0CAC4DDEFAB043993AFF92D /* Sources */,
-				8C6B557713A7B4E0AF7706A4FC3361F5 /* Frameworks */,
-				DA9A7A7AA03DEF6EB1C5BDF78078FA44 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30C71098B5E780E90CDB02DD299A867A /* PBXTargetDependency */,
-				24CD9DAEE3BEC8334298425DCF95ECAE /* PBXTargetDependency */,
-				CF8CF139608A6B8DBFD4E074F292951B /* PBXTargetDependency */,
-				25924FBAE10FEB0F1ACC1A948534BD6B /* PBXTargetDependency */,
-				FDF6E6CE42BEA00B033B90819C225A01 /* PBXTargetDependency */,
-				A73F18200BBA2E52F219E12ED77F3948 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 1849111CC9B39B77ABCDF4CB9DD56996 /* Pods.framework */;
+			productReference = BB1F8EF511D79CEEB54159D638C513DF /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */ = {
@@ -640,7 +722,7 @@
 			);
 			name = "Navajo-Swift";
 			productName = "Navajo-Swift";
-			productReference = 21A7023CEF51C934549A4D87EB189CE1 /* Navajo_Swift.framework */;
+			productReference = 3124E62B468F180252A42642A7EC3AD1 /* Navajo_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -660,30 +742,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0F296E0A02DD860862482381C49F3C33 /* Products */;
+			productRefGroup = EAD773B64F7DCD42B298D0E45E02EB82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */,
+				0A23974F8C495A5B7BA12E6B55B6B570 /* LinearProgressBar */,
 				F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */,
 				21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */,
 				21EC687338DBE56C82F120938259CB16 /* PASImageView */,
-				EBEB39555B601358C7FD8E363DBBD1B7 /* Pods */,
-				9E660D8B928AD234BACDB8DC29736D70 /* RoundImageView */,
-				A179652CD6C264648071DCC902E3E8AF /* TextFieldEffects */,
+				7518B62A79C0374F27718181D3CB1FA0 /* Pods */,
+				001564DD0F605609C00E27CC03D80BF1 /* RoundImageView */,
+				C6E5805B5FD6B835263C2054A6F8B5FA /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FF3910DB0CAC4DDEFAB043993AFF92D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7885D54B471798E95E20D09E910378E /* Pods-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2F80642C08B3BF618E2FF196F1D540F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -713,12 +788,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3F415B1511E119C8CFFAADBA8B23B2A /* Sources */ = {
+		7D488BE28B1D676DBCFAB387C3137A57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2ED5CFE6EDA0C6A7F7A3EE258109FF3 /* RoundImageView-dummy.m in Sources */,
-				A664E034D815383D27B07279996D595B /* RoundImageView.swift in Sources */,
+				4F19E5D2C68A627853783469FBC730C2 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,69 +805,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB583F6ACED387D0DF02DD966942CD89 /* Sources */ = {
+		BE71C52656EA12ED3FBE83034FB74493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D350B381AA01CEE39DE448D710589F9 /* AkiraTextField.swift in Sources */,
-				83998CCA5CD012C2BF1EFC67E8408EF0 /* HoshiTextField.swift in Sources */,
-				012A1999D5973C5166719DC7F033AD46 /* IsaoTextField.swift in Sources */,
-				3F82FA132B80512D8315C6844188C941 /* JiroTextField.swift in Sources */,
-				E2E49B03E3AD343F60EDFC589BBA3638 /* KaedeTextField.swift in Sources */,
-				E5202987752DE495EA3DF2111D01FB33 /* MadokaTextField.swift in Sources */,
-				6D38DD87B6F0C68D743725DEB1BC4AA2 /* MinoruTextField.swift in Sources */,
-				C61C4C4EBA3816C811E41FC523BC6580 /* TextFieldEffects-dummy.m in Sources */,
-				2E014E37B0A275E4127C375394B9330F /* TextFieldsEffects.swift in Sources */,
-				FD188770C412E5C189C9943842E4920E /* YokoTextField.swift in Sources */,
-				F0425FCB926E876DB36F073B3AC955F4 /* YoshikoTextField.swift in Sources */,
+				4988718E0B381D17528A52FEAD1CBBA9 /* AkiraTextField.swift in Sources */,
+				5C24690B4CB052389C30E7C932F3626E /* HoshiTextField.swift in Sources */,
+				7465B5BEF6DE0B3DD374067B1A65034A /* IsaoTextField.swift in Sources */,
+				7997DE7F32512488FD549C9F117DE79F /* JiroTextField.swift in Sources */,
+				AF0935DBB3F88DAC43DE9B2A9D31F5F2 /* KaedeTextField.swift in Sources */,
+				99CE1F2EA4D92A240EE49CAF516BA1A9 /* MadokaTextField.swift in Sources */,
+				557976F5FA96D9FB0CE4DD49FDE99D82 /* MinoruTextField.swift in Sources */,
+				7B62932EF9D38907090935A01C29377B /* TextFieldEffects-dummy.m in Sources */,
+				3D8E783B34160936823A2C8B0A4A140B /* TextFieldsEffects.swift in Sources */,
+				6BBCF80BC594AB15E1EADD3E578C50A0 /* YokoTextField.swift in Sources */,
+				1DE4AACD2C933814BF2294865CFBB02D /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C287FEC60AA00ACD8B7EC2AE977D8EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EBECC04956EC8EAEE08BF443C7071C /* RoundImageView-dummy.m in Sources */,
+				44D973D98A104D35F406868C1A21A226 /* RoundImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D263B580ED66A4765E31B8E788A33F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7255482C4BD0573B65A47B8FA8A443 /* LinearProgressBar-dummy.m in Sources */,
+				AB2C19856BB676F66B2BE206CCEDA254 /* LinearProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24CD9DAEE3BEC8334298425DCF95ECAE /* PBXTargetDependency */ = {
+		0EE7200C762B2DDB51780EA7914EAF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = C6E5805B5FD6B835263C2054A6F8B5FA /* TextFieldEffects */;
+			targetProxy = 7557679E0E2D8D9CA7E52B537DD1A062 /* PBXContainerItemProxy */;
+		};
+		1D1C377F00442E0F8D96CA0E8113608F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Navajo-Swift";
 			target = F23825CA84ACECD158B4A03B2C314D09 /* Navajo-Swift */;
-			targetProxy = 03946DD25027AC1F3620B0E41224A31F /* PBXContainerItemProxy */;
+			targetProxy = 69C3237C1B18D0AB847D81180489964C /* PBXContainerItemProxy */;
 		};
-		25924FBAE10FEB0F1ACC1A948534BD6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PageMenu;
-			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
-			targetProxy = 4586A75B61856852F30393A9194F9ECF /* PBXContainerItemProxy */;
-		};
-		30C71098B5E780E90CDB02DD299A867A /* PBXTargetDependency */ = {
+		96630E12F7AF0ECA4B2E58F0877023CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DatePickerCell;
 			target = 733206DFBBCC49D3502AE07C330E98E6 /* DatePickerCell */;
-			targetProxy = 3ECF116F73FF9A9673183BFE23606912 /* PBXContainerItemProxy */;
+			targetProxy = CF8B32148784820912D7327B51F0B326 /* PBXContainerItemProxy */;
 		};
-		A73F18200BBA2E52F219E12ED77F3948 /* PBXTargetDependency */ = {
+		DF138074A3931B5556417F39202A6AC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TextFieldEffects;
-			target = A179652CD6C264648071DCC902E3E8AF /* TextFieldEffects */;
-			targetProxy = FE157892B52BDBA63D10E64C2398C7D8 /* PBXContainerItemProxy */;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 251ABAE34D53D6EBFF8189E88E164CB1 /* PBXContainerItemProxy */;
 		};
-		CF8CF139608A6B8DBFD4E074F292951B /* PBXTargetDependency */ = {
+		EC827FE285BF6EA33C1230DB314F8DA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PASImageView;
 			target = 21EC687338DBE56C82F120938259CB16 /* PASImageView */;
-			targetProxy = 94CE7DCD8C07353526D1DBEFB684B80E /* PBXContainerItemProxy */;
+			targetProxy = 39CCAF8DBF9263E96B4A8127CF0413BF /* PBXContainerItemProxy */;
 		};
-		FDF6E6CE42BEA00B033B90819C225A01 /* PBXTargetDependency */ = {
+		F59806D24467385F786F0FE2F75382E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RoundImageView;
-			target = 9E660D8B928AD234BACDB8DC29736D70 /* RoundImageView */;
-			targetProxy = 91BC3D0EE849E178A73AF3BBCFCC3260 /* PBXContainerItemProxy */;
+			target = 001564DD0F605609C00E27CC03D80BF1 /* RoundImageView */;
+			targetProxy = 40E3EFD54C97DC9952E6E1D3A6907840 /* PBXContainerItemProxy */;
+		};
+		F92FAC0ED2EC6E011A08CFFE868E7F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LinearProgressBar;
+			target = 0A23974F8C495A5B7BA12E6B55B6B570 /* LinearProgressBar */;
+			targetProxy = 05ACC3C17BC188DD3F0FB4882859ABEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C866025D4BCB43EB40FB4E382BA2418 /* Debug */ = {
+		290442BF615850A1B0B4AB00E3A3A82E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960BE4370E674DA7B73D342762BAD493 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = C7593494548F7F488DD6407695886FA0 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -805,7 +903,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -819,204 +917,7 @@
 			};
 			name = Debug;
 		};
-		1C0B15401F6ECA7D3E216353D151A43B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1278A7006446B487C13A05887D8CEC63 /* PageMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PageMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5612DF441586F93B7905F6523A800F4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C790C37786A257E6A7FCDC63C50604BE /* RoundImageView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RoundImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		606FF5E01FD2EBDDD10A9CE8500B3474 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1278A7006446B487C13A05887D8CEC63 /* PageMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PageMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A0509AE7A59E79974B7ABCC2E7F7A2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A933F083CC31B529CAA1C77F38F0BF9F /* PASImageView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PASImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E7C259AB13DC4B455909BB1439CB0A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A2B13F6B8AC19A60481EA335B2CE8B8 /* Navajo-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Navajo_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9A1D48B0CCD3CB52CF23132744DE2520 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A2B13F6B8AC19A60481EA335B2CE8B8 /* Navajo-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Navajo_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1048,16 +949,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B520386AFF17596F4C0F8EAAD3D59120 /* Release */ = {
+		66D9A472F64ECB0E83D7B85BA8FBFA40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960BE4370E674DA7B73D342762BAD493 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 9BC9DD0795E18AA111585E417B768A1D /* Navajo-Swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1066,14 +967,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
+				PRODUCT_NAME = Navajo_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1082,146 +983,7 @@
 			};
 			name = Release;
 		};
-		B66F81BAA4305674B809D556DAECE70B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C790C37786A257E6A7FCDC63C50604BE /* RoundImageView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RoundImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C9BFD8B4BEB643D3E45951E4D566B3F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A933F083CC31B529CAA1C77F38F0BF9F /* PASImageView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PASImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF7FE08E605C0E4FBC3D7F6A0A4C51A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9E3F813D7D8D3DB3A4C708E3191571A /* DatePickerCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DatePickerCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D61CCC09DBA2131159A61B00AF1B68F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F676007FB680E4380CD11E62EF464F89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9E3F813D7D8D3DB3A4C708E3191571A /* DatePickerCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DatePickerCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1248,21 +1010,421 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		897CD03D28C982B65FE3548098DF15A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F8ECC687F11F32BA0EF68177725A9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD90F7B096D15BDCA6FB3E29E912A1B6 /* LinearProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinearProgressBar/LinearProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinearProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinearProgressBar/LinearProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LinearProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A41D51C1AEC5508C093CC52720E31D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FBD36585FE652350FDDC35186243DD /* RoundImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RoundImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B573DAAB161DCEA582FAAA882EC691D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BA1C57CE8C14C9940CC844667D68BD /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5B87037CA47EBAB2CEDE38CF20E1566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7593494548F7F488DD6407695886FA0 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8A2C811F42F32482C981336F71BC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF74F1A65B5D815352B439D52C6B630 /* PASImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PASImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3F1220939F70D53954CB4C8F607F0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BA1C57CE8C14C9940CC844667D68BD /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D844467EC85B6D668F40D0E00CCA284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC9DD0795E18AA111585E417B768A1D /* Navajo-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Navajo_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC01E93CA24EB38E92B40FB00F568830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FBD36585FE652350FDDC35186243DD /* RoundImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RoundImageView/RoundImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RoundImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RoundImageView/RoundImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RoundImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDDA86D0A2392BC95156A14239DBD308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF74F1A65B5D815352B439D52C6B630 /* PASImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PASImageView/PASImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PASImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PASImageView/PASImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PASImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3E14BCBF221BAA5EFA82014650E1AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD90F7B096D15BDCA6FB3E29E912A1B6 /* LinearProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinearProgressBar/LinearProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinearProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinearProgressBar/LinearProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LinearProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0FBCB248FFFBEE6B498F40DE6F5EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F40EF8F5B6F442F96EF070198AE5BBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FBC715AF2F281E15162340F0F66480 /* DatePickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DatePickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F72B1EE89E87B016FA84FFE800ACFA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FBC715AF2F281E15162340F0F66480 /* DatePickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerCell/DatePickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerCell/DatePickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DatePickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		172E5AA09578EA651F46821E4B617D2F /* Build configuration list for PBXNativeTarget "RoundImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC01E93CA24EB38E92B40FB00F568830 /* Debug */,
+				A41D51C1AEC5508C093CC52720E31D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2784404EC6ED301DA87B7F2D2542A913 /* Build configuration list for PBXNativeTarget "DatePickerCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7FE08E605C0E4FBC3D7F6A0A4C51A1 /* Debug */,
-				F676007FB680E4380CD11E62EF464F89 /* Release */,
+				F40EF8F5B6F442F96EF070198AE5BBC4 /* Debug */,
+				F72B1EE89E87B016FA84FFE800ACFA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1270,8 +1432,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1279,26 +1441,17 @@
 		4170C4B32E32916CADD13D89668F0C44 /* Build configuration list for PBXNativeTarget "PASImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0509AE7A59E79974B7ABCC2E7F7A2F /* Debug */,
-				C9BFD8B4BEB643D3E45951E4D566B3F3 /* Release */,
+				B8A2C811F42F32482C981336F71BC884 /* Debug */,
+				DDDA86D0A2392BC95156A14239DBD308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42978C3C9760C822B4E2E35F65479140 /* Build configuration list for PBXNativeTarget "RoundImageView" */ = {
+		A82E7D3816955EB139AAA420B81999B4 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5612DF441586F93B7905F6523A800F4F /* Debug */,
-				B66F81BAA4305674B809D556DAECE70B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A23C4C4F8E0F6DB90E35AC279778AFAA /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				606FF5E01FD2EBDDD10A9CE8500B3474 /* Debug */,
-				D61CCC09DBA2131159A61B00AF1B68F8 /* Release */,
+				290442BF615850A1B0B4AB00E3A3A82E /* Debug */,
+				B5B87037CA47EBAB2CEDE38CF20E1566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1306,8 +1459,8 @@
 		B43175B3AB5441EFF0FAC1BA52F12BB5 /* Build configuration list for PBXNativeTarget "Navajo-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A1D48B0CCD3CB52CF23132744DE2520 /* Debug */,
-				8E7C259AB13DC4B455909BB1439CB0A5 /* Release */,
+				D844467EC85B6D668F40D0E00CCA284C /* Debug */,
+				66D9A472F64ECB0E83D7B85BA8FBFA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1315,17 +1468,26 @@
 		DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */,
-				1C0B15401F6ECA7D3E216353D151A43B /* Release */,
+				B573DAAB161DCEA582FAAA882EC691D2 /* Debug */,
+				D3F1220939F70D53954CB4C8F607F0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F39F822619858E9747E8C624C412998A /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		E818DBCB3B4AE9E4542B15E7B6E80784 /* Build configuration list for PBXNativeTarget "LinearProgressBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C866025D4BCB43EB40FB4E382BA2418 /* Debug */,
-				B520386AFF17596F4C0F8EAAD3D59120 /* Release */,
+				E3E14BCBF221BAA5EFA82014650E1AD4 /* Debug */,
+				8F8ECC687F11F32BA0EF68177725A9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF75DD9710F033471708F5704CB9FDDE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897CD03D28C982B65FE3548098DF15A6 /* Debug */,
+				F0FBCB248FFFBEE6B498F40DE6F5EFCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

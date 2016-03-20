@@ -33,15 +33,20 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         
     }
     
-    @IBAction func SignUp(sender: AnyObject) {
+    @IBAction func SignUp(sender: UIButton) {
         self.Username.resignFirstResponder()
         self.Password.resignFirstResponder()
         //performSegueWithIdentifier("Pizza", sender: self)
-        navigationController?.pushViewController(SignUpViewController(), animated: true)
+        
+      //  navigationController?.pushViewController(SignUpViewController(), animated: true)
+        self.performSegueWithIdentifier("ToSignUp", sender: self)
+        
+        print("To Sign Up")
+        
     }
-
     
-    @IBAction func PasswordRetrieve(sender: AnyObject) {
+    
+    @IBAction func PasswordRetrieve(sender: UIButton) {
         self.Username.resignFirstResponder()
         self.Password.resignFirstResponder()
         //performSegueWithIdentifier("Pizza", sender: self)
@@ -55,7 +60,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
     
     
     
-    @IBAction func loginButton(sender: AnyObject){
+    @IBAction func loginButton(sender: UIButton){
        
         PFFacebookUtils.logInInBackgroundWithReadPermissions(["email"], block: {(user: PFUser?, error: NSError?) -> Void in
             if let user = user {
@@ -117,7 +122,6 @@ class LogInViewController: UIViewController, UITextFieldDelegate//,FBSDKLoginBut
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
     
     }
-
 
 
    func adjustingHeight(show:Bool, notification:NSNotification) {

@@ -15,7 +15,7 @@ class CollegesTableViewCell: UITableViewCell {
     @IBOutlet weak var College: UILabel!
     
     
-    @IBOutlet weak var ApplicationProgress: UIProgressView!
+  //  @IBOutlet weak var ApplicationProgress: LinearProgressView!
     
     
     override func awakeFromNib() {

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41A0CB6057CDDA7EE405DD21'
-               BlueprintName = 'Navajo-Swift'
+               BlueprintIdentifier = '14B713CF92D91EBD18A938B0'
+               BlueprintName = 'LinearProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Navajo_Swift.framework'>
+               BuildableName = 'LinearProgressBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

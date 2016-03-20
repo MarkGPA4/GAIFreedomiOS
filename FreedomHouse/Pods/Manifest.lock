@@ -1,5 +1,6 @@
 PODS:
   - DatePickerCell (1.0.4)
+  - LinearProgressBar (0.0.1)
   - Navajo-Swift (0.0.4)
   - PageMenu (1.2.9)
   - PASImageView (1.0.3)
@@ -8,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - DatePickerCell
+  - LinearProgressBar
   - Navajo-Swift (~> 0.0.4)
   - PageMenu
   - PASImageView (~> 1.0.3)
@@ -16,6 +18,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   DatePickerCell: 20d2ba8b5cd5bb8a5a79e2b43bc7758e3b65daf2
+  LinearProgressBar: 8e88a5891dc964bea3ae88bdd3d5862cd168f628
   Navajo-Swift: bd193e00df3a30cddf07ad524c69bab85b7df442
   PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
   PASImageView: e9f6a196dfc59fa9711f586960e6ea2c2957f690

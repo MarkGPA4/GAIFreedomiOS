@@ -229,7 +229,7 @@ class SignUpViewController: UIViewController,UIPickerViewDataSource,UIPickerView
                     user["age"]=Int(self.Age.text!)
                     user["gender"]=self.Gender.text!
                 
-                self.presentViewController(UploadImageViewController(), animated: true,completion: nil)
+                self.navigationController?.pushViewController(UploadImageViewController(), animated: true)
                 
             }
                 

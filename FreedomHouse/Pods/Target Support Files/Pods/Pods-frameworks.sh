@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/DatePickerCell.framework"
+  install_framework "Pods/LinearProgressBar.framework"
   install_framework "Pods/Navajo_Swift.framework"
   install_framework "Pods/PASImageView.framework"
   install_framework "Pods/PageMenu.framework"
@@ -93,6 +94,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/DatePickerCell.framework"
+  install_framework "Pods/LinearProgressBar.framework"
   install_framework "Pods/Navajo_Swift.framework"
   install_framework "Pods/PASImageView.framework"
   install_framework "Pods/PageMenu.framework"
